@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JSLintConfiguration" json="true">
+    <option browser="true" />
+    <option closure="true" />
+    <option continue="true" />
+    <option eqeq="true" />
+    <option indent="2" />
+    <option maxerr="50" />
+    <option maxlen="132" />
+    <option nomen="true" />
+    <option plusplus="true" />
+    <option sloppy="true" />
+    <option todo="true" />
+    <option unparam="true" />
+    <option vars="true" />
+  </component>
+</project>
+
