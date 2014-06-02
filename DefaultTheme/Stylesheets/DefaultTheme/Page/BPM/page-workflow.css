@@ -1,0 +1,140 @@
+.workflow_ui .header h2 {
+  display: inline;
+  font-weight: bold;
+}
+
+.workflow_ui span.close_workflow_ui {
+  float: right;
+  padding-left: 10px;
+}
+
+.field_viewer,
+.field_editor  {
+  position: relative;
+}
+
+.field_viewer .actions,
+.field_editor .actions {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.field_viewer .actions button,
+.field_editor .actions button {
+  margin: 0 10px 0 0;
+}
+
+.field_viewer .actions,
+.field_editor .actions {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  margin: 0;
+}
+
+.field .actions button {
+  margin: 0;
+}
+
+.field_viewer,
+.field_editor {
+  border-top: 1px dotted #ccc;
+  margin-top: 10px;
+  padding: 5px 0;
+}
+
+.workflow_item_configure .field_name,
+.workflow_item_configure label{
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+}
+
+.field .property_editor {
+  margin-top: 10px;
+}
+
+
+.item_configure_view.click_to_edit_form .field_viewer > *,
+.item_configure_view.click_to_edit_form .field_editor > *,
+.franchisor_details .click_to_edit_form .field_viewer > *,
+.franchisor_details .click_to_edit_form .field_editor > *{
+  float: none;
+}
+
+.click_to_edit_form .field .editor .field_name {
+  width: auto;
+}
+
+.item_configure_view.click_to_edit_form .field_viewer .summary,
+.franchisor_details .click_to_edit_form .field_editor .summary,
+.item_configure_view.click_to_edit_form .field_viewer .summary,
+.franchisor_details .click_to_edit_form .field_editor .summary{
+  max-width: 500px;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  vertical-align: top;
+}
+
+.item_configure_view.click_to_edit_form .field_viewer div,
+.item_configure_view.click_to_edit_form .field_viewer span,
+.item_configure_view.click_to_edit_form .field_viewer span.summary,
+.franchisor_details .click_to_edit_form .field_viewer div,
+.franchisor_details .click_to_edit_form .field_viewer span,
+.franchisor_details .click_to_edit_form .field_viewer span.summary,
+.item_configure_view.click_to_edit_form .field_editor div,
+.item_configure_view.click_to_edit_form .field_editor span,
+.item_configure_view.click_to_edit_form .field_editor span.summary,
+.franchisor_details .click_to_edit_form .field_editor div,
+.franchisor_details .click_to_edit_form .field_editor span,
+.franchisor_details .click_to_edit_form .field_editor span.summary{
+  margin-top: 0;
+}
+
+.property_editor .prop {
+  margin-bottom: 10px;
+}
+
+.field_name,
+.field_editor label.tbl,
+.field label {
+  font-weight: bold;
+}
+
+.workflow_ui .header a[data-features~="submit"] {
+  float: right;
+}
+
+.path_breadcrumb {
+  margin: 10px 0 0 0;
+}
+
+.path_breadcrumb .separator {
+  margin: 0 5px;
+}
+
+.item_configure_view .field.description label {
+  display: block;
+  margin: 0.25em 0;
+}
+
+.field {
+  margin: 0.75em 0;
+}
+
+/* add new workflow item */
+
+.adding_items .workflowitems_search,
+.add_item_selector {
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+  vertical-align: top;
+  width: 45%;
+}
+
+.add_item_selector {
+  margin-right: 2%;
+}

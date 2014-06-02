@@ -1,0 +1,176 @@
+table.miwt-table,
+table.pager{
+ width: 100%;
+ clear: both;
+}
+div.template_properties_editor {
+ margin: .2em 0 .5em 0;
+}
+.template_management label,
+span.source {
+  font-weight: bold;
+}
+.create_new_template label,
+.template_properties_editor div.click_to_edit label{
+ display: inline-block;
+ width: 3.25em;
+ margin-right: .5em;
+}
+.create_new_template label{width:8.25em}
+.template_properties_editor .layout label {
+  display: none;
+}
+.template_editor div.page_actions{
+ float: right;
+}
+.create_new_template div.click_to_edit 
+.template_properties_editor div.layout, 
+.template_properties_editor div.click_to_edit {
+ padding: 0 2em .5em 0;
+ line-height: 1.4;
+}
+/* Create Primary Menu Styles */
+.secondary_navigation_wizard div.menubean_editor {
+ border: 1px solid #ddd;
+ padding: .5em;
+}
+.create_primary_menu div.heading {
+ font-weight: bold;
+ margin: .5em 0;
+}
+.create_primary_menu .pages_selector td.type-localized_object_key,
+.create_primary_menu .pages_selector td.type-string {
+ width: 33%;
+}
+.create_primary_menu .templates_attach div.attach {
+ border-bottom: 1px solid #aaa;
+ margin:0 0 .25em;
+}
+.create_primary_menu div.menu_name {
+ float: left;
+ margin-right:.5em;
+}
+.create_primary_menu div.attach label,
+.create_primary_menu div.attach select {
+  display: inline-block;
+  font-weight: normal;
+  width: 49%;
+  line-height: 2;
+}
+
+/* tables */
+.template_properties_editor table.pages tr.trashed td {
+  text-decoration: line-through;  	
+}
+div.create_pages .first-column {
+  width: 5%;
+}
+div.create_pages .last-column {
+  width: 45%;
+}
+div.create_pages table input {
+  width: 98%;
+}
+.template_editor table.miwt-table {
+  margin-bottom: 1em;
+}
+.lt-ie8 .template_listing .miwt-table td.type-object {
+  width: 80px;
+}
+
+/* template editor */
+div.template_editor {
+ padding: 1em;
+ background: #fff;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+}
+.edit_template div.layout {
+ float: right;
+ margin-top:-1.5em;
+}
+div.layout_selector {
+  margin-bottom: 1em;
+}
+.wizard_actions,
+table.pages{
+ margin:.5em 0;
+}
+/* buttons --------------------------*/
+.pages button.create_pages,
+#template_mgt button.add,
+#template_mgt .entity_actions button{
+ padding: 0 0 0 28px;
+ border:0;
+ height:25px;
+ background: transparent no-repeat;
+}
+#template_mgt button.create_menu_button {
+  background-image: url(/theme/Actions/24/menu.png);
+}
+.pages button.create_pages,
+#template_mgt button.add{
+  background-image: url(/theme/Actions/24/add.png);
+}
+.pages .page_actions{
+ float:right;
+}
+/* titles -------------------------------*/
+.template_properties_editor h3 {
+  display: none; /* Page Template Editor is not necessary*/
+}
+.template_properties_editor .switch_layout_wizard h3,
+.template_properties_editor .move_pages_wizard h3,
+.new_pages .properties div.heading {
+  display: block;
+  font-size: 1.25em;
+  font-weight: bold;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 1em;
+  padding: .5em 0;
+  border-bottom: 1px dotted #aaa;
+}
+.example .heading,
+.existing .heading,
+.create_primary_menu h3.heading {
+  font-size: 1em;
+  font-weight: bold;
+  font-style: italic;
+  color: #555;
+  margin-bottom: .5em;
+  display: block;
+}
+/* creating primary menu */
+select.hier_type {
+  margin-bottom: 2em;
+}
+.create_primary_menu div.miwt-collapsable.shown {
+ padding: 1em;
+ background:#fff;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+ margin: .5em 0 1em;
+ overflow: hidden;
+ display: block!important;/*override miwt inline style. */
+}
+.templates_attach-con .miwt-collapsable[data-anchor="south"] button.trigger {
+ width: 100%;
+ font-size: 1.1em;
+ font-weight: bold;
+ font-style: italic;
+ color: #4E4026;
+ padding: .25em 1em;
+ display: block;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ border: 1px solid #B9B196;
+ text-align: left;
+ background: #BFAF89 url(/theme/Tabs/brown_bg.gif) repeat-x scroll left top;
+}
+div.templates_attach-con {
+  margin: 1em auto;
+}
+div.meta_information_editor{margin:.5em 0;}

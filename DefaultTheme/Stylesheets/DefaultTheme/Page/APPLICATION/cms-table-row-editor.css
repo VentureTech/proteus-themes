@@ -1,0 +1,98 @@
+.row_editor .table_row {
+  display: table;
+  width: 100%;
+}
+
+.row_editor .table_row .column {
+  display: table-row;
+}
+
+.row_editor .table_row .column .cell {
+  display: table-cell;
+  vertical-align: top;
+  text-align: left;
+  padding: 10px;
+}
+
+.row_editor .table_row .column > .label {
+  min-width: 150px;
+  padding-top: 15px;
+}
+
+.default_single_ref > .content > .table_row {
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.default_single_ref > .content > .table_row > .column > .label {
+  width: 15%;
+  background-color: #f5f5f5;
+}
+
+.default_single_ref > .content > .table_row > .column > .cell {
+  border: 1px dotted #aaa;
+}
+
+.default_single_ref > .content > .entity_actions {
+  float: none;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  background: #f5f5f5;
+  text-align: right;
+}
+
+.no_selected_ref > .content,
+.expression_single_ref > .content {
+  padding: 10px;
+  border: 1px solid #ccc;
+  clear: both;
+  background: #f5f5f5;
+  display: table;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.no_selected_ref > .content > .table_row,
+.expression_single_ref > .content > .table_row {
+  display: table-row;
+}
+
+.no_selected_ref > .content > .table_row > .row_expression,
+.no_selected_ref > .content > .table_row > .entity_actions,
+.expression_single_ref > .content > .table_row > .row_expression,
+.expression_single_ref > .content > .table_row > .entity_actions {
+  display: table-cell;
+}
+
+.no_selected_ref > .content > .table_row > .entity_actions,
+.expression_single_ref > .content > .table_row > .entity_actions {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.no_selected_ref > .content > .table_row > .no_selection_text {
+  font-style: italic;
+}
+
+.row_reference h2 {
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+
+.row_editor .check_box_editor .ctb {
+  display: inline-block;
+  vertical-align: top;
+  width: 200px;
+  margin: 0 0 5px;
+}
+
+.row_editor .check_box_editor .ctb label {
+  display: inline-block;
+  vertical-align: top;
+  width: 170px;
+  margin-top: 3px;
+}
+​

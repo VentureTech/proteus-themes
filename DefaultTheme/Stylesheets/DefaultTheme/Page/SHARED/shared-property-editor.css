@@ -1,0 +1,120 @@
+section > hgroup h1,
+section > hgroup h2,
+section > hgroup h3,
+section > h1,
+section > h2 {
+ font-weight:bold;
+ margin-top:.25em;
+ margin-bottom:.5em;
+}
+section > hgroup h1,
+section > h1 {font-size:1.5em;}
+section > h2,
+section > hgroup h2{font-size:1.3em;}
+section > hgroup h2.description{
+ font-style:italic;
+ font-size:1.1em;
+}
+section > hgroup h3{font-size:1.15em;}
+
+/* Form Elements
+   ========================================================================== */
+.property_wrapper input,
+.property_wrapper select,
+.property_wrapper textarea {
+  border: 1px solid #B7B7B5;
+  padding: 2px;
+  margin: 2px;
+}
+
+.property_wrapper input:focus,
+.property_wrapper select:focus,
+.property_wrapper textarea:focus {
+  background-color: #feffdd;
+}
+
+.property_wrapper button::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+.property_viewer > .actions,
+.property_editor > .actions {
+  margin: 10px 0;
+}
+.property_viewer > .actions.top,
+.property_editor > .actions.top {
+  text-align:right;
+}
+/************** END PropertyWrapper Based Editors ************************/
+
+.property_sheet_breadcrumbs{
+ font-size: 1.2em;
+ font-style: italic;
+ margin-bottom: 0.5em;
+ font-weight: bold;
+ width:auto;
+}
+div.property_sheet{
+ margin-bottom:1em;
+}
+.property_sheet_breadcrumb_divider{
+ padding:.25em;
+}
+.property_viewer div.prop,
+.property_editor div.prop,
+.property_sheet div.prop{
+ margin: .75em 0;
+}
+.property_sheet div.element_editor,
+.property_sheet div.entity_editor{
+ margin:.5em 1em;
+ border: 1px #b9b196 solid;
+ background: #fff;
+ -moz-border-radius:4px;
+ border-radius:4px;
+ padding:8px;
+ -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+}
+
+.property_viewer label,
+.property_editor label,
+.property_sheet label{
+ display: inline-block;
+ font-weight:bold;
+ margin-right:10px;
+}
+.property_viewer label.tal,
+.property_editor label.tal,
+.property_sheet label.tal{
+ display:block;
+ margin:.25em 0;
+}
+.property_viewer label.tbl,
+.property_editor label.tbl,
+.property_sheet label.tbl{
+ padding-right:.25em;
+ margin-right:auto;
+ display:inline;
+}
+.property_sheet .help-point.disabled{
+ display:none;
+}
+.property_editor .user_entry_required > label{
+  padding-left: 7px;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat scroll left top;
+}
+
+.property_viewer .prop span.ta {
+ display:inline-block;
+ padding:2px;
+ min-height:4em;
+ min-width:25em;
+ border: 1px solid #CCC;
+ background-color: #EEE;
+}
+.property_editor .prop p.instructions{
+ margin-top:0;
+}
+

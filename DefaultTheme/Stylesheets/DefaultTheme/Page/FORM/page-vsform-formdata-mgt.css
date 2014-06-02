@@ -1,0 +1,49 @@
+
+table.form_data_sections {
+  width: 100%;
+}
+.form_data_detail div.constraints-con,
+.form_data_detail div.constraint-con,
+.form_data_detail div.actions-con {
+  float: left;
+  margin-right: .5em;
+}
+div.form_data_detail {
+  margin: .5em 0;
+}
+div.navigation_actions {
+ margin-top: 1em;
+}
+/* Button Overrides. */
+.navigation_actions button {
+ /* Override button defaults. */
+ overflow: visible; /* ie padding fix. */
+ background-position: left center;
+ background-repeat: no-repeat;
+ background-color:transparent; 
+}
+.navigation_actions button.close{
+ border: none;
+ height:25px;
+ padding:0 0 0 26px;
+}
+.navigation_actions button.close {
+  background-image: url(/theme/Actions/24/cancel.png);
+}
+.screen_ultrahi .search div.search_bar{width:84%;}
+.screen_hi .search div.search_bar{width:80%;}
+.form_data_management div.form_entry {
+  padding: 1em;
+  background: #fff;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #B9B196;
+}
+.form_content h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 1em 0;
+}
+.form_content p {
+  margin-bottom: 1em;
+}

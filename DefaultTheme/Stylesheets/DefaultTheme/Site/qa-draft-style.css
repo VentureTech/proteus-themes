@@ -1,0 +1,82 @@
+/* QA styles */
+.qa_vipasuite_com #branding_logo {
+  background-image: url(/theme/Branding/Default/QA/qaheaderbg.gif);
+}
+.qa_vipasuite_com .branding h1.branding_logo {
+  background-image: url(/theme/Branding/Default/QA/qalogo.png);
+  margin-left: -109px;
+}
+.qa_vipasuite_com .branding h1 img {
+  visibility: hidden;
+}
+.qa_vipasuite_com .branding h1.branding_logo, 
+.qa_vipasuite_com .branding h1.branding_logo a {
+  width: 218px;
+  height: 31px;
+}
+.qa_vipasuite_com .branding #vs_logout a {
+  background-image: url(/theme/Branding/Default/QA/qalogout.gif);
+  background-color: #28c0d7;
+}
+.qa_vipasuite_com .branding #preferences_link a {
+  background-image: url(/theme/Branding/Default/QA/qapreferences.gif);
+}
+.qa_vipasuite_com #site_list a.hostname {
+  background-image: url(/theme/Branding/Default/QA/aqarrow.gif);
+}
+
+
+/* DRAFT styles */
+.draft_vipasuite_com #branding_logo {
+  background-image: url(/theme/Branding/Default/QA/draft_header.gif);
+}
+.draft_vipasuite_com .branding h1.branding_logo {
+  background-image: url(/theme/Branding/Default/QA/redlogo_branding.png);
+  margin-left: -125px;
+}
+.draft_vipasuite_com .branding h1 img {
+  visibility: hidden;
+}
+.draft_vipasuite_com .branding h1.branding_logo, 
+.draft_vipasuite_com .branding h1.branding_logo a {
+  width: 253px;
+  height: 37px;
+}
+.draft_vipasuite_com .branding #vs_logout a {
+  background-image: url(/theme/Branding/Default/QA/red_logout.gif);
+  background-color: #d73b2c;
+}
+.draft_vipasuite_com .branding #preferences_link a {
+  background-image: url(/theme/Branding/Default/QA/red_preferences.gif);
+}
+.draft_vipasuite_com #site_list a.hostname {
+  background-image: url(/theme/Branding/Default/QA/redsiteselector_arrow.gif);
+}
+
+/* DEV styles - same as draft */
+.dev_vipasuite_com #branding_logo {
+  background-image: url(/theme/Branding/Default/QA/dev_header.gif);
+}
+.dev_vipasuite_com .branding h1.branding_logo {
+  background-image: url(/theme/Branding/Default/QA/dev_logo.png);
+  background-repeat: no-repeat;
+  margin-left: -109px;
+}
+.dev_vipasuite_com .branding h1 img {
+  visibility: hidden;
+}
+.dev_vipasuite_com .branding h1.branding_logo, 
+.dev_vipasuite_com .branding h1.branding_logo a {
+  width: 250px;
+  height: 31px;
+}
+.dev_vipasuite_com .branding #vs_logout a {
+  background-image: url(/theme/Branding/Default/QA/red_logout.gif);
+  background-color: #d73b2c;
+}
+.dev_vipasuite_com .branding #preferences_link a {
+  background-image: url(/theme/Branding/Default/QA/red_preferences.gif);
+}
+.dev_vipasuite_com #site_list a.hostname {
+  background-image: url(/theme/Branding/Default/QA/redsiteselector_arrow.gif);
+}

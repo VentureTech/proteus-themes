@@ -1,0 +1,154 @@
+/* FIXME - this file hasn't been reviewed. */
+/* order entry wizard -------------------*/
+fieldset.suppressed_order_action,
+.order_properties div.price_category {
+  display: none;
+}
+.hibernate_search div.field_search_parameter,
+.hibernate_search div.date_search_parameter,
+.hibernate_search div.combo_search_parameter,
+.hibernate_search div.registerable_search_parameter,
+.hibernate_search span.checkbox_search_parameter,
+.search div.keywords,
+.search div.search {
+  margin: 0 .5em .5em 0;
+  display: inline-block;
+}
+.hibernate_search .layout label,
+.search .keywords label {
+  display: block;
+}
+
+.hibernate_search div.layout,
+td.tab_content-con {
+  padding: 15px 0;
+}
+/* summary -------------------------------------*/
+
+.inlinewindowcontent table {
+  width: 100%;
+  margin: 0 auto;
+}
+.inlinewindowcontent td.column_heading-con,
+.orderitems th {
+  background: #DDDDDD url(/_resources/all/files/_SiteRoot/SITE1/Icons/table_th-bg.png) repeat-x scroll left center;
+  border-color:#AAAAAA;
+  border-style:solid;
+  border-width:1px 0pt 2px;
+  color:#555555;
+  padding:3px;
+  text-align:left;
+}
+.inlinewindowcontent td {
+  padding: 3px;
+}
+.inlinewindowcontent td.order_total-con,
+.inlinewindowcontent td.order_total_price-con,
+.orderitems .total td,
+.orderitems .subtotal td {
+  background: #f5f5f5;
+}
+
+/* payment ----------------------------------*/
+ 
+.orderitems td {
+  border: none;
+}
+table.orderitems {
+  border: none;
+}
+.checkout .orderitems label {
+  display: inline;
+}
+.checkout fieldset {
+  border-color:#FF9900;
+  border-style:solid;
+  border-width:1px 0pt 0pt;
+  clear:both;
+  margin:0pt 2px;
+  padding:4px 7px 9px;
+  text-align:left;
+}
+.price_adjustment label {
+  font-weight: bold;
+}
+.price_adjustment table.Amount td,
+.price_adjustment table.Reason td {
+  width: 10em;
+}
+.price_adjustment .type div,
+.price_adjustment div.reason,
+.price_adjustment div.amount  {
+  float: left;
+  margin-right: 0.5em;
+}
+.price_adjustment .reason label,
+.price_adjustment .amount label,
+.price_adjustment div.actions {
+  display: block;
+}
+.price_adjustment .actions button {
+  margin-top: 14px;
+}
+div.orderpaymentbean  {
+  clear: both;
+  float: none;
+}
+span.payment_option_label {
+  display: block;
+  font-size: 1.2em;
+  padding: 9px 0pt 5px;
+  text-align: left;
+  margin: 19px 0 5px;
+  border-bottom: 1px solid orange;
+}
+.inlinewindowcontent #CardContainer5Wrapper table {
+  width: auto;
+  margin: 0;
+}
+
+div.price_adjustment {
+  margin: 15px 0 5px;
+}
+
+/* search ------*/
+
+div.search,
+.shopper_select div.update_shopper,
+.shopper_select div.shoppers,
+.shopper_select div.orders {
+  float: none;
+  clear: both;
+}
+
+/* order entry wizard - checkout process ----------------*/
+
+.checkout fieldset {
+  border: 1px solid #B9B196;
+  padding: 1em;
+ margin:1em 0;
+}
+.checkout div.order_summary {
+  margin-bottom: 1em;
+}
+.orderitems th {
+  background: transparent;
+  border: 1px solid #aaa;
+  border-width: 0px 0px 1px;
+}
+table.orderitems,
+.orderitems td {
+  border: none;
+}
+.checkout .remove label {
+  display: inline;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+/* confirmation  ------------*/
+
+.order_detail td {
+  padding: 5px 0;
+}
+

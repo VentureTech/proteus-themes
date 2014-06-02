@@ -1,0 +1,303 @@
+.error pre.extract b{
+ background-color:red;
+}
+.message div.elaboration{}
+
+.editor div.common_view {
+  background: #fafafa url(/theme/Page/page_mgt_component_editor_bg.gif) repeat-x bottom left;
+  border: 1px solid #aaa;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 1em 1em .5em;
+  position: relative;
+  margin-bottom: 1em;
+}
+.editor label{
+ margin-right: 3px;
+}
+.editor .common_view label{
+  color: #555;
+}
+.common_view input.css_class{
+ width: 200px;
+ resize:horizontal;
+}
+.common_view input.css_id {
+ width: 110px;
+ resize:horizontal;
+}
+.common_view input.name {
+ width: 250px;
+}
+.common_view span.prop{
+ padding-right:.75em;
+ display:inline-block;
+}
+.lt-ie8 .editor .common_view .name input {
+  width: 240px;
+}
+
+/* PE Options. */
+.pe_option_view h3 {
+ margin-top:.75em;
+ padding-bottom:.5em;
+}
+ol.menu_pe_options{
+}
+.menu_pe_options li.mi{
+ display:inline-block;
+ margin-right:.5em;
+}
+.lt-ie8 .menu_pe_options li.mi{
+ display:inline;
+ zoom:1.0;
+}
+.menu_pe_options li.mi:before{
+ color:#ccc;
+}
+.menu_pe_options li.first:before{
+ content:"";
+ padding-right:0;
+}
+.menu_pe_options .mi a{
+ text-decoration:none;
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  padding: 3px 6px;
+  font-size: 11px;
+  color: #555;
+  background: #eee;
+  border: 1px solid #ccc;
+}
+.menu_pe_options .mi a:hover{
+  -webkit-box-shadow: 0 -1px 2px rgba(0,0,0,0.2) inset;
+  -moz-box-shadow: 0 -1px 2px rgba(0,0,0,0.2) inset;
+  box-shadow: 0 -1px 2px rgba(0,0,0,0.2) inset;
+  color: #000;
+  background: #eee;
+  border: 1px solid #aaa;
+}
+.menu_pe_options .mi-active a{
+  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.3) inset;
+  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.3) inset;
+  box-shadow: 0 0 2px rgba(0,0,0,0.3) inset;
+  color: #000;
+  border: 1px solid #aaa;
+  background: #ccc;
+}
+.menu_pe_options .mi-active a:hover {
+  background: #ccc;
+}
+div.pe_option_view{
+ clear:both;
+ border-top: 1px #ccc solid;
+ margin: 0.5em 0 0;
+ padding-top: .5em;
+ min-height:1.5em;
+}
+.builtin .breadcrumb li.be{
+ display:inline-block;
+ margin: 2px 4px;
+}
+.builtin .breadcrumb li:after{
+ content: "\2192"; /*&rarr;*/
+ padding-left:8px;
+}
+.builtin .breadcrumb li.last:after{
+ content:"";
+ padding-left:0;
+}
+.builtin .breadcrumb a{
+ text-decoration:none;
+}
+.builtin .breadcrumb .last{
+ font-weight:bold;
+}
+/* Visibility Conditions */
+div.visibility_builtin{
+ position:relative;
+}
+.visibility_builtin div.vc_editor{
+ padding:1em 0;
+}
+.visibility_builtin div.configuration_description{
+ clear:both;
+ padding:1em 0;
+ border-top: 1px #ccc solid;
+}
+.visibility_builtin .standard_props span.prop{
+ display:block;
+}
+.pg_condition_editor select.labels,
+.pg_condition_editor select.principal_groups{
+  max-width:35%;
+}
+.logic_editor div.add > a.menu_item {
+  background: url(/theme/Actions/16/add.png) left no-repeat;
+  padding-left: 18px;
+  text-decoration:none;
+  color:#444;
+}
+.lc_editor-con span.close_button{
+ display:inline-block;
+ margin-bottom:1em;
+ padding-left:.5em;
+}
+
+
+.content_history table.content_history {
+  width: 99%;
+}
+.content_history .current_version td {
+  background: #F2F0D5;
+  font-weight: bold;
+}
+.content_history label.heading {
+  font-style: italic;
+  font-size: 1.2em;
+  color: #555;
+  background: 0 0 transparent url(/theme/Page/content_history.png) no-repeat;
+  height: 45px;
+  display: inline-block;
+  padding: 5px 10px 0 60px;
+}
+.editor .common_view span.name,
+.editor .common_view span.workflow_state,
+.editor .common_view span.css{
+ margin:0 .25em .25em;
+}
+.editor_tabs,
+.editor_content{
+ line-height:1.2;
+}
+.editor_tabs label,
+.editor_content label{
+ margin-right:6px;
+}
+.editor_tabs textarea,
+.editor_content textarea{
+ width:99%;
+}
+.editor_content .file_entity_chooser .files td {
+  padding: 5px 0;
+}
+
+/* Prompt For Unsaved Changes. */
+.dialog div.prompt-close,
+.dialog .prompt-close div.actions {
+  padding: 2em;
+}
+/** Buttons. */
+.editor_actions button{
+ border: none;
+ padding: 26px 2px 0px;
+ background-repeat: no-repeat;
+ background-position: center top;
+ background-color: transparent;
+ opacity: .70;
+ color: #333;
+ margin: 0;
+ height:auto;
+}
+.editor_actions button.undelete {
+ background-image: url(/theme/Actions/24/undelete.png);
+}
+.editor_actions button:hover {
+ opacity: 1;
+}
+/* component editor help */
+.editor_actions span.help-point{
+ display: inline-block;
+ padding: 26px 2px 0px;
+ margin: 0;
+ text-align: center;
+ background: url(/theme/Actions/24/help_blue.png) no-repeat center top;
+ opacity:.7;
+ width: 36px;
+ margin: 0;
+ cursor: default;
+ cursor: pointer;
+}
+.editor_actions a.help-point{
+ display: inline-block;
+ width: 100%;
+ height: 100%;
+ text-decoration: none;
+ text-indent: 0;
+ color: #333;
+}
+.editor_actions span.help-point:hover {
+  opacity: 1;
+}
+.editor .common_view .field_help.disabled {
+  display: none;
+}
+.editor label.tal{
+ display:block;
+}
+.editor div.instructions{
+ margin:.5em;
+ font-style:italic;
+}
+/*scriptbean*/
+.script_params .properties td.prop_name{
+  width:35%;
+}
+.script_params .properties input.prop_value,
+.script_params .properties input.prop_name{
+  width:98%;
+}
+/* Menu Component */
+.mi_actions button.action_addchild,
+.mi_actions button.action_addsibling{
+ padding-left: 16px;
+ text-indent:0;
+ border:0;
+ background: url(/theme/Actions/16/add.png) no-repeat left center;
+ background-color:inherit;
+ width:auto;
+}
+
+.freemarkercomponent_editor td.link_var_name-con{
+ font-weight:bold;
+ padding:2px 1em 2px 2px;
+}
+.freemarkercomponent_editor table.link_variable{
+ margin:.5em;
+}
+.freemarkercomponent_editor .variables td.supplier,
+.freemarkercomponent_editor .variable_settings td.supplier,
+.freemarkercomponent_editor .request_parameters td.supplier{
+ white-space:nowrap;
+}
+.contentelement td.icon-con{
+ width:32px;
+}
+.contentelement td.icon-con img.icon{
+ height:32px;
+}
+/** PageElement state */
+.contentelement.cs-pending span.type{
+ color: #707000;
+}
+.contentelement.unpublished span.type,
+.contentelement.cs-draft span.type{
+ color: #C00;
+}
+.contentelement.deprecated span.type{
+ color: #a6a6a6;
+}
+.contentelement.deprecated span.type{
+ text-decoration: line-through;
+}
+.contentelement.conditional span.type{
+ color: #0698ff; 
+}
+.contentelement.unconfigured div.name_type{
+ color: #ea8502;
+}
+.contentelement.configured_fallback span.type{
+ color:#000;
+}

@@ -1,0 +1,65 @@
+/** Styles for the PageElementSelectorComponent */
+.page_element_tree a{
+ text-decoration: none;
+}
+.controls span.miwt_button{
+ padding-right:.3em;
+}
+.controls button{
+ background: transparent center no-repeat;
+ border: 2px white;
+ width: 24px;
+ height: 24px;
+ /** hide text */ 
+ text-align: left;
+ text-indent: -1000em;
+ overflow: hidden;
+}
+.controls button:hover{
+ border-style: outset;
+ border-color: #999
+}
+.controls button:active,
+.controls button.selected{
+ border-style: inset;
+ border-color: #999;
+ background-color: #ccc;
+ background-position: bottom right;
+}
+.controls button.selected:hover{
+ background-color: #ddd;
+}
+.controls button.show_hide_templates{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/template.png);
+}
+.controls button.show_hide_search{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/search.png);
+}
+.controls button.expand_all{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/expand2.png);
+}
+.controls button.collapse_all{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/collapse2.png);
+}
+/* table exceptions */
+table.page_element_tree td{
+ padding:0;
+}
+table.page_element_tree td.last-column{
+ border: none;
+ padding: 1px 0 0 0;
+}
+table.se_icon_name td.se_page_template-con,
+table.se_icon_name td.se_page-con,
+table.se_icon_name td.se_folder-con{
+ padding-left: 2px;
+}
+.page_element_selector tr.odd > td{
+ background-color: transparent;
+}
+.se_selected_site_element{
+ background-color:#ffc;
+}
+.search input.path{
+ width:7em;
+}

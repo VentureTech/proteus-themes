@@ -1,0 +1,132 @@
+/* Order Entry -------------------*/
+div.order_entry {
+  padding: 1em;
+  background: white;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #B9B196;
+}
+.section_label {
+  font-weight:bold;
+}
+.order_entry fieldset {
+  margin: 1em 0;
+}
+.order_entry table {
+  width: 100%;
+}
+.order_entry table table,
+.order_entry table .address_form table.phone_number_nanp {
+  width: 200px;
+}
+.order_entry table table.order_editor_add_items_tabs,
+.order_entry table .address_form table,
+.order_entry table table.table_view,
+.order_entry table table.table_view_paging_table,
+.order_entry table .shipping_option_form table,
+.order_entry table .manual_settle_form table {
+  width: 97%;
+}
+/* Button Styles */
+.next_button, .previous_button, .finish_button {
+  float: left;
+}
+.cancel_button{
+  clear: both;
+}
+	
+div.next_button, 
+div.previous_button, 
+div.finish_button, 
+div.cancel_button, 
+div.search_button, 
+div.new_button, 
+div.search_reset_button {
+  margin: 0px 5px 0px 0px;
+}		
+td.field_search_parameter, 
+td.date_search_parameter {
+  padding:0px 5px 5px 0px;
+}
+div.field_search_parameter-con,
+div.combo_search_parameter-con,
+div.buttons-con {
+  float: left;
+  margin: .5em;
+}
+.order_editor_add_items_tabs .tab_content-con table {
+  clear: left;
+}
+div.order_editor_add_items_tabs-con {
+   margin-top: 1em;
+   padding: 0.5em;
+}
+.order_editor_add_items_tabs .tab_content-con {
+   width: 100%;
+   min-height: 100px;
+}
+.order_entry table td.label-con {
+    vertical-align: top;
+}
+.order_entry table td.label-con div.label {
+   vertical-align: top;
+   text-align: right;
+   padding-right: 1em;
+   width: 120px;
+   min-height: 20px;
+   padding-left: 0em;
+}
+.order_entry table td.section_content-con {
+   padding-top: 3px; 
+}
+.order_entry table span.update_order-con {
+    float: none;
+}
+.order_entry table span.update_order-con {
+    float: none;
+}
+.shopper_form table table td {
+    padding-right: 5px;
+}
+span.error_override-con {
+   display:block;
+   float:right;
+   position:relative;
+   top:-20px;
+}
+.address_entry div.given_name_container-con {
+   clear: left;
+   float: left;
+   margin-right: 0.5em;
+}
+.address_entry div.middle_container-con {
+   float: left;
+   margin-right: 0.5em;
+}
+.address_entry div.family_name_container-con {
+   clear: right;
+   float: left;
+}
+.address_entry  div.address_lines-con {
+   margin-top: 0.5em;
+   clear: left;
+}
+
+.order_entry .shipping_option_form-con table,
+.order_entry table.price_adjustment {
+    border-collapse:separate;
+    border-spacing:0px 5px;
+}
+.order_entry .price_adjustment table.Amount td.AmountLabel-con,
+.order_entry .price_adjustment table.Reason td.ReasonLabel-con {
+    width: 80px;
+} 
+.order_entry .manual_settle_form table {
+   border-spacing: 0.5em;   
+}
+div.billing_address {
+  clear: both;
+}
+.address_form .phone_number_format label {
+  display: inline;
+}

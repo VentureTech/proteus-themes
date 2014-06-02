@@ -1,0 +1,82 @@
+.property_viewer .prop label, 
+.property_editor .prop label {
+  font-weight: bold; 
+  display: inline-block; 
+  vertical-align: top; 
+  width: 10em;
+} 
+.principaldetail .parent table,
+.principaldetail .locale > div
+{
+  display: inline
+}
+
+.principaldetail .account_info .optin label {
+  width: auto;
+}
+/* client details ----------------*/
+.clientdetails .general div,
+.clientdetails .sites div.actions,
+.clientdetails .usergroups div.actions,
+.clientdetails .businessprocesses div.actions {
+  margin-bottom: 1em;
+}
+
+
+/* pricing tab -------------------*/
+.property_editor td.select_or_create_editor_edit-con,
+.property_editor td.select_or_create_editor_create_new-con {
+  padding: 10px;
+}
+.property_editor .miwt-calendar button.open {
+  margin-right: 10px;
+}
+
+.role_navigation-con a.role_add {
+  font-family: Tahoma, "Trebuchet MS", arial, sans-serif;
+  padding: 5px 0 5px 26px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: transparent;
+  display: block;
+  float: left;
+  text-decoration: none;
+  color: #333;
+  opacity: .70;
+  font-size: 13px;
+}
+.role_navigation-con a.role_add {
+  background-image: url(/theme/Actions/24/add.png);
+}
+/** link buttons  */
+a.edit,
+a.view,
+a.remove{
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.5;
+}
+a.edit{
+  background-image: url(/_resources/all/docroot/cms/icons/x16/pencil_icon.png);
+}
+a.view {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/pages.png);
+}
+a.remove{
+  background-image: url(/_resources/1239128983000/docroot/cms/filesystem/icons/delete.gif);
+}
+a.edit span,
+a.view span.view,
+a.remove span.remove{
+  display: inline;
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  visibility: hidden;
+}
+
+

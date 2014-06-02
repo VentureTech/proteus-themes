@@ -1,0 +1,148 @@
+/* desktop navigation - tabs */
+div.desktop_workspace_area {
+ clear: both;
+ float: none;
+}
+div.desktop_navigation_search {
+ border: 1px #A2A2A2 solid;
+ float: left;
+ width: 99%;
+ padding: 8px;
+ background: #fff;
+ -moz-border-radius: 0 0 4px 4px;
+ border-radius: 0 0 4px 4px;
+}
+.desktop_navigation_search div.hibernate_search{
+ padding:0;
+ border:0;
+}
+button.desktop_navigation_button,
+button.desktop_navigation_visible,
+button.desktop_navigation_hidden{
+ min-height: 16px;
+ border: none;
+ -moz-border-radius: 0;
+ border-radius: 0;
+ background-color: transparent;
+ background-repeat: no-repeat;
+ background-position: 2px center;
+ padding: 1px 6px 1px 20px;
+}
+/* Action Column. */
+.action-column button.desktop_navigation_button,
+.action-column button.desktop_navigation_visible,
+.action-column button.desktop_navigation_hidden{
+ width: 18px;
+ height: 16px;
+ text-indent: -4000em;
+ overflow: hidden;
+ padding: 0;
+}
+button.desktop_navigation_visible{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/collapse.png);
+}
+button.desktop_navigation_hidden{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/expand.png);
+}
+.desktop_navigation_buttons a[data-features~="submit"]{
+ background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+ border: 1px #b9b196 solid;
+ border-bottom: none;
+ font: normal 1em/1.75em Tahoma, "Trebuchet MS", arial, sans-serif;
+ color:  #300;
+ cursor: pointer;
+ -moz-border-radius: 4px 4px 0 0;
+ border-radius: 4px 4px 0 0;
+ text-decoration: none;
+ margin: 0px 2px;
+ padding: 0 5px;
+ display: inline-block;
+}
+.desktop_navigation_buttons a.desktop_navigation_button_active {
+ margin-bottom: -1px;
+ color: #333;
+ border-bottom: 1px #fff solid;
+ background: #fff url(/_resources/all/docroot/cms/icons/tab-gray-grad-bg-a.gif) repeat-x left top;
+}
+
+/* desktop breadcrumb --------------------------------*/
+div.desktop_breadcrumbs:after{
+ content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
+.desktop_breadcrumb span.miwt_button,
+span.breadcrumb_node {
+ display: inline-block; /* all for ie7 */
+}
+.lt-ie8 .desktop_breadcrumb button{
+ font-size:0;
+ line-height:0;
+ text-indent:0;
+}
+span.desktop_breadcrumb {
+ display: inline-block;
+ background: #fff;
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+ padding: .4em;
+ border: 1px solid #aaa;
+ margin: .75em .5em .75em 0;
+ opacity: .7;
+}
+span.desktop_breadcrumb_active {
+ opacity: 1;
+}
+.desktop_breadcrumb button.close_button {
+ width: 16px;
+ height: 16px;
+ border: none;
+ text-indent: -4000em;
+ cursor: pointer;
+ cursor: hand;
+ background: transparent url(/_resources/all/docroot/cms/icons/x16/close_plus_hover.png) no-repeat left top;
+ vertical-align:text-bottom;
+}
+.desktop_breadcrumb button.close_button:hover {
+ background-position: left bottom;
+}
+.desktop_breadcrumb a.breadcrumb_node_button {
+ font-size: 1em;
+ text-decoration: none;
+ color: #aaa;
+}
+.breadcrumb_node_active a.breadcrumb_node_button {
+ color: #333;
+}
+.desktop_breadcrumb a:hover,
+.breadcrumb_node_active a.breadcrumb_node_button:hover {
+ color: black;
+ text-decoration: underline;
+}
+
+/* button expand/hide */
+button.desktop_navigation_button {
+ border: 2px white;
+ width: 24px;
+ height: 21px; 
+ text-align: left;
+ text-indent: -1000em;
+ overflow: hidden;
+}
+
+/* desktop content */
+fieldset.desktop {
+ background: #fff;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #aaa;
+ padding:0 1em 1em; /*0 top for ie*/
+}
+fieldset.desktop legend {
+  padding: 0 .25em;
+}
+fieldset.desktop div.desktop{
+  padding-top: 1em;
+}

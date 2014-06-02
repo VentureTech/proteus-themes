@@ -1,0 +1,20 @@
+div.click_to_edit {clear: both;}
+.click_to_edit span.field {
+ border: 1px solid #ccc;
+ background-color: #eee;
+ min-height: 1em;
+}
+.click_to_edit span.field{display: inline-block;}
+.click_to_edit span.field,
+.click_to_edit input.field,
+.click_to_edit textarea.field {
+ width: 25em;
+ font-size: 1em;
+ padding: 2px;
+}
+.click_to_edit textarea.field {
+ font-family: inherit;
+}
+.click_to_edit button.edit {
+ vertical-align: top;
+}

@@ -1,0 +1,121 @@
+table.album_actions,table.pager,table.miwt-table{
+ width:100%;
+ margin:.25em 0;
+}
+span.heading{
+ display:inline-block;
+ margin:.5em;
+ font-weight:bold;
+}
+td.label-con{
+ text-align: right;
+ vertical-align: middle;
+}
+td.value-con{
+ text-align: left;
+}
+td.type-string + td.type-object {
+ vertical-align: middle;
+ text-align: center;
+}
+/** Album Listing. */
+table.albums td {
+ vertical-align: middle;
+}
+.action-column button{
+ width: 18px;
+ height: 16px;
+ text-indent: -4000em;
+ overflow: hidden;
+ padding: 0;
+}
+/** Photo Listing */
+table.photos td{
+ vertical-align:top;
+}
+td.buttons-con {
+ text-align: right;
+}
+td.published {
+ width: 2em;
+}
+td.dimension {
+ width: 6em;
+ text-align: center;
+}
+td.filecomment {
+ width: 160px;
+}
+.photos td.move {
+ width: 1em;
+ padding: 0 1em;
+ text-align: center;
+}
+td.filecomment textarea,
+td.name input {
+ width: 90%;
+ min-width: 10em;
+}
+td.preview {
+ width: 5em;
+}
+td.preview img {
+ max-width: 5em;
+ max-height: 5em;
+}
+td.preview:hover img{
+ position: absolute;
+ max-width: none;
+ max-height: none;
+}
+/** Permissions. */
+.user_permissions th.last-column {
+  width: 7em;
+}
+div.permission_actions,
+table.search{
+  margin: 1em 0;
+}
+img.file_preview {
+ background: url(/_resources/all/docroot/cms/preview/loading.gif) no-repeat center;
+}
+.album_heading span.label,
+span.albumname,
+span.file_conflict_title,
+.user_permissions span.heading {
+ font-weight: bold;
+ font-style: italic;
+ font-size: 1.2em;
+ color: #555;
+}
+span.albumname,
+span.file_conflict_title,
+.user_permissions span.heading {
+ display: block;
+ border-bottom: 1px dotted #aaa;
+ margin-bottom: 1em;
+ padding-bottom: .5em;
+}
+div.album_listing {
+ padding: 1em;
+ background: #fff;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ border: 1px solid #B9B196;
+ margin: 0 0 .5em;
+}
+div.album_heading {
+ padding-bottom: .5em;
+ margin-bottom: 1em;
+}
+.album_heading input{
+ width: 50%;
+}
+.album_heading a.edit {
+ background: url(/_resources/dyn/docroot/cms/filesystem/icons/change_permissions.png) no-repeat;
+ padding-left: 18px;
+ text-decoration:none;
+}
+.miwt-collapsable-content button.close_button{
+ background-image: url(/theme/Actions/24/cancel.png);
+}

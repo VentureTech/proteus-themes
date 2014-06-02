@@ -1,0 +1,56 @@
+a.export_xls,
+a.export_csv,
+a.export_word,
+a.export_rtf,
+a.export_pdf,
+a[href$="doc"],
+a[href$="rtf"],
+a[href$="docx"],
+a[href$="pdf"],
+a[href$="swf"],
+a.video {
+ display:inline-block;
+ padding:.5em .5em .5em 26px;
+ color:#333;
+ text-decoration:none;
+ font-size:13px;
+ opacity:.85;
+}
+a.export_xls:hover,
+a.export_csv:hover,
+a.export_word:hover,
+a.export_rtf:hover,
+a.export_pdf:hover,
+a[href$="doc"]:hover,
+a[href$="rtf"]:hover,
+a[href$="docx"]:hover,
+a[href$="pdf"]:hover,
+a[href$="swf"]:hover,
+a.video:hover{
+ opacity:1;
+}
+a.export_pdf,
+a[href$="pdf"] {
+ background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/pdf.png) no-repeat left center;
+}
+a[href$="swf"],
+a.video {
+ background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/video.png) no-repeat left center;
+}
+a[href$="doc"],
+a[href$="docx"],
+a.export_rtf,
+a.export_word{
+ background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/word.gif) no-repeat left center;
+}
+a[href$="xls"],
+a[href$="xlsx"],
+a.export_xls{
+ background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/excel.gif) no-repeat left center;
+}
+a[href$="csv"],
+a.export_csv{
+ background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/csv.gif) no-repeat left center;
+}
+
+

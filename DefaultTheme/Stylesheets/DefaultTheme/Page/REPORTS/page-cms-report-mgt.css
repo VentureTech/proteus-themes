@@ -1,0 +1,75 @@
+/* File Mgt. */
+.report-management {
+ float: left;
+ width: 100%;
+ text-align: center;
+}
+.fse_preview div.actions {
+  text-align: center;
+}
+.fse_details span.request_title {
+  font-weight: bold;
+}
+/* Wizard. */
+
+.report_wizard table.procedure_navigation {
+  width: auto;
+  margin: 0 auto;
+}
+table.procedure_navigation td {
+  padding: 2px 4px;
+}
+fieldset.parameter_group legend {
+  margin: 0;
+}
+fieldset.parameter_group {
+  margin-top: 1em;
+}
+div.parameter_group {
+  margin-left: 1em;
+}
+div.parameter {
+ margin-top: .5em;
+}
+.parameter > label {
+  display: block;
+  font-weight: bold;
+}
+.parameter.required > label {
+  padding-left: 7px;
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat scroll left top;
+}
+label.report_format {
+  display: block;
+  font-weight: bold;
+}
+.report_schedule_step div.start_date {
+  float: left;
+  padding-right: 1em; 
+  margin-bottom: 1em;
+}
+.report_schedule_step div.day_of_month,
+.report_schedule_step div.day_of_week {
+ clear:both;
+}
+.report_schedule_step div.parameter.recipients {
+  clear: both;
+}
+div.report_assignment_listing,
+div.report_request_listing,
+div.close_question {
+ margin-top: 1em;
+ clear:both;
+}
+.wizard_title{
+ margin-bottom:.75em;
+}
+.groups_title,
+.users_title{
+ text-align:left;
+ margin:.5em 0;
+}
+.step_title{
+ font-style:normal;
+ color:#333;
+}

@@ -1,0 +1,107 @@
+/* Backend Login Styles ------------------*/
+#column1 {
+  display: none;
+}
+#column2 {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  float: none;
+  clear: both;
+  display: block;
+}
+#footer {
+  text-align: center;
+}
+div.message-container {
+  margin-bottom: 1em;
+}
+div.login,
+#reset-password {
+ width: 600px;
+ margin: 1em auto;
+ padding: 3em 2em 3em 7em;
+ background: white;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+}
+div.login,
+#reset-password {
+ background-repeat: no-repeat;
+ background-image: url(/theme/lock_53.png);
+}
+div.login {
+ background-position: 3% 63%;
+}
+#reset-password {
+ background-position: 3% 78%;
+}
+
+div.login h2,
+#reset-password h2,
+.login p.title {
+  font-style: italic;
+  color: #4E4026;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px dotted #aaa;
+}
+div.login p,
+#reset-password p {
+  line-height: 1.4;
+}
+.fields div.field,
+div.retrieve-password {
+  display: inline-block;
+  margin: 0 .5em .5em 0;
+}
+.field label{
+  padding-right: 6px;
+}
+.lt-ie8 .retrieve-password button.submit,
+.lt-ie8 .login div.actions-con {
+  margin-top: 1.5em;
+}
+
+div.actions-con{
+  text-align: right;
+}
+
+.username-con span.label,
+.password-con span.label,
+.password_verification-con span.label,
+.username-con span.label,
+.retrieve-password span.username,
+span.email { 
+  display: block;
+  padding: 0 0 .25em 0;
+}
+
+field.username .value input,
+field.password .value input,
+field.password-verification-con .value input {
+  width: 18em;
+  padding: 3px;
+}
+
+/* footer login ----------*/
+div.login-footer {
+  text-align: center;
+  padding:1em 0;
+}
+
+.password-reset span.label{
+ display:inline-block;
+ width:11em;
+}
+.password-reset .actions-con{
+ text-align:left;
+}
+.password-reset .username,
+.password-reset .password,
+.password-reset .password-verification-con{
+ display:block;
+}

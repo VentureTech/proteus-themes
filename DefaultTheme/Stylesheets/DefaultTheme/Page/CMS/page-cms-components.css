@@ -1,0 +1,88 @@
+/** CSS for contentelement listing page. */
+div.css_id{
+ color: red;
+}
+div.css_class{
+ color: green;
+}
+#action_new {
+  display: none;
+}
+
+tr.selected_contentelement,tr:hover .selected_contentelement {
+	background-color: #D3E500;
+}
+
+/* div.contentelementpropertiesbean {
+  padding: 1em;
+  background: white;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #B9B196;
+}
+/*
+
+/* Component Table Search Row ============================== */
+.contentelementselection div.searchrow {
+  font-weight: bold;
+}
+
+input.search_description,
+select.contentelementlist_search_status {
+  margin-right: .5em;
+}
+span.css_wf_status {
+  margin-left: .5em;
+}
+.contentelementselection td {
+  vertical-align: middle;
+}
+.contentelementselection form {
+  margin: 0;
+  padding: 0;
+}
+table.sortable {
+  width: 99%;
+}
+.sortable td {
+  background: white;
+}
+td.column_page {
+  display: block;
+  max-height: 10em;
+  min-width: 20em;
+  height: auto;
+  border: none;
+}
+
+div.page_listing {
+  overflow: auto;
+  max-height: 6em;
+  min-height: 3.2em;
+  padding-left: 2px;
+}
+div.page_title {
+  float: left;
+  clear: both
+}
+
+/** Sortable Table. */
+table.sortable {
+  margin: 15px 0 0 0;
+}
+table.sortable tr:hover td {
+  background-color: #F2F0D5;
+}
+
+table.sortable th a span {
+  color: black;
+  text-decoration: none;
+}
+table.sortable td.column_modtime, 
+table.sortable td.column_instance_count {
+  text-align: center;
+}
+.sortable_handle {
+  cursor: pointer;
+}
+ 

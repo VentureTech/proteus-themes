@@ -1,0 +1,97 @@
+/* catalog mgt UI -----------------*/
+.catalogeditor table { /* there are a few level of tables inside */
+   width: 100%;
+}
+div.catalogeditor {
+  margin-bottom: 1em;
+}
+.i18n_key_edit_catalog_object_name span.name,
+.select a.select {
+  display: block;
+  float: left;
+  width: 80%;
+  margin-right: .5em;
+}
+.select span.select {
+  display: inline;
+}
+div.i18n_key_edit_catalog_object_name,
+div.select {
+  padding: 5px 0;
+  border-bottom: 1px dotted #aaa;
+}
+div.catalog_object_editor:hover,
+.category_list div.category:hover,
+.current_name div.i18n_key_select_or_edit {
+  background-color: #f5f5f5;
+}
+.current_name div.i18n_key_select_or_edit {
+  border: 1px dotted #aaa;
+  border-width: 1px 0;
+  padding: .3em;
+}
+.catalog_categories .categories label.category_list_label {
+  display: block;
+  font-size: 1.2em;
+  color: #555;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: .25em;
+  float: none;
+}
+.catalog_contents div.content_instruction {
+   margin: 0.8em 0;
+   font-size: 1.3em;
+}
+/* buttons ----------------------------*/
+
+button.add_catalog_node_button {
+  margin-bottom: 1em;
+}
+.edit div.buttons {
+  float: left;
+}
+.i18n_key_select_or_edit div.edit {
+  width: 100%;
+  overflow: hidden;
+}
+.i18n_key_select_or_edit  .edit span {
+  float: left;
+  display: block;
+  margin-right: .5em;
+}
+.i18n_key_select_or_edit input {
+  width: 25em;
+}
+
+/* properties ---------------------------*/
+.tab_content div.css_class,
+.tab_content div.browse_link,
+.tab_content div.detail_link,
+.tab_content div.content_chunks {
+  margin-bottom: 1em;
+}
+/* current name ------------------------*/
+
+.current_name div.select {
+  padding: 0;
+  border: none;
+}
+.current_name label {
+  font-weight: bold;
+  margin-bottom: .5em;
+  display: block;
+}
+div.current_name {
+  margin-bottom: 1.5em;
+}
+.categories .current_name .select a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+}
+
+.catalog_node_name-con a,
+.catalog_node_name-con select {
+  margin-bottom: 1em;
+}

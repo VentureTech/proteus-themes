@@ -1,0 +1,131 @@
+/* MIWT Tables */
+table.miwt-table,
+table.miwt-tree{
+ border-spacing:0;
+}
+.miwt-tree th,
+.miwt-table th{
+ border-top: 1px solid #b9b196;
+ border-bottom: 1px solid #b9b196;
+ border-left: none;
+ border-right: none;
+ background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+ color: #330000;
+}
+.miwt-tree th.first-column,
+.miwt-table th.first-column{
+ border-left: 1px solid #b9b196;
+ -moz-border-radius: 8px 0 0 0;
+ border-radius: 8px 0 0 0;
+ padding-left: 5px;
+}
+.miwt-tree th.last-column,
+.miwt-table th.last-column{
+ border-right: 1px solid #b9b196;
+ -moz-border-radius: 0 8px 0 0;
+ border-radius: 0 8px 0 0;
+ padding-right: 5px;
+}
+.miwt-tree td,
+.miwt-table td{
+ border-bottom: 1px solid #aaa;
+ border-left:0;
+ border-top:0;
+ border-right:0;
+ padding: 3px 2px;
+}
+.miwt-tree td.first-column,
+.miwt-table td.first-column{
+ border-left: 1px solid #b9b196;
+}
+.miwt-tree td.last-column,
+.miwt-table td.last-column{
+ border-right: 1px solid #b9b196;
+}
+.miwt-tree table td,
+.miwt-tree table th,
+.miwt-table table td,
+.miwt-table table th{
+ border:0;
+}
+tr.odd > td{
+ background: #F5f5f5;
+}
+tr.even > td{
+ background: #fff;
+}
+td.action-column{
+ padding: 3px 5px;
+ white-space:nowrap;
+ width:1%;
+ text-align:right;
+}
+th a{
+ color: #330000;
+ text-decoration:none;
+}
+th a:hover {
+ text-decoration: underline;
+}
+/* MIWT Trees. */
+.miwt-tree .parent-sibling-following img.tpi,
+.miwt-tree .last-sibling img.tpi,
+.miwt-tree .sibling-following img.tpi{
+ width:14px;
+}
+.miwt-tree td.parent-sibling-following,
+.miwt-tree td.sibling-following{
+ background: transparent url(/_resources/all/docroot/cms/icons/tree/vline.gif) no-repeat 50% 0%;
+ border:0;
+ padding:0;
+}
+.miwt-tree .last-sibling,
+.miwt-tree td.sibling-following{
+ width:16px;
+}
+.lt-ie8 .miwt-tree .last-sibling,
+.lt-ie8 .miwt-tree td.sibling-following{
+ width:1%;
+ min-width:16px;
+ max-width:16px;
+}
+.miwt-tree td.parent-last-sibling {
+ border: none;
+ background: transparent;
+ padding:0;
+}
+.miwt-tree td.sibling-following.leaf{
+ background: transparent url(/_resources/all/docroot/cms/icons/tree/tn.gif) no-repeat 50% 0%;
+ border:0;
+ padding:0;
+}
+.miwt-tree td.last-sibling {
+ background: transparent url(/_resources/all/docroot/cms/icons/tree/ln.gif) no-repeat 50% 0%;
+ border:0;
+ padding:0;
+}
+.miwt-table div.column-visibility,
+.miwt-tree div.column-visibility{
+ padding-left:0;
+}
+.miwt-table tr.no_data td.first-column,
+.miwt-tree tr.no_data td.first-column{
+ padding:.5em 1em;
+}
+/* MIWT Table Pager*/
+.pager-bottom{
+ padding: 10px 0 5px 0;
+ text-align: center;
+}
+.pager-top{
+ display: none;
+}
+.pager a.control,
+.pager .page {
+    padding-left: 6px;
+    text-decoration: none;
+}
+.pager a.control:hover,
+.pager a.page:hover {
+    text-decoration: underline;
+}

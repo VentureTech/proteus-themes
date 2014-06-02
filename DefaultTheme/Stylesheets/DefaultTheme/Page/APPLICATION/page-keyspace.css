@@ -1,0 +1,10 @@
+.help-point.disabled{display:none;}
+.result_actions .menu_component ul.menu_items{
+ left:-4em;
+}
+.result_actions div.menu_component{
+ padding-right: 1em;
+}
+label.tal{
+ display:block;
+}

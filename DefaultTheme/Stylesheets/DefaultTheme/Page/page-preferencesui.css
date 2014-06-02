@@ -1,0 +1,24 @@
+.preferences div.prop{
+ margin-bottom: 1em;
+ padding-bottom: .25em;
+ border-bottom: 1px dotted #aaa;
+}
+.preferences input {
+  min-width: 3em;
+}
+.preferences div.tab-content{
+  padding-bottom: 3.5em;
+}
+.preferences div.preference_actions {
+  position: relative;
+  top:-2.5em;
+  margin-left:.5em;
+}
+.preferences .prop > label:after{
+ content:":";
+}
+/** Page Management. */
+.page_management_prefs .max_editors label,
+.page_management_prefs .max_recent label {
+  display: block;
+}

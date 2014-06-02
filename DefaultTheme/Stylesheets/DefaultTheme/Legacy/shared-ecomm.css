@@ -1,0 +1,256 @@
+.discount_editor div.discount_editor {
+  border: none;
+}
+
+.product_mgt div.discount_editor {
+  width: auto;
+}
+.element_table th {
+ background: #EEE;
+ border: 1px solid #ccc;
+}
+.element_table td{
+ border-bottom:1px solid #CCC;
+ border-top:1px solid #CCC;
+ padding:0 .3em;
+ vertical-align:middle;
+ text-align: left;
+}
+.inventory_control_title-con{
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  display: block;
+}
+.discount_editor div.sheet_view,
+.inventory_control-con,
+.property_sheet-con .tab_content-con {
+   padding: 0.5em;
+}
+
+/* labels -----------------------*/
+.inventory_control label {
+  font-weight: normal;
+}
+.detail_view span.bean_view_label,
+.file_entity_editor span.current_file,
+.shipment_editor .shipment_editor .items label.label {
+  font-weight: bold;
+}
+.shipment_editor .shipment_editor .items label.label {
+  margin-bottom: .5em;
+  display: block;
+}
+
+/*ecomm*/
+label.property_name_inventorylowaction,
+label.property_name_inventorycriticalaction,
+label.property_name_inventoryrestoredaction,
+label.property_name_orderauthorizedaction,
+label.property_name_ordersettledaction,
+label.property_name_ordershippedaction,
+label.property_name_ordercancelaction,
+label.property_name_orderreturnaction,
+label.property_name_orderexchangeaction,
+label.property_name_ordermodifiedaction,
+label.property_name_orderapprovedaction,
+label.property_name_orderbackorderaction,
+label.property_name_shoppercreateaction,
+label.property_name_shopperresetpasswordaction,
+label.property_name_logo,{
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: .75em;
+  display: block;
+}
+
+.catalog_categories .categories label {
+ display: inline-block;
+ margin-right: .5em;
+}
+
+td.copy_participant_to_event_button-con {
+  width: 170px;
+}
+.product_management .hibernate_search .buttons table td {
+  padding: 0 3px 0 10px;
+}
+.product_management .hibernate_search .buttons table td.add_product_button-con {
+  padding: 0px;
+}
+.detail_view_productvariant td.bean_view_label-con {
+  width: 200px;
+}
+.property_editor_boxes td.label-con {
+  width: 228px;
+}
+.report_mgt div.inlinewindowcontent hr,
+.property_editor_taxmodule hr {
+  display: none;
+}
+
+/* buttons-------------------------------- */
+.catalog_mgt .hibernate_search div.layout_group,
+.inventory_editor div.buttons,
+.donation_editor div.buttons,
+.discount_editor div.buttons,
+.element_editor-con div.actions,
+.store_editor div.buttons,
+.principaldetail div.edit_buttons,
+.product_editor div.buttons {
+  float: left;
+  margin: 0 .5em;
+}
+.result_actions div.export_actions {
+  padding: 1em;
+}
+.donation_mgt .hibernate_search div.layout_group {
+  display: inline-block;
+  margin: 0 .5em .5em 0;
+}
+.lt-ie8 .donation_mgt .hibernate_search div.layout_group {
+  display: inline;
+}
+.activity_session_listing .field_search_parameter label {
+  display: inline;
+  float: none;
+}
+.hibernate_search hr {
+  display: none;
+}
+.catalog_mgt .hibernate_search div.buttons {
+  float: right;
+  margin-bottom: .5em;
+}
+/* store */
+.enum_row {
+  width: 100%;
+  clear: both;
+  float: none;
+  overflow: hidden;
+  margin-bottom: .5em;
+}
+.enum_row label {
+  width: 20%;
+  display: inline-block;
+}
+
+.property_bodyCSS label {
+  display: block;
+  clear: both;
+  float: none;
+}
+.sheet_view div.property_bodyCSS {
+  width: 100%;
+}
+/* multiple search fields */
+.registrationsearch .hibernate_search .constraint label,
+.participantsearch .hibernate_search .constraint label,
+.teamsearch .hibernate_search .constraint label {
+  display: block;
+}
+
+
+.hibernate_search div.recent_search select,
+.hibernate_search .registerable select {
+  width: 200px;
+  margin-right: 0.5em;
+}
+.hibernate_search .registerable select {
+  font-size: 9px;
+}
+.hibernate_search span.registerable {
+  display: block;
+  clear: left;
+  float: left;
+}
+.inline_editor select.list_view{
+  clear: both;
+  float: none;
+  display: block;
+  margin: 1em 0;
+}
+
+/** Table Order Buttons. */
+button.action-top,
+button.action-up,
+button.action-down,
+button.action-bottom,
+button.top,
+button.move_down_button,
+button.down_button,
+button.bottom,
+button.move_up_button,
+button.up_button,
+button.delete,
+button.remove,
+button.edit {
+  width: 16px;
+  height: 16px; 
+  border: 0; 
+  text-indent: -1000em;
+  cursor: pointer;
+  cursor: hand;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: transparent;
+}
+button.action-top,
+.catalogeditor button.top {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_top2.png);
+}
+button.action-up,
+.catalogeditor button.move_up_button,
+.table_view button.up_button {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_up2.png);
+}
+button.action-down,
+.catalogeditor button.move_down_button,
+.table_view button.down_button {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_down2.png);
+}
+button.action-bottom,
+.catalogeditor button.bottom {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_bottom2.png);
+}
+button.catalog_add{
+  background-image: url(/theme/Actions/24/add.png);
+}
+/** link buttons  */
+a.edit,
+a.view,
+a.remove{
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.5;
+}
+a.edit{
+  background-image: url(/_resources/all/docroot/cms/icons/x16/pencil_icon.png);
+}
+a.view {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/pages.png);
+}
+a.remove{
+  background-image: url(/_resources/1239128983000/docroot/cms/filesystem/icons/delete.gif);
+}
+a.edit span,
+a.view span.view,
+a.remove span.remove{
+  display: inline;
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  visibility: hidden;
+}
+table.order_detail td{
+  padding: 5px;
+}

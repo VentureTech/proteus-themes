@@ -1,0 +1,219 @@
+div.access_error{
+ text-align: center;
+ padding: 1em;
+}
+.access_error div.heading{
+ font-weight: bold;
+ padding: .5em;
+}
+td.le_box_properties{
+ padding-left: 1em;
+ min-width: 250px;
+}
+.lt-ie8 td.le_box_properties{
+ width:30em;
+}
+table.layout_template td{
+ vertical-align: middle;
+}
+div.add_layout{
+ width: 620px;
+ margin: 0 auto;
+ text-align: center;
+}
+.layout_image_editor .heading,
+.add_layout span.heading{
+ display: block;
+ font-weight: bold;
+ font-size: 1.2em;
+ font-style: italic;
+ margin:.5em 0;
+}
+.add_layout table.actions{
+ margin: .5em auto;
+}
+table.actions td{
+ padding: 0 2px;
+}
+table.layout_editor td{
+ padding: 1px;
+}
+.layout_editor td:first{
+ width: 70%;
+}
+div.le_actions{
+ width: 100%;
+ clear: both;
+ text-align:center;
+ padding-top: 1em;
+}
+div.le_page{
+ /*min-width: 820px;*/
+ padding: 0; /* Required for scaling. */
+ overflow: auto;
+}
+div.le_control{
+ padding: 1em 10px;
+ border: 1px solid #B9B196;
+ background: #BFAF89 url(/theme/Tabs/brown_bg.gif) repeat-x top left;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ margin-bottom: .5em;
+}
+#le_layout_name-con,
+#le_layout_height100percent-con,
+.le_control span.box_list{
+ display: inline-block;
+ margin: 0 1em .5em 0;
+}
+#le_layout_name-con input{
+ width: 330px;
+}
+div.box_name{ 
+ font-size: 1.15em;
+ color: #4E4026;
+ font-weight: bold;
+ font-style: italic;
+}
+.le_properties div.cc{
+  margin:.5em 0 0;
+}
+.cc div.collapsible-control,
+.property div.control{
+ padding: 4px 10px;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+.le_properties .hidden div.collapsible-control{
+ color: #4E360C;
+ border: 1px solid #B9B196;
+ background: #BFAF89 url(/theme/Tabs/brown_bg.gif) repeat-x top left;
+}
+.le_properties .shown div.collapsible-control,
+.property div.control {
+ color: #fff;
+ background: transparent url(/theme/Menu/menu_bg.gif) repeat-x scroll left top;
+}
+.cc div.collapsible-shown {
+ margin: 2px 0 1px 8px;
+}
+div.property{
+ padding: 2px 0 0 0;
+}
+.property label{
+ display:inline-block;
+ padding: 3px 0 3px 0;
+ width: 6em;
+ font-weight: normal;
+ margin-right: 5px;
+}
+.property input{
+ max-width:11em;
+}
+.property input.dimension {
+  width: 5em;
+}
+#le_box_actions {
+  text-align: center;
+}
+.le_properties input.action {
+  margin: 2px;
+}
+/** Add enclosing UI */
+#add_enclosing_inline_ui {
+  text-align: center;
+  width: 350px;
+  position: relative;
+  margin: -600px auto 0 auto;
+  border: 1px solid black;
+  padding: 2px 0;
+  background-color: #fff;
+}
+#add_enclosing_inline_ui div.heading {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#add_enclosing_inline_ui div.boxes {
+  text-align: left;
+}
+#add_enclosing_inline_ui div.instructions {
+  text-decoration: underline;
+  font-size: 1.25em;
+  font-variant: small-caps;
+  padding: .5em 0;
+}
+#add_enclosing_inline_ui div.box {
+  padding: 1px .5em;
+}
+#add_enclosing_inline_ui div.actions {
+  padding: .5em 0;
+}
+#add_enclosing_inline_ui .actions input {
+  margin: 0 .25em;
+}
+.layout_image_editor table.pager {
+  margin: auto;
+}
+.layout_image_editor div.richlist {
+  width: 410px;
+  height: 460px;
+}
+.layout_image_editor .heading,
+.layout_image_editor table.pager,
+.layout_image_editor div.download_template, 
+.layout_image_editor div.upload,
+.layout_image_editor div.actions {
+  text-align: center;
+}
+.layout_image_editor div.upload label {
+  font-weight: bold;
+}
+.layout_image_editor div.upload_container {
+  display: inline;
+}
+.layout_image_editor div.richlist div.element {
+  float: left;
+  line-height: 218px;
+  width: 200px;
+  border: 2px solid white;
+}
+.layout_image_editor div.richlist div.checked {
+  border-color: #ddd;
+}
+.layout_image_editor div.richlist div.element div {
+  display: inline;
+}
+.layout_image_editor div.richlist div.element input,
+.layout_image_editor div.richlist div.element img {
+  vertical-align: middle;
+}
+.layout_image_editor .heading,
+.layout_image_editor .actions {
+  margin: .5em 0;
+}
+.layout_image_editor .actions {
+  padding: 1em;
+}
+
+/* Action Column. */
+button.edit_layout_img_button{
+ min-height: 16px;
+ border: none;
+ -moz-border-radius: 0;
+ border-radius: 0;
+ background-color: transparent;
+ background-repeat: no-repeat;
+ background-position: 2px center;
+ padding: 1px 6px 1px 20px;
+}
+.action-column button.edit_layout_img_button
+ {
+ width: 18px;
+ height: 16px;
+ text-indent: -4000em;
+ overflow: hidden;
+ padding: 0;
+}
+button.edit_layout_img_button{/* FIXME - move */
+ background-image: url(/theme/Actions/16/layoutpreview.png);
+}

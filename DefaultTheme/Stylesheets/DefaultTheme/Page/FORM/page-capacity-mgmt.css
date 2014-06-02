@@ -1,0 +1,39 @@
+div.uitask-manager-con {
+  background: none; 
+}
+
+.tasks .uses label,
+.tasks .cte_form .field_name,
+.tasks .prop label {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.tasks .prop {
+  margin: 0 0 10px;
+}
+
+.tasks .uses {
+  margin: 10px 0;
+}
+
+.tasks .cte_form .field_viewer,
+.tasks .cte_form .field_editor {
+  margin: 0 0 10px;
+}
+
+.tasks .cte_form .summary {
+  background: #eeeeee;
+  border: 1px solid #ccc;
+  padding: 4px 4px;
+  display: inline-block;
+}
+
+.tasks .reservation .search_results .item {
+  display: block;
+  margin: 0 0 5px;
+}
+
+.tasks .reservation .search_results .item:last-child {
+  margin: 0 0 2px;
+}

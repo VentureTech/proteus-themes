@@ -1,0 +1,11 @@
+
+/* shipping mgt dnd */
+.pending_items div.dnd-source,
+.items div.dnd-source {
+  padding: .5em;
+  border-bottom: 1px solid #aaa;
+}
+.pending_items div.dnd-source:hover,
+.items div.dnd-source:hover {
+  background: #f5f5f5;
+}

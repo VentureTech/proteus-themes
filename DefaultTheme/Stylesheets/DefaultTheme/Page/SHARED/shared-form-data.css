@@ -1,0 +1,227 @@
+/*FIXME - review and cleanup file */
+/* For required fields */
+.user_entry_required span.label,
+.user_entry_required label{
+ background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left center;
+ padding-left: 6px;
+}
+
+.user_entry_required span.address_line_last, 
+.user_entry_required span.extension_label {
+ background: 0;
+ padding: 0 2px;
+}
+
+/* specific overrides to handle multipart subfields if they are required */
+.mp_field.user_entry_required .part span.label, 
+.mp_field.user_entry_required .part label {
+  background: none;
+}
+
+.mp_field.user_entry_required .part.user_entry_required label,
+.mp_field.user_entry_required .part.user_entry_required span.label,
+.mp_field.user_entry_required span.label.required, 
+.mp_field.user_entry_required label.required {
+  background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat left center;
+  padding-left: 6px;
+}
+
+/* override radio/checkbox choice stars */
+.user_entry_required .ctb label,
+.user_entry_required .rtb label,
+/* override likert stars */
+.user_entry_required table.extra_value_renderer td label.tbl,
+/* override interval selector stars */
+.user_entry_required .selectors.extra_value_renderer label,
+/* override e-signature agreement fields stars */
+.user_entry_required .signature label {
+  background: none;
+  padding-left: 0px;   
+}
+
+
+
+/* Content Layout ---------------------------------------- */
+.form_preview textarea,
+.form_extras_summary textarea{
+ min-height: 8em;
+ min-width: 98%;
+}
+.form_preview .heading,
+.form_extras_summary .heading{
+ font-size: 1.5em;
+ margin: 10px 0 5px 0;
+}
+.form_extras_summary div.title,
+.form_extras_summary div.subheading,
+.form_preview div.title,
+.form_preview div.subheading {
+ clear: both;
+ font-weight: bold; 
+ font-size: 1.2em;
+ padding: 10px 0 5px 0;
+}
+.form_preview div.question,
+.form_extras_summary div.question{
+ clear: both;
+ margin:.25em 0;
+ width: 100%;
+ overflow: hidden;
+}
+span.email_form_element_label, 
+span.extra_value_name, 
+.question span.label, 
+span.phone_number_form_label, 
+span.gender_form_element_label, 
+span.name_form_element_label, 
+span.contact_organization_form_element_label {
+ padding-right:.3em;
+}
+div.hli_first{
+ clear: left;
+}
+div.hli_first, 
+div.hli{
+ float: left;
+ margin-right: .5em;
+}
+div.hli_last{
+ float: left;
+ clear: right;
+}
+.form_extras_summary input.given_name, 
+.form_preview input.given_name{
+ margin-right: .5em;
+}
+div.level2 {
+ padding-left: 2em;
+}
+
+.form_preview div.address_form, div.address,
+.form_extras_summary div.address_form, div.address {
+  overflow: hidden;
+  width: 100%;
+}
+.form_preview span.label,
+.form_preview label,
+.form_extras_summary span.label,
+.form_extras_summary label{
+ display: block;
+ font-weight: bold;
+ font-size:1em;
+ margin-top:.5em;
+}
+.form_preview label.tbl,
+.form_extras_summary label.tbl{
+ font-weight:normal;
+ display:inline;
+ background:0;
+ padding:0;
+}
+.phone_number_format label{
+ display:inline;
+}
+/* Addresses -------------------------------------------- */
+.address_lines input.al{
+ margin: 0 0 1em;
+}
+.form_preview div.city_container,
+.form_preview div.region_container
+.form_extras_summary div.city_container,
+.form_extras_summary div.region_container {
+ margin-right: .5em;
+}
+/* Align the City-State-Zip ------------------------------ */
+.form_extras_summary .address_form div.city_container,
+.form_extras_summary .address_form div.country_container-con,
+.form_preview .address_form div.city_container,
+.form_preview .address_form div.country_container-con {
+  clear: left;
+  float: left;
+}
+.form_extras_summary .address_form div.region_container,
+.form_extras_summary .address_form div.postal_code_container,
+.form_preview .address_form div.region_container,
+.form_preview .address_form div.postal_code_container{
+ float: left;
+}
+
+
+/* Navigation Tabs --------------------------------------- */
+.form_preview div.wizard_category_navigator{
+ float: left;
+ clear: both;
+ width: 100%;
+ padding-bottom: .5em;
+ margin-bottom: 1em;
+ border-bottom: 1px #555 solid;
+}
+.form_preview div.wizard_category_navigator_node{
+ float: left;
+ border-right: 1px #555 solid;
+ padding: 0 1em 0 0;
+ margin: .5em;
+}
+.form_preview .wizard_category_navigator_node_step{
+ color: #666;
+ font-size: 13px;
+ font-weight: bold;
+}
+.form_preview span.wizard_category_navigator_node_name{
+ font-size: 1em;
+ font-weight: bold;
+ display: block;
+}
+.form_preview .wizard_category_navigator_node_selected .wizard_category_navigator_node_name{
+  color: #C00;
+}
+/* Wizard Step Container - Content of Step  */
+.form_preview div.wizard_procedure {
+ float: left;
+ clear: both;
+ width: 100%;
+}
+.form_preview div.wizard_procedure_step_header{
+ font-weight: bold;
+ padding: 1em 0;
+ font-size: 1.3em;
+}
+.form_preview div.content{
+  clear: both;
+  float: none;
+}
+.form_preview table.wizard_procedure{
+ padding: 0;
+ margin: 0;
+ width: 100%;
+}
+.form_preview .wizard_procedure_step_name-con{
+ clear: both;
+ display: block;
+ font-size: 1.2em;
+ font-weight: bold;
+ width: 100%;
+}
+/* Wizard Summary step */
+.form_preview div.wizard_category_summary{
+ padding: 1em 0;
+ margin-top: 1em;
+ border-top: 1px solid #555;
+ width: 100%;
+ overflow: hidden;
+}
+.form_preview span.wizard_category_summary_name{
+ font-weight: bold;
+ font-size: 1.2em;
+ font-style: italic;
+}
+
+/* Navigation Bar */
+.form_preview td.procedure_navigation_bottom{
+ padding: 1em .25em;
+ text-align: left;
+}
+
+.form_preview table.procedure_navigation_bottom{
+ float: right;
+}

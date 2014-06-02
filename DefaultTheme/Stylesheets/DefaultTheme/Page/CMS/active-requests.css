@@ -1,0 +1,29 @@
+table.search_results {
+ border:1px #ccc solid;
+ border-width:0 1px;
+ width: 100%;
+}
+.search_results tr td {
+ background-color:inherit;
+ padding-left: 4px;
+ padding-right: 4px;
+}
+tr.very_fast{
+ background-color:white;
+}
+tr.fast{
+ background-color:lightgreen;
+}
+tr.good{
+ background-color:#61A396;
+}
+tr.slow{
+ background-color:#D3DB48;
+}
+tr.very_slow{
+ background-color:#D63B3B;
+}
+td.partial{
+ font-family:monospace;
+}
+

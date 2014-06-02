@@ -1,0 +1,189 @@
+/* Styles for the events calendar management page --------------*/
+.calendar_config_selector {
+  margin-bottom: 10px;
+}
+.calendarComponent .dateSelector {
+  text-align: center;
+}
+.calendarComponent .dateSelector .dateSelectors-con,
+.calendarComponent .dateSelector .dateSelectors {
+  display: inline;
+}
+.monthWeekDayText-con {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-family: "Arial Narrow", "Trebuchet MS", arial, sans-serif;
+  border: 1px solid #B9B196;
+  border-width: 1px 1px 1px 0px;
+  padding: 10px;
+  background: #BFAF89 url(/_resources/all/files/_SiteRoot/SITE1/Pictures/background/new_tabs.gif) repeat-x scroll left top;
+}
+
+.monthDayHeaderInactive-con,
+.monthDayHeader-con {
+  border: 1px solid #B9B196;
+  border-width: 1px 1px 0px 0px;
+  padding: 5px 2px;
+}
+.monthDayBody-con,
+.monthDayBodyInactive-con {
+  border: 1px solid   #B9B196;  
+  border-width: 0px 1px 0 0;
+  padding:  5px 2px;
+  vertical-align: top;
+  line-height: 1.4;
+}
+div.monthDayBody {
+  min-height: 3em;
+}
+.monthDayBody-con td.busy-con,
+.monthDayBody-con td.event-con {
+  padding-bottom: 4px;
+}
+.monthDayHeaderInactive {
+  float: right;
+}
+.monthDayHeader {
+  width: 98%;
+  float: right;
+}
+div.monthHeader {
+  margin: .5em 0;
+}
+.monthDayHeader td {
+  text-align: right;
+}
+.monthDayHeaderInactive-con,
+.monthDayBodyInactive-con {
+  background: #ddd;
+}
+.monthDayBodyInactive-con td.busy-con,
+.monthDayBodyInactive-con td.event-con {
+  display: none;
+}
+/* tables */
+.events_calendar_management table.hibernate_search {
+  width: 100%;
+}
+.events_calendar_management table.monthTable,
+.events_calendar_management table.layout {
+  width: 99%;
+  clear: both;
+}
+table.monthTable {
+  border: 1px solid #B9B196;
+  border-width: 0px 0px 1px 1px;
+}
+/* adding calendar record */
+.calendarComponent div.types {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: italic;
+  color: #555;
+  display: block;
+  margin-bottom: 1em;
+  padding: .5em 0;
+  border-bottom: 1px dotted #aaa;
+}
+.calendarComponent div.startdate,
+.calendarComponent div.enddate {
+  float: left;
+  margin: 0 .5em .5em 0;
+}
+.calendarComponent div.field_value,
+.calendarComponent div.status {
+  clear: both;
+  float: none;
+  margin-bottom: .5em;
+}
+.entryEditor div.actions{
+ margin:1em 0;
+}
+
+/* add button ----*/
+.dateActionComponent td,
+td.dateActionComponent-con {
+  width: 50px;
+  text-align: left;
+}
+.dateActionComponent a {
+  width: 16px;
+  height: 16px;
+  display: block;
+  background: url(/_resources/all/files/_SiteRoot/SITE1/Pictures/new_icons/actions_16/icon_add_16.png) no-repeat top left;
+  text-indent: 40px;
+  float: left;
+  color: white;
+}
+
+
+
+.calendarComponent .entryEditor > .actions {
+  padding: 5px;
+  margin: 0 0 0;
+  text-align: right;
+}
+
+.calendarComponent .entryEditor .entryEditorForm .types {
+  border: none;
+  background-color: #efefef;
+  padding: 5px 10px;
+  border-top: 1px solid #ccc;
+}
+
+.calendarComponent .entryEditor label.field,
+.calendarComponent .entryEditor div.field {
+  font-weight: bold;
+  padding: 0 5px 3px 0;
+  display: inline-block;
+}
+
+.lt-ie8 .calendarComponent .entryEditor div.field {
+  display: inline;
+  zoom: 1;
+}
+
+.calendarComponent .entryEditor .startdate {
+  margin-right: 30px;
+}
+
+.calendarComponent .entryEditor .startdate label,
+.calendarComponent .entryEditor .enddate label {
+  padding-right: 5px;
+}
+
+.calendarComponent .cal input[type=text] {
+  width: 140px;
+}
+
+.calendarComponent .labels {
+  margin: 10px 0;
+}
+
+.calendarComponent .labels .label_selector {
+  margin-left: 20px;
+  padding: 8px 0;
+}
+
+.calendarComponent .labels .label_selector .actions {
+  margin: 0 0 4px;
+}
+
+.calendarComponent .recurrence {
+  margin: 10px 0;
+}
+
+.calendarComponent .recurrence .ctb {
+  margin-left: 20px;
+  padding: 8px 0;
+  display: block;
+}
+
+.calendarComponent .recurrence .apply_to_future .ctb {
+  padding-bottom: 0;
+}
+
+.calendarComponent table.recurrence_editor {
+  margin-left: 20px;
+}

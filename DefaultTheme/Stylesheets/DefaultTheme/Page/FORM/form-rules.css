@@ -1,0 +1,155 @@
+/* Form Rules */
+
+/* temp */
+div.consequence .editor, div.consequence .list_editor {
+  border: 0;
+  padding: 0;
+}
+
+.process_context .editor,
+.form_rules_wrapper .editor {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 10px;
+  clear: both;
+}
+
+.process_context .editor .prop,
+.form_rules_wrapper .editor .prop {
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+  margin-top: 0;
+}
+
+.process_context .editor .actions,
+.form_rules_wrapper .editor .actions {
+  float: right;
+}
+
+.process_context .entity_actions label,
+.process_context .entity_actions select {
+  display: inline-block;
+  *display: inline;
+  zoom:1;
+}
+
+.process_context .entity_actions {
+  margin-bottom: 10px;
+}
+
+.process_context .editor .prop {
+  margin-right: 5px;
+}
+
+.process_context .view .display_name {
+  font-weight: bold;
+}
+
+.edit .node_wrapper {
+  
+  border: 1px solid #ccc;
+  border-left: 3px solid #ccc;
+  border-right: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+  border-radius: 6px 0 0 6px;
+  padding: 0 0 5px 5px;
+  clear: both;
+}
+
+.form_rule_wrapper .view .menu_component {
+  display: none;
+}
+
+.node_wrapper {
+  margin-top: 10px;
+}
+
+.form_rule_wrapper td {
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.form_rule_wrapper .condition span,
+.form_rule_wrapper .condition div {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.form_rule_wrapper .condition,
+.form_rule_wrapper .entity_label-con {
+  font-weight: bold;
+}
+
+.form_rule_wrapper .menu_component {
+  border: 1px solid #ccc;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 0 0 6px 6px;
+  border-top: 0;
+}
+
+.form_rule_wrapper .entity_label-con {
+  background: #FFFFC0;
+}
+
+.form_rule_wrapper .entity_label-con {
+  font-weight: bold;
+}
+
+.form_rule_wrapper .menu_component .menu a.menu_item,
+.form_rule_wrapper .menu_component .menu span.menu_item {
+  width: 100%;
+}
+
+.form_rule_wrapper .nodelist.menu_component {
+  float: right;
+  margin: -10px 0 10px;
+  background-color: transparent;
+  background-position: 2px center;
+  background-repeat: no-repeat;
+  border: medium none;
+  border-radius: 0 0 0 0;
+  min-height: 16px;
+  padding: 1px 6px 1px 20px;
+  background-image: url("/_resources/all/files/_SiteRoot/SITE1/VS4/Actions/16/add.png");
+}
+
+.form_rule_wrapper .edit .condition {
+  margin-top: -20px;
+  margin-left: 70px;
+}
+
+.form_rule_wrapper .view .rule_objects,
+.form_rule_wrapper .view .action_objects {
+  margin-right: 5px;
+}
+
+.form_rule_wrapper .view .parameters {
+  margin-top: 10px;
+}
+
+.form_rule_wrapper .actions {
+  float: right;
+}
+
+.form_rule_wrapper .view .editor {
+  margin-left: 20px;
+}
+
+.form_rule_wrapper .edit .editor {
+  margin-left: 10px;
+}
+
+.form_rule_wrapper .editor .menu_component {
+  margin-bottom: 10px;
+}
+
+.form_rule_wrapper .editor .word {
+  font-weight: bold;
+  margin: 0 5px 0 0;
+  text-transform: lowercase;
+}

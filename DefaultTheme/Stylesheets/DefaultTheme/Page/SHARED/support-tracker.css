@@ -1,0 +1,742 @@
+/* Send Message UI */
+div.send_message {
+  position: static;
+  margin: 0 0 20px;
+  width: auto;
+  box-shadow: 0 0 8px rgba(0,0,0,0.5) inset;
+  box-shadow: none;
+  border: 2px solid #EDE6BB;
+  background: #FFFDF7;
+}
+.send_message .heading {
+ background: left center transparent url(/theme/Support/16/email.png) no-repeat;
+ padding-left: 25px;
+ margin: 0 0 10px;
+ display: block;
+ font-size: 16px;
+ color: #000;
+ margin: 0 0 20px;
+ position: static;
+}
+.send_message div.message_line{
+ margin-top:.5em;
+ line-height:1.5;
+}
+.send_message .tab-container {
+  width: auto;
+}
+.send_message .header_to {
+  display: inline-block;
+}
+.send_message .header_subject {
+  clear: both;
+}
+.send_message .header_subject span.val{
+  display:inline-block;
+  overflow-x:auto; 
+}
+.send_message .header_subject span.val,
+.send_message .header_subject input {
+ width: 70%;
+ width: calc(100% - 5em - 3px);
+}
+.send_message .csr_text textarea{
+  width:98%;
+}
+.send_message .message_body textarea {
+ width: 98%;
+ height: 200px;
+}
+.send_message span.update_preview{
+ float:right;
+}
+.send_message div.csr_text,
+.send_message div.message_body{
+ float:left;
+ min-width:60em;
+}
+.send_message .template .val{
+ background-color: #fff;
+ padding:2px;
+ border:1px solid #444;
+}
+.send_message .template.preview div.val{
+ background-color: #f9f9f9;
+ margin-bottom:.25em;
+ resize:both;
+ height:350px;
+ overflow:auto;
+}
+.send_message_actions button {
+ border: 1px solid #555;
+ border-radius: 2px;
+ padding: 7px 20px;
+ background: #EDE6BB;
+ color: #fff;
+ font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+ font-size: 16px;
+background: rgb(36,108,242); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzI0NmNmMiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyYzUzOWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(36,108,242,1) 0%, rgba(44,83,158,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(36,108,242,1)), color-stop(100%,rgba(44,83,158,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(36,108,242,1) 0%,rgba(44,83,158,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(36,108,242,1) 0%,rgba(44,83,158,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(36,108,242,1) 0%,rgba(44,83,158,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(36,108,242,1) 0%,rgba(44,83,158,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#246cf2', endColorstr='#2c539e',GradientType=0 ); /* IE6-8 */
+}
+.send_message_actions button:hover {
+ box-shadow: 0 2px 6px rgba(0,0,0,0.4);
+ border: 1px solid #000;
+}
+.send_message_actions .cancel_button button {
+ font-size: 12px;
+ background: #dedede;
+ color: #555;
+ border: 1px solid #aaa;
+ padding: 5px 10px;
+ box-shadow: none;
+background: rgb(229,229,229); /* Old browsers */
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U1ZTVlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiY2JjYmMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(229,229,229,1) 0%, rgba(188,188,188,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(229,229,229,1)), color-stop(100%,rgba(188,188,188,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(188,188,188,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(188,188,188,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(188,188,188,1) 100%); /* IE10+ */
+background: linear-gradient(top,  rgba(229,229,229,1) 0%,rgba(188,188,188,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#bcbcbc',GradientType=0 ); /* IE6-8 */
+}
+.send_message .actions .cancel_button button:hover {
+ box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+ color: #333;
+ border: 1px solid #999;
+}
+.send_message .issue_message {
+  padding: 20px;
+}
+.send_message .tab-container {
+  padding: 0 0 15px;
+}
+.send_message_actions{
+ margin-top:1em;
+}
+.dialog .failure_message,
+.failure_message .support_details{
+ display:block;
+ padding:1em;
+}
+span.invalid_email{
+ background: url(/_resources/all/docroot/cms/icons/x16/message_warning.png) no-repeat 4px center;
+ padding-left:22px;
+}
+.email_group a{
+ text-decoration:none;
+}
+.email_group a:hover{
+ text-decoration:underline;
+}
+/*send message preview */
+.issue_message .preview .val {
+padding: 1em;
+margin-bottom: 1em;
+display: block;
+}
+.issue_message .preview .val p {
+margin: 1em 0;
+}
+.issue_message .preview .val h1,
+.issue_message .preview .val h2,
+.issue_message .preview .val h3,
+.issue_message .preview .val h4,
+.issue_message .preview .val h5,
+.issue_message .preview .val h6,
+.issue_message .preview .val b,
+.issue_message .preview .val strong {
+font-weight: bold;
+}
+.issue_message .preview .val i,
+.issue_message .preview .val em {
+font-style: italic;
+}
+.issue_message .preview .val h1 { font-size: 2em; }
+.issue_message .preview .val h2 { font-size: 1.5em; }
+.issue_message .preview .val h3 { font-size: 1.17em; }
+.issue_message .preview .val h5 { font-size: .83em; }
+.issue_message .preview .val h6 { font-size: .75em; }
+.issue_message .preview .val ul {
+list-style: disc outside none;
+padding: 0 0 0 3em;
+margin: 1em 0;
+}
+.issue_message .preview .val blockquote {
+margin: 1em;
+}
+/* Issue Listing */
+/* resetting styles for rich text editor output */
+/* FIXME - begin this was supposed to be in the updated reset styles */
+.task-container .field_description ol,
+.task-container .note_body .content ol {
+  list-style: decimal inside none;
+}
+.task-container .field_description ul,
+.task-container .note_body .content ul {
+  list-style: disc inside none;
+}
+.task-container .field_description em,
+.task-container .note_body .content em {
+  font-weight: normal;
+  font-style: italic;
+}
+/* FIXME - end */
+
+div.project_actions{
+ float:right;
+ margin-bottom:.25em;
+}
+.project_actions a{
+ text-decoration:none;
+ padding-right:4px;
+}
+.project_actions a:hover{
+ text-decoration:underline;
+}
+.search .constraint label{
+ display:block;
+ margin-bottom:.25em;
+}
+.support .search_results th{
+ white-space:nowrap;
+}
+.support .search_results th.action-column,
+.support .search_results th.first-column,
+.support .search_results td.type-priority,
+.support .search_results td.type-resolution,
+.support .search_results td.type-category,
+.support .search_results td.type-status{
+ width:1%;
+}
+
+.support .search_results td.type-status {
+  /*fixing the type status column so that two-word statuses do not wrap to a second line*/
+  white-space: nowrap; 
+}
+
+.support .search_results td{
+ padding:3px 5px;
+}
+.truncating_renderer td{
+ border:none;
+ padding:0;
+ text-align:left;
+}
+.truncating_renderer div.miwt-collapsable[data-disposition~="float"]{
+ padding:.25em;
+}
+td.tc_short_text-con{
+ padding-left: 4px;
+}
+table.TruncatingStringCollapsableContainer{
+ background:#fff;
+ border:1px solid #ccc;
+}
+
+
+/* Issue View */
+.issue_actions a,
+.file a{
+ text-decoration:none;
+ padding-right:4px;
+}
+.issue_actions a:hover,
+.file a:hover{
+ text-decoration:underline;
+}
+.issue_view {
+  position: relative;
+}
+div.issue_view {
+ border:1px solid transparent; /*for margin*/
+ zoom:1; /*ie*/
+}
+.issue_view div.fields:after,
+div.issue_view:after{
+ content:".";
+ display:block;
+ height:0;
+ clear:both;
+ visibility: hidden;
+}
+div.issue_field {
+ display:table-row;
+}
+.issue_field label.field_name {
+ display:table-cell;
+ white-space:nowrap;
+ padding:3px;
+ font-weight:bold;
+}
+.field_additionalinformation label.field_name,
+.field_description label.field_name {
+ vertical-align:top;
+}
+.issue_field .field_value{
+ display:table-cell;
+ padding: 3px;
+ line-height:1.5;
+}
+input[type=text].field_value{
+ resize:horizontal;
+ max-width:99%;
+}
+div.people_group,
+div.disposition_group{
+ vertical-align:top;
+ min-width: 25em;
+ max-width: 42%;
+ margin-right:1em;
+ display: inline-block;
+}
+div.problem_group{
+}
+.problem_group div.issue_field{
+ display:block;
+ margin-top:1em;
+}
+.problem_group label.field_name{
+ display:block;
+}
+.problem_group .field_value{
+ display:block;
+ margin-left:2em;
+}
+.problem_group .field_value{
+ width:80%;
+}
+.problem_group .instructions{
+ display:inline-block;
+ margin-left:3em;
+}
+textarea.field_value{
+ resize:both;
+ max-width:99%;
+}
+div.issue_view_component,
+div.issue_add_note_component{
+ margin-bottom:2em;
+ margin-right:1.5em;
+}
+div.related_issues, 
+div.issue_add_note_component{
+ border: 1px solid #999;
+ margin: 1.5em 0px;
+ padding: 0.75em;
+ position: relative;
+ line-height:1.4;
+ border-radius:6px;
+}
+.related_issues .heading, 
+.add_note_title{
+ background: white;
+ color: #1B5F91;
+ font-weight: bold;
+ padding: 0px 5px;
+ position: static;
+}
+.issue_view div.required_permission,
+.issue_view div.file_upload,
+.issue_view div.fields{
+ margin-top:.75em;
+ float:left;
+ min-width:35em;
+}
+.field_editor {
+ display: inline-block;
+ padding-right: 1em;
+}
+.required_permission label,
+.message_line label,
+.field_editor label{
+ display:block;
+}
+.header_to label,
+.header_subject label,
+.field_editor label.tbl{
+ display:inline-block;
+ width:4.5em;
+}
+.csr_text label{
+ float:left;
+}
+.header_to .recipient,
+.header_to label {
+ border: 1px solid transparent;
+ margin-bottom:5px;
+ padding: 1px 1px 2px 0px;
+ display:inline-block;
+ *display:inline;
+ zoom:1;
+}
+.header_to .recipient{
+ padding-left:3px;
+ border: 1px solid #d0d0d0;
+ background-color: #fff;
+ border-radius: 3px;
+}
+.header_to .recipient + .recipient{
+ margin-left:10px;
+}
+.header_to .personal{
+}
+.header_to .address{
+ font-style: italic;
+ margin-left: 5px;
+}
+.header_to button.remove{
+ width: 16px;
+ height: 16px;
+ border: none;
+ padding: 1px 2px;
+ text-indent: -4000em;
+ background-repeat: no-repeat;
+ background-color: transparent;
+ background-position: left top;
+ cursor: pointer;
+ cursor: hand;
+ background-image: url(/_resources/all/docroot/cms/icons/x16/delete2_off.gif);
+}
+.header_to button.remove:hover{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/delete2_on.gif);
+}
+
+.issue_view div.actions{
+ margin-bottom:.5em;
+}
+.issue_view div.action_group{
+ float:right;
+}
+.issue_view .action_group div.persistence_actions{
+ border-bottom: 1px dashed #EEE;
+}
+.issue_view .action_group span[data-features~="submit"]{
+ padding:0;
+}
+.issue_view .action_group button[data-features~="submit"] {
+ display: block;
+ border: 1px solid #ccc;
+ background-position:10px center;
+ background-color:#fcfcfc;
+ background-repeat:no-repeat;
+ padding: 10px 10px 10px 35px;
+ margin: 4px 0;
+ width:100%;
+ border-radius:0;
+ -webkit-border-radius:0;
+ -moz-border-radius:0;
+ text-align:left;
+ height:auto;
+}
+.issue_view .action_group button[data-features~="submit"]:hover {
+ background-color: #f0f0f0;
+}
+.issue_actions button.action_send_message {
+ background-image: url(/theme/Support/16/email.png);
+}
+.issue_actions button.action_history {
+ background-image: url(/theme/Support/16/hourglass.png);
+}
+.note_actions button.delete,
+.issue_actions button.action_delete {
+ background-image: url(/theme/Support/16/delete.png);
+}
+.note_actions button.save_button,
+.issue_view .persistence_actions button.save_button {
+ background-image: url(/theme/Actions/16/disk_save.png);
+}
+.note_actions button.cancel_button,
+.issue_view .persistence_actions button.cancel_button {
+ background-image: url(/theme/Actions/16/cancel.png);
+}
+
+/** notes */
+.note h4{
+ font-weight: bold;
+ font-style: italic;
+ color: #555;
+ text-align: left;
+}
+.add_note label.tal{
+ font-weight:bold;
+}
+div.issue_view_note_component,
+div.add_note {
+clear:both;
+}
+.notes label.tal{
+ display:block;
+}
+select.note_view_sort_component {
+ margin-top:1em;
+}
+div.note {
+ border: 1px solid #999;
+ margin: 4px 0;
+ position: relative;
+}
+.note_properties {
+ padding: 10px 15px;
+ color: #777;
+ font-size: 12px;
+}
+.note_properties span.note_related {
+ padding-right: 10px;
+ font-size: 10px;
+ color: #aaa;
+}
+.note_properties .actions {
+ position: absolute;
+ right: 0;
+ top:2px;
+ margin: 0;
+}
+div.reply_note_component{
+ margin-left:2em;
+}
+.reply_note_component div.note_actions,
+.issue_add_note_component div.note_actions{
+ margin-top:1em;
+ clear:both;
+}
+.note_content label.tal{
+ display:block;
+}
+.reply_note_component .note_content label.tal{
+ display:none;
+}
+.note_content textarea{
+ width:100%;
+}
+.note div.content {
+ padding: 10px 15px 20px;
+ line-height:1.5;
+}
+.note div.files {
+ background-color: #f2f2f2;
+ padding: 10px;
+ border-top: 1px solid #e0e0e0;
+ margin: 0;
+}
+.note .files span.label {
+ font-weight: bold;
+ background: left center transparent url(/theme/File/16/paperclip.png) no-repeat;
+ padding-left: 15px;
+ font-size: 16px;
+ display:inline-block; /*msie*/
+}
+.note ul.files {
+ margin: 0;
+ display: inline-block;
+ vertical-align: top;
+ padding-left: 40px;
+}
+.note li.file {
+  list-style: disc;
+  margin: 0 0 4px;
+}
+.note li.file a {
+  margin-right: 8px;
+}
+.note .content textarea {
+ margin-top:1em;
+ width: 100%;
+}
+#note-img-title .cnt,
+#note-img-title .note_info{
+  float:left;
+  clear:left;
+  margin-top: 0.35em;
+  width:39%;
+  text-align:left;
+  overflow:hidden;
+  height:1.1em;
+  line-height: 1.1em;
+}
+#note-img-title .filename,
+#note-img-title .content{
+  float:right;
+  margin-top: 0.35em;
+  text-align:right;
+  width: 59%;
+  overflow:hidden;
+  height:1.1em;
+  line-height: 1.1em;
+}
+.note_selected{
+ background-color:#FFFFDF;
+}
+.add_email_entry,
+.bulk_update_actions{
+  margin: 1em 0;
+}
+.bulk_update table.search_results {
+  width:auto;
+}
+tr.status_new > td{background-color:#FFA0A0;}
+tr.status_feedback > td{background-color:#CCAFB0;}
+tr.status_resolved > td{background-color:#CED;}
+tr.status_assigned > td{background-color:#C8C8FF;}
+tr.status_pending > td{background-color: #FFD850;}
+tr.status_wo > td{background-color: #FFFFB0;}
+tr.status_client_feedback > td{background-color: #FF50A8;}
+div.search_principal_editor{
+ width:95%;
+ padding:.2em .5em;
+ float:left;
+}
+div.uploaded_files{
+margin-top: .5em;
+padding-top: .5em;
+margin-left: 1em;
+}
+div.note{
+ border:1px solid #d5c9a5;
+}
+div.my_note{
+ border-left-width: 10px;
+}
+.note_properties{
+ background-color: #ece5d0;
+ border-bottom: 1px dotted #beae7d;
+}
+.note_actions button{
+ color: #555;
+ line-height:16px;
+}
+/*.note_actions button - when we have icons for all buttons*/
+.note_actions button.save_button,
+.note_actions button.cancel_button,
+.note_actions button.edit,
+.note_actions button.delete {
+ border: none;
+ border-radius:0;
+ background-color:transparent;
+ padding: 5px 8px 5px 26px;
+ background-position: 6px center;
+ background-repeat: no-repeat;
+}
+.note_properties .actions button:hover{
+ color: #222;
+ -webkit-box-shadow: 0 0 4px rgba(137,123,78,1) inset;
+ -moz-box-shadow: 0 0 4px rgba(137,123,78,1) inset;
+ box-shadow: 0 0 4px rgba(137,123,78,1) inset;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ background-color: rgba(190,174,125,0.6);
+}
+.note_properties span.note_related{
+ color: #555;
+ padding-right: 5px;
+ margin-right: 5px;
+ border-right: 1px solid #beae7d;
+}
+.note_properties span.principal{
+ font-weight: bold;
+ color: #333;
+}
+.note_properties .create_time,
+.note_properties .sep_at{
+ color: #897b4e;
+}
+.note_properties .modified_time{
+ color: #9c7235;
+ background-color: #e5d091;
+ padding: 1px 9px;
+ border: 1px solid #cdc099;
+}
+.note_properties .permission{
+ background-color: #897b4e;
+ color: #fff;
+ border: 1px solid #655b3d;
+ padding: 1px 5px;
+}
+.note_body{
+ font-family: Arial, Verdana, sans-serif;
+ line-height: 1.25em;
+ font-size: 12px;
+}
+.note div.files{
+ padding: 5px 10px 3px;
+ border-top: 1px dotted #aaa;
+}
+.note div.files span.label{
+ display: inline-block;
+ padding: 6px 14px 6px 24px;
+ background-position: 7px 6px;
+ background-color: #ece5d0;
+ border: 1px solid #beae7d;
+ border-top: 0;
+ -webkit-box-shadow: 0 0 5px rgba(137,123,78,0.4) inset;
+ -moz-box-shadow: 0 0 5px rgba(137,123,78,0.4) inset;
+ box-shadow: 0 0 5px rgba(137,123,78,0.4) inset;
+ margin-top: 0;
+ margin-bottom:0.25em;
+ font-family: "Trebuchet MS", Arial, Verdana, sans-serif;
+ font-weight: normal;
+ font-size: 16px;
+ -moz-border-radius: 2px;
+ border-radius: 2px;
+}
+.note ul.files{
+ padding: 0 10px;
+}
+.note ul.files li.file{
+ background: #e3e3e3;
+ border: 1px solid #ccc;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ color: #777;
+ list-style: none;
+ padding: 2px 10px;
+ margin: 0 5px 2px;
+ float: left;
+}
+.note ul.files li.file:hover{
+ background-color: #ebdbab;
+ border: 1px solid #beae7d;
+}
+.note li.file a{
+ color: #333;
+}
+.note li.file a.preview{
+ background: 0 center transparent url(/theme/Actions/16/preview.png) no-repeat;
+ display: inline-block;
+ padding-left: 20px;
+ line-height: 18px;
+}
+.note span.bracket{display:none;}
+.note span.permission{text-transform:capitalize;}
+
+/* IE7 - not providing specific IE6 support. */
+.lt-ie8 h3.add_note_title {
+ left:1em;
+}
+.lt-ie8 div.issue_field{
+ display:block;
+}
+.lt-ie8 .issue_field label.field_name{
+ display:inline-block;
+ min-width:7em;
+}
+.lt-ie8 .issue_field span.field_value{
+ display:inline;
+}
+
+
+/* issue history */
+.issue_history td{vertical-align:top;}
+.issue_history td.first-column,
+.issue_history td.type-principal{
+ width:1%;
+ white-space:nowrap;
+}

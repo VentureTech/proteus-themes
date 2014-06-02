@@ -1,0 +1,188 @@
+.search_bar span.actions{
+ display:inline-block;
+}
+.constraint label{
+ display:block;
+}
+table.detail_view{
+ -moz-border-radius:8px 8px 8px 8px;
+ background:none repeat scroll 0 0 #fff;
+ border:1px solid #AAAAAA;
+ margin-top:0.5em;
+ padding:0.5em;
+}
+.detail_view td.bean_view_label {
+  border-bottom: 1px #EEE solid;
+  border-right: 1px #EEE solid;
+  width: 250px;
+}
+.detail_view td.bean_view_value {
+  border-bottom: 1px #EEE solid;
+}
+.detail_view span.bean_view_label {
+  font-weight: bold;
+  padding: 0 20px 5px 0;
+}
+/* product mgt UI ---------------------------------*/
+span.product_variant_summary {
+  overflow-y: auto;
+  width: 15em;
+  max-height: 5em;
+  display: block;
+}
+
+
+div.product_management {
+  clear: both;
+}
+div.property_sheet_productvariant {
+  padding: 1em;
+  background: white;
+  -moz-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #B9B196;
+  clear: both;
+  margin-bottom: 1em;
+}
+.product_listing .discount_editor div.layout {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+table.detail_view,
+table.sheet_view {
+  width: 100%;
+}
+table.detail_view td {
+  padding: 3px 0;
+}
+div.navigation_root {
+  font-size: 1.15em;
+  color: #555;
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  padding: .5em 0;
+}
+
+div.property_width,
+div.property_height,
+div.property_depth {
+   width: 150px;
+   float: left;
+}
+div.property_weightMetric {
+   clear: left;
+}
+
+/* Styles for the File Entry Chooser for a Food Product */ 
+div.file_entity_chooser-con {
+  border: 1px solid #DDDDDD;
+  margin: 5px;
+  padding: 10px;
+}
+div.file_entity_chooser-con td.sibling_folders-con,
+div.file_entity_chooser-con td.files-con {
+  padding-top: 5px;
+  vertical-align: top;
+  width:48%;
+}
+div.file_entity_chooser-con span.directory-con,
+label.property_name_related {
+  display: block;
+}
+div.file_entity_chooser-con .directory-con,
+div.file_entity_chooser-con .file-con,
+div.file_entity_chooser-con .file_size-con {
+  border-bottom: 1px solid #DDDDDD;
+  padding: 3px 0pt 2px 20px;
+}
+div.file_entity_chooser-con .directory-con {
+  background: transparent url(/_resources/all/docroot/cms/filesystem/icons/extension/directory.png) no-repeat scroll left center;
+  border-right: 1px solid #ddd;
+}
+div.file_entity_chooser-con .current_directory-con {
+  background-image:url(/_resources/all/docroot/cms/filesystem/icons/extension/directory-open.png);
+  background-color: #dedede;
+  border-bottom-color: #BBBBBB;
+}
+div.file_entity_chooser-con input.file_upload {
+  clear: both;
+}
+div.file_entity_chooser-con input.file_upload,
+div.file_entity_chooser-con span.file_upload {
+  float: left;
+  margin-top: 5px;
+}
+div.file_entity_chooser-con a {
+  display: block;
+  text-decoration: none;
+  width: 100%;
+}
+div.file_entity_chooser-con a:hover {
+  text-decoration: underline;
+}
+
+.property_cssClass-con,
+.property_activeCode-con,
+.property_externalProductId-con {
+   float: left; 
+   margin-right: 1em;
+}
+.property_options-con {
+   clear: left;
+}
+
+.hibernate_search span.add_discount_button-con {
+   display: inline;
+   float: none;
+}
+
+/* adjust some positions for editing fields */
+div.property_width-con,
+div.property_height-con,
+div.property_depth-con,
+div.property_weight-con {
+   float: left;
+   margin-right: 1em;
+}
+div.property_weightMetric-con {
+   margin-right: 1em;
+   float: left;
+   clear: left;
+}
+div.property_width-con input,
+div.property_height-con input,
+div.property_depth-con input,
+div.property_weight-con input,
+div.property_weightMetric-con select{
+    width: 200px;
+}
+div.property_pickupAvailable-con {
+   clear: left;
+}
+
+
+/* Picture upload tab ------------------*/
+span.current_file {
+   clear: right;
+   display: block;
+}
+.property_editor_prosedesc table {
+    width: 100%;
+}
+/* Edit a Product - Product tab - Status field --------------*/
+select.property_editor_activecode {
+   width: 150px;
+}
+/* fck editor - prose description --------------- */
+.tab_content div.property_proseDesc,
+.tab_content div.property_editor_prosedesc {
+  min-height: 30%;
+}
+.tab_content div.property_editor_prosedesc iframe {
+  height: 300px !important;
+}
+

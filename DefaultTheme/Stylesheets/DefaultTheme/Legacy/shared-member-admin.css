@@ -1,0 +1,75 @@
+.member_summary,
+.member_view_summary {
+ line-height:1.5em;
+}
+.membership_type_mgt label.property_name_description {
+  display: block;
+}
+/** Table Order Buttons. */
+button.action-top,
+button.action-up,
+button.action-down,
+button.action-bottom {
+  width: 16px;
+  height: 16px; 
+  border: 0; 
+  text-indent: -1000em;
+  cursor: pointer;
+  cursor: hand;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -khtml-border-radius: 0px;
+  border-radius: 0px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: transparent;
+}
+button.action-top,
+.catalogeditor button.top {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_top2.png);
+}
+button.action-up,
+.catalogeditor button.move_up_button,
+.table_view button.up_button {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_up2.png);
+}
+button.action-down,
+.catalogeditor button.move_down_button,
+.table_view button.down_button {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_down2.png);
+}
+button.action-bottom,
+.catalogeditor button.bottom {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_bottom2.png);
+}
+/** link buttons  */
+a.edit,
+a.view,
+a.remove{
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+  text-decoration: none;
+  background-repeat: no-repeat;
+  background-position: top left;
+  line-height: 1.5;
+}
+a.edit{
+  background-image: url(/_resources/all/docroot/cms/icons/x16/pencil_icon.png);
+}
+a.view {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/pages.png);
+}
+a.remove{
+  background-image: url(/_resources/1239128983000/docroot/cms/filesystem/icons/delete.gif);
+}
+a.edit span,
+a.view span.view,
+a.remove span.remove{
+  display: inline;
+  margin: 0;
+  height: 16px;
+  width: 16px;
+  visibility: hidden;
+}
+ 

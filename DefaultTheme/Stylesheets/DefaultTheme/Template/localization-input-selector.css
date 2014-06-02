@@ -1,0 +1,63 @@
+.localizationinputselector a.current_selection{
+ color: #fff;
+ font-weight: bold;
+ text-decoration:none;
+}
+.localizationinputselector a.current_selection:hover{
+ text-decoration:underline;
+}
+.localizationinputselector .current_selection span.reference:before{
+ content: " | ";
+}
+.localizationinputselector div.heading{
+ font-weight: bold;
+ border-bottom: 1px dotted #aaa;
+ padding: 0 0 .25em .25em;
+}
+.localizationinputselector div.selector_active{
+ position: absolute;
+ margin: 2px;
+ padding: .5em;
+ z-index: 1;
+ background-color: #fff;
+ border: 1px solid #4E4026;
+ border-radius: 5px;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+}
+.localizationinputselector div.locales{
+ max-height: 20em;
+ overflow: auto;
+ padding: .5em;
+}
+.localizationinputselector .locale label{
+ cursor: pointer;
+ cursor: hand;
+ padding: .25em;
+}
+.localizationinputselector .locale input.lis{
+ visibility: hidden;
+ width: 3px;
+}
+.localizationinputselector div.locale {
+ clear:right;
+ float:right;
+ white-space:nowrap;
+}
+.localizationinputselector label.checked{
+ background-color: yellow;
+}
+.localizationinputselector div.actions {
+ clear: both;
+ text-align: center;
+}
+.lt-ie8 .localizationinputselector div.selector{
+ width:16em;
+}
+.lt-ie8 .localizationinputselector .locale input.lis{
+ visibility:visible;
+ width:auto;
+}
+.lt-ie8 .localizationinputselector a.current_selection{
+ display:block;
+}

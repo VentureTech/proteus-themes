@@ -1,0 +1,140 @@
+.general span.file_editor_title{
+ display:none;
+}
+label{
+ font-weight:bold;
+}
+.lno > span.prop{
+  display:inline-block;
+}
+.lno .prop label{
+  font-weight:bold;
+}
+.lno span.field {
+  display:inline-block;
+  text-overflow: ellipsis;
+}
+.lno input.field,
+.lno span.field {
+  /* override clicktoedit css*/
+  max-width: 40%;
+  min-width: 8em;
+  width: auto;
+}
+.lno .description{
+  margin-left: .5em;
+}
+div.lno{margin:.25em 0;}
+.library_editor button.test_button,
+.library_editor button.source_button,
+.editor_header button.close_button{
+  float:right;
+  margin-top: -1.5em;
+}
+.source_view_header button.close_button{
+  float:right;
+}
+.help-point.disabled,
+.file_editor_title{
+  display:none;
+}
+span.code_completion_help,
+div.file_editor_controls{
+  text-align:center;
+  display:block;
+}
+table.version_table{
+  width:100%;
+}
+div.ajax_wrapper{
+  clear:both;
+}
+
+.library_form div.parameters{
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ -moz-border-radius: 4px;
+}
+.library_form div.row{
+ padding: 2px;
+}
+.library_form .odd label{
+  background-color:#eee;
+}
+.library_form .row label{
+  display:inline-block;
+  width: 30%;
+}
+.library_form .row input {
+  width: 65%;
+}
+
+/* Source View */
+table.file_source{
+  width: 100%;
+  margin-bottom:.5em;
+}
+.file_source td.total_line_number-con,
+.file_source td.line_number-con,
+.file_source td.source_line-con{
+ border-top: 1px solid #b9b196;
+ border-bottom: 1px solid #b9b196;
+ border-left: none;
+ border-right: none;
+ background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+ color: #330;
+ padding: 5px 3px;
+}
+.file_source td.total_line_number-con{
+ border-left: 1px solid #b9b196;
+ -moz-border-radius: 8px 0 0 0;
+ border-radius: 8px 0 0 0;
+ padding-left: 5px;
+ width:1%;
+}
+.file_source td.line_number-con{
+  width:1%;
+}
+.file_source td.source_line-con{
+ border-right: 1px solid #b9b196;
+ -moz-border-radius: 0 8px 0 0;
+ border-radius: 0 8px 0 0;
+ padding-right: 5px;
+}
+.file_source td{
+ /*border-bottom: 1px dotted #aaa;
+ border-width:0 0 1px 0;*/
+ padding: 1px 2px;
+}
+/*
+.file_source td.first_column-con{
+ border-left: 1px dotted #b9b196;
+}
+.file_source td.last_column-con{
+ border-right: 1px dotted #b9b196;
+}
+*/
+.file_source tr.highlight{
+  background-color: #FFFFC0;
+}
+.message-container div.details{
+ background-color: inherit;
+ position: relative;
+ z-index: 1;
+}
+
+/* Dynamic Table Template UI*/
+.dt_custom_ui_config table.ui_column_table{
+ clear: none;
+ float: left;
+ margin: 1em 1%;
+ width: 48%;
+}
+.dt_custom_ui_config div.library_name,
+.dt_custom_ui_config div.library_name,
+.dt_custom_ui_config div.file_name{
+ float:left;
+}
+.dt_custom_ui_config div.dynamic_table{
+ clear:both;
+}

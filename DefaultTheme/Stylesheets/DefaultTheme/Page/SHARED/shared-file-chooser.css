@@ -1,0 +1,57 @@
+/* file chooser styles */
+div.file_dialog {
+  /*height: 100%;*/
+  /*background-color: #fff;*/
+}
+table.file_chooser {
+/*  height: 100%; */
+}
+.file_chooser td {
+  vertical-align: middle;
+}
+.file_chooser td.sibling_directories-con,
+.file_chooser td.cwd-con,
+.file_chooser td.pager-con,
+.file_chooser td.actions-con {
+  vertical-align: top;
+}
+.file_chooser td.cwd-con {
+  height: 2.25em;
+}
+table.file_chooser {
+  width: 100%;
+}
+td.sibling_directories-con {
+  min-width: 8em;
+  vertical-align: top;
+}
+.file_chooser td.actions-con {
+  height: 3.75em;
+}
+.file_chooser .sibling_directories .element input.selector {
+  display: none;
+}
+.file_chooser div.sibling_directories {
+  overflow-y: auto;
+  padding: 3px;
+}
+.file_chooser td.fse_icon-con {
+  padding: 0 1px;
+}
+.file_chooser div.cwd {
+  margin: 4px;
+  padding: 2px 4px;
+  font-size: 1.2em;
+}
+.file_chooser div.pager {
+  height: 18em;
+  overflow: auto;
+  margin: 4px;
+}
+.file_chooser td.actions-con div.actions {
+  margin: 5px 4px;
+}
+.file_chooser td.actions-con label {
+  width: 17em;
+  display: inline-block;
+}

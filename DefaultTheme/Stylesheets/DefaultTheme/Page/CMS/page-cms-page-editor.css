@@ -1,0 +1,557 @@
+/** Workspace Styles. */
+table.pager,
+table.miwt-table{
+ width:100%;
+}
+td.task_view-con {
+  vertical-align: top;
+  width: 100%;
+}
+.workspace div.editor,
+.workspace div.folder_editor {
+  border:  1px solid #B9B196;
+  padding: .75em;
+  margin: 2px;
+}
+.workspace div.editor,
+.workspace div.uitask,
+.workspace div.folder_editor{
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ background: white;
+}
+.uitask-info label{
+ font-weight: bold;  
+ width: 8em;
+ float: left;
+ clear: left;
+}
+div.uitask-info{
+ line-height: 1.25em;
+ padding: 5px;
+ position: absolute;
+ max-width: 35em;
+ z-index: 15;
+ background: white;
+ -moz-border-radius: 5px;
+ border-radius: 5px;
+ border: 1px solid #B9B196;
+}
+.lt-ie8 div.uitask-info{
+ margin-left: -2em;
+ margin-top: 1.5em;
+ width: 35em;
+}
+.uitask-info a.close:before{
+  content: '['; }
+.uitask-info a.close:after{
+  content: ']';
+}
+.uitask-info a.close{
+ float: right;
+ padding: .5em .5em .5em 29px;
+ background: url(/theme/Actions/24/cancel.png) no-repeat;
+}
+.uitask-info div.pe_data{
+ clear: both;
+}
+.uitask-list{
+ clear: both;
+ padding-right: 6px;
+ padding-bottom: 10px;
+ overflow:hidden;/*clear float*/
+ zoom:1; /*clear float ie*/
+}
+div.uitask{
+ float: left;
+ border: 1px solid #eee;
+ margin: 0 5px 0 2px;
+ padding: 2px 4px;
+ line-height: 20px;
+}
+.uitask.selected{
+ background: #fff;
+ border-color: #aaa;
+ -moz-box-shadow:1px 1px 2px rgba(0,0,0,.1);
+ -webkit-box-shadow:1px 1px 2px rgba(0,0,0,.1);
+ box-shadow:1px 1px 2px rgba(0,0,0,.1);
+}
+.uitask-type-con,
+.uitask-label,
+.uitask .actions{
+ opacity: .7;
+}
+.selected .uitask-type-con,
+.selected .uitask-label,
+.selected .actions{
+ opacity: 1;
+}
+a.uitask-label{
+ padding-left:.2em;
+}
+.selection_pane .deprecated .name_type,
+.trashed{
+ text-decoration: line-through;
+}
+.lt-ie8 .uitask-list .selected a{
+  text-decoration: underline;
+}
+/* end workaround */
+a.uitask-label{
+ text-decoration: none;
+ color: #002;
+}
+a.uitask-label:hover{
+ text-decoration: underline;
+}
+.box_actions button,
+.contentelement_actions button,
+.uitask-actions button{
+ width: 16px;
+ height: 16px;
+ border: none;
+ padding: 1px 0;
+ margin:0 2px;
+ text-indent: -4000em;
+ background-repeat: no-repeat;
+ background-color: transparent;
+ background-position: left top;
+ cursor: pointer;
+ cursor: hand;
+}
+.uitask button.info{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/info_plus_hover.png);
+}
+.uitask button.close{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/close_plus_hover.png);
+}
+.uitask button:hover{
+ background-position: left bottom;
+}
+img.uitask-type{
+ width: 22px;
+ height: 22px;
+}
+.uitask button,
+img.uitask-type,
+a.uitask-label{
+ vertical-align: middle;
+}
+span.uitask-type{
+ display: none;
+}
+/** Page Editor. */
+table.page_editor_tabs {
+ width: 100%;
+ position: relative;
+ z-index: 0;
+}
+div.page_editor{
+ position: relative;
+}
+.page_editor .page_actions{
+ position: absolute; /* IE - no relative*/
+ right: 4px;
+ height: 28px;
+}
+.page_actions a.live_edit,
+.page_actions a.live_view,
+.page_actions button{
+ padding:0;
+ width: 24px;
+ height: 26px;
+ overflow: hidden;
+ text-indent: -4000em;
+ border: none;
+ opacity: 0.7;
+ background-position: left center;
+ background-repeat:no-repeat;
+}
+.page_actions a.live_edit,
+.page_actions a.live_view{
+ display: inline-block;
+ vertical-align: bottom;
+ margin-left: 0.2em;
+}
+.page_actions button:hover{
+ opacity: 1;
+}
+.page_actions button.delete{
+ background-image: url(/_resources/all/docroot/cms/icons/x24/trash.png);
+}
+.page_actions a.live_edit{
+ background-image: url(/_resources/all/docroot/cms/icons/x24/preview.png);
+}
+.page_actions button.pagetemplate {
+  background-image: url(/_resources/all/docroot/cms/icons/x24/template.png);
+}
+.page_actions button.undelete{
+ background-image: url(/theme/Actions/24/undelete.png);
+}
+.page_actions a.live_view{
+ background-image: url(/_resources/all/docroot/cms/icons/x24/html_page.png);
+}
+.ieonly .page_actions a.live_edit,
+.ieonly .page_actions a.live_view{
+ vertical-align:top;
+}
+table.page_layout{
+ width:100%;
+ margin:.25em;
+}
+td.th_box_number-con,
+td.th_box-con{
+ background: transparent url(/theme/Tabs/brown_bg.gif) repeat-x scroll left top;
+ border: 1px solid #B9B196;
+ padding: .25em 0;
+}
+td.th_box_number-con{
+ border-width: 1px 0 1px 1px;
+ -moz-border-radius: 4px 0 0 0;
+ border-radius: 4px 0 0 0;
+ width: 20px;
+ text-align: center;
+}
+td.th_box-con{
+ border-width: 1px 1px 1px 0;
+ -moz-border-radius: 0 4px 0 0;
+ border-radius: 0 4px 0 0;
+}
+.th_box-con div.th_box{
+ position: relative;
+ padding: 1px 0;
+ font-family:Tahoma,Arial,Helvetica,sans-serif;
+}
+.layout_preview_image div.miwt-collapsable-content{
+ top:1.5em;
+ right:0;
+ width:178px;
+}
+.layout_preview_image .trigger{
+ background: transparent url(/_resources/all/docroot/cms/filesystem/icons/layout.gif) no-repeat center;
+ display: block;
+ float: right;
+ width: 18px;
+ height: 18px;
+ font-size:0;
+}
+.layout_preview_image .miwt-collapsable-content {
+ border: 1px solid #ccc;
+}
+.layout_preview_image {
+ position: absolute;
+ top: 0;
+ right: .5em;
+ width: 260px;
+ text-align: right;
+}
+td.box_number-con{
+ text-align: center;
+ padding: .4em 1px 0 0;
+ vertical-align: top;
+}
+table.box_header{
+ width: 99%; /* make sure this matches table.contentelement */
+ font-weight: bold;
+ font-variant: small-caps;
+ font-size: 1.2em;
+ border-bottom: 1px solid;
+}
+.box_header td.icon-con{
+ width: 20px;
+}
+.box_header span.locked{
+ padding-left: 18px;
+ background: transparent url(/_resources/all/docroot/cms/filesystem/icons/change_permissions.png) no-repeat left center;
+}
+td.icon-con img.icon,
+.box_header img.icon{
+ vertical-align: middle;
+}
+table.box_header td.icon-con,
+table.box_header td.label-con,
+table.contentelement td.icon-con,
+table.contentelement td.label-con{
+ padding: 2px;
+}
+div.contentelement_delegates{
+ margin-left: 1em;
+ margin-right: 2px;
+}
+div.delegate_purpose{
+ border: 1px solid #300;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+}
+.delegate_purpose div.title{
+ background: transparent url(/theme/Menu/menu_bg.gif) repeat-x scroll left top;
+ color: #fff;
+ font-weight: bold;
+ padding: 3px 4px;
+ border-bottom: 1px solid #00002F;
+ cursor: help;
+}
+table.contentelement{
+ width: 99%; /* make sure this matches table.box_header */
+ border: 1px dotted #eee;
+ margin: 0 1px;
+}
+.delegate_purpose > table.contentelement{
+ margin-left: 4px;
+}
+.contentelement td.icon-con{
+ width: 36px;
+ padding-left: 4px;
+}
+td.name_type-con{
+ padding-left: .5em;
+}
+.name_type span.type{
+ display: block;
+}
+.name_type span.name{
+ font-weight: bold;
+ display: block;
+}
+.beanboxlist td.actions-con{
+ text-align: right;
+ width: 1%;/* width-MSIE. */
+ white-space:nowrap;
+}
+button.remove{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/delete2_off.gif);
+}
+button.remove:hover{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/delete2_on.gif);
+}
+.message span.contentelement{
+ font-style: italic;
+ color: #444;
+ font-weight: bold;
+}
+.window div.prompt-close,
+.window div.prompt-trash{
+ text-align: center;
+}
+
+/* CMS Page Editor DnD */
+table.contentelement div.icon{
+ padding-left: 4px;
+}
+.contentelement_list span.dnd-target-active.last-con,
+.contentelement_list span.dnd-target-active + table.contentelement,
+.contentelement_list table.dnd-target-active-above{
+ background: url(/_resources/all/docroot/cms/icons/x16/arrow_top3.png) no-repeat top left;
+}
+.contentelement_list table.dnd-target-active-below{
+ background: url(/_resources/all/docroot/cms/icons/x16/arrow_bottom3.png) no-repeat bottom left;
+}
+.contentelement_list span.dnd-target-active.only-con{
+ background: url(/_resources/all/docroot/cms/icons/x16/arrow_child3.png) no-repeat center left;
+}
+/* DnD spacers. */
+span.drop-spacer-con{
+ height: 8px;
+ display: block;
+}
+span.drop-spacer-con.last-con{
+ height: 20px;
+}
+span.drop-spacer-con.only-con{
+ height: 40px;
+}
+.dropoptions li.select{
+ text-align: center;
+ font-weight: bold;
+ color: black;
+ cursor: text;
+ padding: 2px 1px;
+}
+/** Styles for the PageElement/Component Selector */
+div.selection_pane{min-width: 175px;}
+td.selection_pane_slider-con,
+td.selection_pane-con,
+td.show_hide-con{
+  vertical-align: top;
+}
+button.show_hide {
+ display: block; /* MSIE bugfix. */
+ width: 16px;
+ height: 400px;
+ text-indent: -4000em;
+ border: none;
+ background:transparent url(/_resources/all/docroot/cms/icons/x16/slideoutcontrol.png) no-repeat left 3px;
+}
+.selection_pane  div.richlist{
+ max-height: 500px;
+ overflow-y: auto;
+ min-width: 17.5em;
+}
+.component_selector table.contentelement{
+ width:100%;
+ text-align:left;
+}
+
+.lt-ie8 td.selection_pane_slider-con,
+.lt-ie8 div.component_selector{
+ width: 19em;
+}
+.lt-ie8 .component_selector table.contentelement{
+ width:15em;
+}
+div.component_selector{
+ min-width: 16em;
+}
+.component_selector .contentelement td.icon-con,
+.component_selector .contentelement img.icon{
+ width: 32px;
+ height: 32px;
+}
+.contentelement .help .disabled{
+ display:none;
+}
+.contentelement td.help-con{
+ height: 18px;
+ width: 18px;
+}
+.selection_pane  div.element{
+ clear: both;
+ background: #fff url(/_resources/all/docroot/cms/icons/dnd-drag-handle.png) no-repeat 2px center;
+ padding: 2px 2px 2px 14px; 
+ border: 0 solid #ddd;
+ border-bottom-width: 1px;
+ cursor: move;
+}
+.selection_pane .element input.selector{
+ display: none;
+}
+.selection_pane .miwt-collapsable .trigger,
+.selection_pane span.more_results {
+ color: #fff;
+ display: block;
+ height: 2em;
+ line-height: 2em;
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+ border: 1px solid #B9B196;
+ margin-top: 5px;
+ padding-left: 1em;
+}
+.selection_pane .miwt-collapsable.hidden{
+ background: url(/theme/Tabs/brown_bg.png) repeat-x center bottom;
+}
+.selection_pane .miwt-collapsable.shown .trigger,
+.selection_pane span.more_results{
+ background: url(/theme/Menu/menu_bg.gif) repeat-x center top;
+ color:#fff;
+}
+.selection_pane .miwt-collapsable .trigger{
+ color:#4E4026;
+ text-decoration:none;
+ display: block;
+}
+.component_selector .miwt-collapsable.hidden .trigger{
+ background: url(/theme/Menu/arrow_right.png) no-repeat 95% center;
+}
+.component_selector .miwt-collapsable-content label{
+ display: block;
+}
+.component_selector .search input.type_field,
+.component_selector .search input.name_field{
+ width: 8em;
+ font-size: .85em;
+}
+.component_selector div.search{
+ min-width:15em;
+}
+.search_options select{
+ width: 17em;
+}
+.search_options div.option{
+ margin: .25em .25em .5em;
+}
+
+
+/** Page Property Editor */
+.template_properties_editor label,
+.page_properties label{
+ font-weight: bold;
+}
+.template_properties_editor label.tbl,
+.page_properties label.tbl{
+ font-weight: normal;
+}
+.page_properties .standard_properties td{
+ padding: 1px 2px;
+}
+.page_properties td.site_prefix-con{
+ text-align: right;
+}
+.page_properties .comment .field{
+ height: 6em;
+}
+.additional_properties div.tab-content{
+ line-height:1.5;
+}
+img.favicon{
+ max-height:16px;
+ vertical-align:middle;
+}
+/** Box Editor */
+div.box_editor{
+ background:#fff;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+ padding: 1em;
+ width: 96%;
+ line-height:1.1;
+}
+.box_editor .heading{
+ font-style: italic;
+ font-size: 1.2em;
+ color: #4e4026;
+ font-weight: bold;
+}
+.box_editor .click_to_edit{
+  padding: 2px 0;
+}
+.box_editor .click_to_edit label{
+ font-weight: bold;
+ width: 8em;
+ line-height: 1.5em;
+ padding-right:.25em;
+ display:inline-block;
+}
+
+/*.miwt-collapsable-content - for non-inline Collapsible Content in page mgt.*/
+.miwt-collapsable[data-disposition~="float"] .miwt-collapsable-content{
+ border: 1px solid #aaa;
+ background-color:#EEE;
+ padding: .5em;
+ margin-top: 0.5em;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ z-index:1;
+}
+.miwt-collapsable[data-disposition~="float"] .miwt-collapsable-content span.close-con {
+  display: block;
+  float: right;
+  top: -0.5em;
+  right: -0.5em;
+  position: relative;
+}
+div.meta_information_editor{margin:.5em 0;}
+
+
+
+/** PageElement state */
+.contentelement.cs-pending span.type{
+ color: #707000;
+}
+.contentelement.cs-draft span.type{
+ color: #C00;
+}

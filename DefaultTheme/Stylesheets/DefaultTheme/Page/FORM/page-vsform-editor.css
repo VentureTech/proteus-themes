@@ -1,0 +1,401 @@
+.rich_dynaform_editor .help-point.disabled{
+ display: none;
+}
+span.revision_num{
+ padding:0 .25em;
+}
+div.instructions{
+ margin:.2em 0 .5em .5em;
+ font-style:italic;
+}
+.title{
+ font-size: 1.2em;
+ font-weight: bold;
+ font-style: italic;
+ color: #555;
+ display: block;
+ text-align: left;
+}
+.rich_dynaform_editor div.copy_data_source,
+.rich_dynaform_editor div.prop{
+ margin-top:.5em;
+}
+.prop div.element_editor .prop div.prop,
+.rich_dynaform_editor div.prop/*only div*/ div.prop{
+ margin-top:.25em;
+ margin-left:2em;
+}
+.prop div.element_editor div.prop,
+.rich_dynaform_editor .prop .prop_editor > div.prop{
+ margin-left:0;
+}
+.title,
+div.data_template_actions,
+.question_properties div.field,
+.rich_dynaform_editor .content div.prop{
+ margin-top:.75em;
+}
+.view_style label,
+.form_settings label,
+.advanced label,
+.generator_editor label,
+.template_editor label,
+.rich_dynaform_editor .step label,
+.question_content label,
+.rich_dynaform_editor .section label{
+ display:block;
+}
+.rich_dynaform_editor label.key,
+.rich_dynaform_editor label.keys,
+.rich_dynaform_editor label.tbl{
+ display:inline;
+}
+/* Header : Separates tabs for the views and form */
+div.form_status{
+ position: relative;
+ margin-bottom: .5em;
+}
+span.form_actions{
+ position: absolute;
+ right: 0;
+}
+/*no overflow to clear */
+div.properties_and_views{
+ zoom:1; /*ie*/
+}
+div.properties_and_views:after{
+ content:".";
+ display:block;
+ height:0;
+ clear:both;
+ visibility: hidden;
+}
+.rich_dynaform_editor div.properties_and_views{
+ padding: 1em;
+ background: #fff;
+ clear: both;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ border: 1px solid #B9B196;
+}
+.properties_and_views div.properties{
+ float: left;
+}
+.properties_and_views div.views{
+ float: right;
+}
+/* tabs floating to the right */
+.form_tabs ul.tab-items{width:100%;}
+.tab-items li.form_settings,
+.tab-items li.advanced,
+.tab-items li.site_assignment,
+.tab-items li.generators,
+.tab-items li.security,
+.tab-items li.reports,
+.tab-items li.revisions{
+ float: right;
+}
+/* tabs content */
+.rich_dynaform_editor div.menu{
+ padding: 0.5em 0;
+ height: 1.5em;
+}
+.rich_dynaform_editor .menu a.expand_collapse{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/expand.png);
+}
+.rich_dynaform_editor .section div.menu {
+ background:#BFAF89 url(/theme/Tabs/brown_bg.gif) repeat-x scroll left top; 
+}
+.rich_dynaform_editor .menu span.name {
+ overflow: hidden;
+ white-space: nowrap;
+ text-overflow: ellipsis;
+ display: block;
+ margin-right: 90px;
+ padding: 3px 0 0 15px;
+}
+.rich_dynaform_editor .menu div.actions{
+ float: right;
+ padding-right: 15px;
+ margin-top: -14px; /* SB - don't judge me for this, blame the HTML */
+}
+.rich_dynaform_editor div.section{
+ border: solid #d3d3d3 1px;
+ margin: .5em 4px 4px 4px;
+}
+.rich_dynaform_editor div.step,
+.rich_dynaform_editor div.section,
+.rich_dynaform_editor .step div.menu{
+ -moz-border-radius: 8px 8px 0 0;
+ border-radius: 8px 8px 0 0;
+ padding:0;
+}
+.rich_dynaform_editor div.step,
+.rich_dynaform_editor div.question{
+ border: solid #d3d3d3 1px;
+ margin: 4px;
+}
+.rich_dynaform_editor .step div.menu {
+  background: #f5f5f5 url(/theme/Menu/menu_inactive.gif) repeat-x top left;
+  border-bottom: 1px solid #d3d3d3;
+  padding: 5px 0px;
+}
+.rich_dynaform_editor div.questions,
+.rich_dynaform_editor div.extras,
+.rich_dynaform_editor div.steps {
+  margin: 8px 0px;
+}
+.rich_dynaform_editor .question div.menu {
+  background: #f5f5f5;
+  border: none;
+  padding: 4px 0;
+}
+.rich_dynaform_editor .question div.menu:hover{
+  background: #ddd;
+}
+.rich_dynaform_editor div.question,
+.rich_dynaform_editor .question div.menu{
+ -moz-border-radius: 4px; 
+ border-radius: 4px;
+}
+.question_preview div.question{
+ border:0;
+}
+.rich_dynaform_editor .question.expanded div.menu{
+ -moz-border-radius: 4px 4px 0 0;
+ border-radius: 4px 4px 0 0;
+ border-bottom:1px solid #D3D3D3;
+}
+div.menu_component ul.menu_items{
+ -moz-border-radius: 0 0 4px 4px;
+ border-radius: 0 0 4px 4px;
+ border:1px solid #D3D3D3;
+ right:0;
+ left:auto;
+}
+div.menu_component li.menu{
+ width:13em;
+}
+.question_preview div.preview_element{
+ padding: 1em;
+ overflow:hidden;
+ zoom:1;/*ie6*/
+}
+/* editing a section */
+.properties span.close_button{
+ float: right;
+ margin-right:1em;
+}
+/* Style tab */
+.sequence div.layout_area{
+ border: solid #d3d3d3 1px;
+ padding: 5px 15px;
+ margin: 0px 4px 15px 4px;
+ background-color: #f5f5f5; 
+ width: 97%;
+ overflow: hidden;
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+ line-height:2em;
+}
+.sequence div.layout_area:hover{
+ background: #ddd;
+}
+.sequence .layout_area input[type=checkbox],
+.sequence .layout_area label.tbl{
+ vertical-align:middle;
+}
+.sequence .layout_area span.name{
+ float:left;
+ vertical-align:middle;
+}
+.sequence .layout_area div.actions{
+ float:right;
+}
+/* question content */
+div.question_content{
+ position: relative;
+}
+div.question_actions{
+ position: absolute;
+ right: 0;
+}
+.question_content .field span.delete{
+ float: right;
+ margin-right: .25em;
+ position: relative;
+ margin-bottom: -2em;
+}
+.rich_dynaform_editor h2.heading{
+ float: left;
+ font-size: 1.5em;
+ font-weight: bold;
+ font-style: italic;
+}
+.element_editor .actions{
+ margin-top:.5em;
+}
+/* hiding help points */
+.element_editor div.disabled,
+.sheet_view div.disabled{
+ display: none;
+}
+/* psuedo-popup windows KEEP*/
+.rich_dynaform_editor div.entity_editor{
+ position: fixed;
+ border: solid #d3d3d3 3px;
+ top: 10%;
+ max-height:75%;
+ left: 25%;
+ right: 25%;
+ background: #fff;
+ overflow: auto;
+ width: 46%;
+ padding: 0.5em;
+}
+.entity_editor td.ok-con{
+ width: 50px;
+}
+.entity_editor td.property_sheet-con{
+ padding: 0.5em 0 0;
+}
+/* tables */
+table.wizard,
+table.pager,
+table.miwt-table{
+ width: 99%;
+ clear: both;
+}
+table.procedure_navigation_bottom{
+ float: right;
+}
+/* breadcrumb */
+div.form_editing_path{
+ padding-bottom: .5em;
+ margin-bottom: 1em;
+ border-bottom: 1px dotted #666;
+ overflow:hidden;
+}
+.form_editing_path label.bc {
+ display: block;
+ padding: 0 12px 10px 0;
+ text-decoration: underline;
+}
+.form_editing_path li.bc{
+ line-height: 1.4;
+ font-size:13px;
+ display: block;
+ float: left;
+ padding: 0 20px 0 12px;
+ color: #666;
+ background: transparent url(/theme/Menu/arrow_right.png) no-repeat scroll right center;
+}
+.form_editing_path li.question{
+ font-size: 1.2em;
+ font-weight: bold;
+ color: #444;
+ line-height: 1;
+ background: none;
+}
+.form_editing_path li.form{
+ padding: 0 20px 0 0;
+}
+/* second level tabs */
+.fields div.tab-content{
+ border: 1px #ccc solid;
+ background: #f5f5f5;
+}
+.fields .tab-items li.ti{
+ background: url(/theme/Menu/menu_active.gif) repeat-x left top;
+ border: 1px #ccc solid;
+ border-width: 1px 1px 0px;
+}
+.fields .tab-items a[data-features~="submit"]{
+ color:#fff;
+}
+.fields .tab-items a[data-features~="submit"]:hover{
+ color: #4e4026;
+}
+.fields ul.tab-items li.tab-selected{
+ color: #4e4026;
+ border-bottom: 1px #f5f5f5 solid;
+ background: white url(/theme/Menu/menu_inactive.gif) repeat-x left top;
+}
+.fields .tab-items .tab-selected a[data-features~="submit"]{
+ color:#4e4026;
+}
+
+
+div.report_name_prompt{
+ text-align:center;
+ line-height:1.5em;
+}
+/* Generator */
+.expression .results span.result{
+ display:block;
+ color:#85016D;
+}
+.expression .results span.function{
+ color:#0000BF;
+}
+/* Field Editors. */
+label.tal{
+ display:block;
+}
+.prop input.offset{
+ width:5em;
+}
+.prop span.start_offset,
+.prop span.end_offset{
+ display:block;
+ margin-top:.75em;
+}
+.data_templates div.template_editor,
+.prop div.element_editor{
+ margin:.5em 1em;
+ border: 1px #b9b196 solid;
+ background: #fff;
+ -moz-border-radius:4px;
+ border-radius:4px;
+ padding:8px;
+ -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ box-shadow: 0 1px 4px rgba(0,0,0,.2); 
+}
+.form_content h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 1em 0;
+}
+.form_content p {
+  margin-bottom: 1em;
+}
+.fields .prop textarea{
+ width:100%;
+}
+
+.fields .prompt input.val {
+  min-width: 300px;
+  width: 50%;
+}
+
+.new_condition h2, .select_existing_condition h2 {
+  font-weight: bold;
+  font-size: 12pt;
+}
+
+.condition_types .rtb {
+  display: block;
+  padding: 0.4em;
+}
+
+.selected_capacity_list .selection .capacity_list_name {
+  display: inline-block;
+  *display: inline;
+  padding: 5px 10px;
+}
+
+.selected_capacity_list .entity_actions {
+  display: inline-block;
+  *display: inline;
+}

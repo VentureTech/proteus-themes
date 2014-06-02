@@ -1,0 +1,89 @@
+/* ProteusFramework Default Branding. */
+/* Not Attached To Pages, Sites, etc. Used in the branding configuration UI. */
+#branding_logo {
+    position: relative;
+    height: 74px;
+    width: 100%;
+    background: url("/theme/Branding/header-bar.png") repeat-x scroll left bottom #046380;
+    margin-bottom: 20px;
+    color:#fff;
+}
+h1.branding_logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -77px;
+    margin-top: -20px;
+    font-weight:bold;
+}
+h1.branding_logo,
+a.branding_logo {
+    width: 155px;
+    height: 31px;
+    display: block;
+}
+
+/* site selector, preferences, logout ----------*/
+div.delegates,
+a.pref,
+#ss_selector_link,
+a.logout_url{
+    color: #fff;
+}
+#site_locale, #preferences_link, #site_list, #logout {
+    position: absolute;
+}
+#site_locale{
+    color: black;
+    left: 2em;
+    top: 39px;
+}
+#site_locale + #site_list {
+    top: 16px;
+}
+#site_list{
+    left: 2em;
+    top: 26px;
+}
+#logout {
+    right: 2em;
+    top: 38px;
+}
+#preferences_link {
+    right: 2em;
+    top: 16px;
+}
+/* Site List */
+#site_list a.hostname {
+    padding-right: 12px;
+    background: url(/theme/Branding/siteselector_arrow.png) no-repeat right center;
+}
+/* Replace New Window IMG */
+#site_list a.home-page{
+    width: 14px;
+    height: 1em;
+    display: inline-block;
+    background: url(/theme/Branding/newwindow.gif) no-repeat right bottom;
+}
+#site_list img.new_window {
+    display: none;
+}
+
+a.pref {
+    background: url(/theme/Branding/preferences_icon2.gif) no-repeat right center;
+    padding: 0 12px .15em 0;
+    text-decoration: none;
+}
+
+/* Logout */
+#logout a.logout_url {
+    background: #FAA61A url(/theme/Branding/icon_logout.gif) no-repeat 3px center;
+    padding: 1px 6px 1px 12px;
+    text-decoration: none;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    color: #fff;
+}
+#logout a.logout_url:hover {
+    opacity: 0.75;
+}

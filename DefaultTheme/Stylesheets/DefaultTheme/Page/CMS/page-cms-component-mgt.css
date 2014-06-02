@@ -1,0 +1,143 @@
+/** Workspace Styles. */
+.workspace{
+ position: relative;
+ padding: 1em;
+ background: white;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+}
+.workspace div.workspace-actions{
+ position: absolute;
+ bottom:100%;
+ left: 50px;
+}
+.workspace button.show-hide-btn{
+ border:none;
+ -moz-border-radius:0;
+ border-radius:0;
+ background: url(/theme/Tabs/navigationslider.png) no-repeat left top;
+ height:16px;
+ overflow:hidden;
+ text-indent:-4000em;
+ width: 50px;
+ padding:0;
+}
+.workspace .hidden button.show-hide-btn{
+ background-position: left -24px;
+}
+div.uitask-list {
+ margin-top:.5em;
+}
+
+.pe_mgt div.entity_actions {
+ float:left;
+}
+.pe_mgt .add_pe_button > a.menu_item {
+ padding: 2px 5px 2px 35px;
+ background: transparent url(/theme/Actions/24/add.png) 5px center no-repeat;
+ height:26px;
+ width:26px;
+ line-height:26px;
+ text-decoration:none;
+ color:#444;
+ display:inline-block;
+ border:1px solid white;
+}
+.pe_mgt .add_pe_button > a.menu_item:hover {
+ border: 1px solid #ccc;
+ -webkit-border-radius: 3px;
+ -moz-border-radius: 3px;
+ border-radius: 3px;
+ background-color:#f5f5f5;
+ -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+ -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+ box-shadow: 0px 1px 1px rgba(0,0,0,0.1);
+}
+
+.pe_mgt .add_pe_button.active > a.menu_item { 
+ border-color: #ccc;
+ background-color: #e6e6e6;
+ -moz-box-shadow: 0px 0px 1px rgba(0,0,0,0.1) inset;
+ -webkit-box-shadow: 0px 0px 1px rgba(0,0,0,0.1) inset;
+ box-shadow: 0px 0px 1px rgba(0,0,0,0.1) inset;
+}
+.add_pe_button ul.menu_items ul.menu_items {
+ max-height: 300px;
+ overflow-y:auto;
+}
+.add_pe_button img {
+  height:16px;
+  width:16px;
+  vertical-align:top;
+  padding-right: 3px;
+  margin-top:-1px;
+}	
+.add_pe_button li.menu a.menu_item, 
+.add_pe_button li.menu span.menu_item {
+ display:inline-block;
+ height:13px;
+ width:100%;
+}
+.add_pe_button ul li.menu{
+ white-space:nowrap;
+ width:auto;
+}
+.add_pe_button ul ul li.menu,
+.add_pe_button ul li.parent_menu{
+ padding-right:1em;
+}
+.pe_mgt .menu_component {
+ margin: 0 0 0.5em;
+}
+.pe_mgt tr.deprecated td{
+ background-color:lightPink;
+}
+.add_pe_button li.deprecated{
+ text-decoration: line-through;
+}
+
+/* Component Mgt / Add Component Popup */
+.add_pe_dialog.property_editor div.prop{
+ margin:1.5em 0;
+}
+div.add_pe_dialog {
+ width:90%;
+ margin: 0 auto;
+}
+.add_pe_dialog input[type=text]{
+ resize:horizontal;
+}
+.add_pe_dialog select {
+ max-width:65%;
+}
+.add_pe_dialog .prop > label{
+ display:inline-block;
+ min-width:7.25em;
+ text-align: right;
+}
+.add_pe_dialog .prop.path .ctb{
+ margin-left:7.25em;
+}
+.add_pe_path_dialog .prop > label{
+ display:inline-block;
+ min-width:3.25em;
+ text-align: right;
+}
+.add_pe_path_dialog .prop.path .ctb{
+ margin-left:3.25em;
+}
+.add_pe_dialog .prop label,
+.add_pe_path_dialog .prop label{/*undo required graphic. */
+ padding-left:0;
+ background:none;
+}
+
+
+.request_path_editor .search h2.title{
+  margin:.75em 0;
+}
+
+.request_path_editor .search + div.search{
+ margin-top:2em;
+}

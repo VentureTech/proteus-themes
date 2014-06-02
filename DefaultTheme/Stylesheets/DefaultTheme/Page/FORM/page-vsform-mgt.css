@@ -1,0 +1,56 @@
+/* Form Data and Form Management Interface Styles */
+
+/* Layout Group Buttons */
+table.table_view_paging_table {
+  width: 100%;
+}
+.hibernate_search td.buttons {
+  text-align: right;
+}
+.table_view th.type-localized_object_key {
+  text-align: left;
+}
+.table_view td.last-column {
+  padding: 0 .5em;
+}
+/* Form Management - Hibernate Search ------------------------------ */ 
+table.hibernate_search td div.form_extras_summary {
+  background-color: #f7f7f7;
+  border: 1px #e1e1e1 solid;
+  padding: .5em;
+  margin: .3em 0 .7em 0;
+}
+table.hibernate_search td div.form_extras_summary span.extra_value_name {
+  margin: 1em 0 0 0;
+  font-size: .93em;
+}
+table.hibernate_search td div.form_extras_summary span.extra_value_renderer {
+  font-weight: bold;
+}
+table.hibernate_search td div.form_extras_summary div.submit_button {
+  text-align: right;
+}
+
+/* Edit Form Data */
+
+div.form_data_management div.form_entry span.extra_value_name {
+  margin: .6em 0 .15em 0;
+  font-size: 13px;
+  font-weight: bold;
+}
+div.form_data_management div.form_entry div.submit_button {
+  margin: .25em 0 0 0; 
+}
+div.form_data_management div.form_entry {
+  margin: 0 0 .25em 0; 
+}
+
+/* bmcvey@vipasolutions.com - 2007-03-14 */
+/* Fix to resolve bugid#26332 */
+.miwtbean {
+  clear: both;
+}
+span.value-con {
+  display: block;
+}
+

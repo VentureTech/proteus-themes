@@ -1,0 +1,57 @@
+/* Big Img Buttons. */
+button.action_updir,
+button.action_updir_disabled,
+button.action_upload,
+button.action_download,
+button.action_save,
+button.action_save_exit,
+button.action_exit,
+button.button_back,
+button.action_cancel,
+button.action_add,
+button.action_reload,
+button.action_delete
+{
+ padding: 0 0 0 26px;
+ height: 26px;
+ border: none;
+ background-repeat: no-repeat;
+ background-color: transparent;
+ background-position:left center;
+ cursor:hand;
+}
+button.action_updir,
+button.action_updir_disabled {
+ background-image: url(/theme/Actions/24/folderup.png);
+}
+button.action_upload{
+ background-image:url(/theme/Actions/24/upload.png);
+}
+button.action_download {
+ background-image:url(/theme/Actions/24/download.png);
+}
+button.action_save{
+ background-image: url(/theme/Actions/24/save.png);
+}
+button.action_save_exit{
+ background-image: url(/theme/Actions/24/save_exit.png);
+}
+button.action_exit{
+ background-image: url(/theme/Actions/24/cancel.png);
+}
+button.action_cancel,
+button.button_back{
+ background-image: url(/theme/Actions/24/cancel.png);
+}
+button.action_add{
+ background-image: url(/theme/Actions/24/add.png);
+}
+button.action_delete {
+  background: transparent url(/_resources/all/docroot/cms/icons/x24/trash.png) left center no-repeat;
+}
+button.action_reload {
+  background: transparent url(/theme/Actions/24/refresh.png) left center no-repeat;
+}
+button.reference_localization{
+ background-image: url(/_resources/all/docroot/cms/icons/x24/locale.png);
+}

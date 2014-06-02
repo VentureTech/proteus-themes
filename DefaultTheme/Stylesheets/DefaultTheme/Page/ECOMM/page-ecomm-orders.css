@@ -1,0 +1,367 @@
+/* OLD Search - Order/Shipping Search*/
+.constraint label{
+ display:block;
+}
+.search div.quick_search,
+.search div.advanced_search-con{
+ margin-bottom: 1em;
+}
+.search_bar span.actions {
+ display:inline-block;
+}
+.search_bar div.saved_search,
+div.shared_query_mgt-con{
+ display:inline;
+}
+.quick_search label.layout_group_label,
+.advanced_search-con .miwt-collapsable[data-anchor="south"] .trigger{
+ font-size: 1.1em;
+ font-weight: bold;
+ font-style: italic;
+ padding: .25em 1em;
+ display: block;
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+ border: 1px solid #B9B196;
+ margin-bottom: 1em;
+ background: #BFAF89 url(/theme/Tabs/brown_bg.gif) repeat-x scroll left top;
+ opacity:1;
+ color:#000;
+ width: 100%;
+ text-align: left;
+}
+.advanced_search label.layout_group_label,
+.advanced_search .search_group label.layout_group_label {
+  display: none;
+}
+.advanced_search .search_group .result_limit label,
+.advanced_search .by_shipping_info label {
+  display: inline;
+}
+div.export_actions,
+div.search div.result_actions {
+ float:none;
+ margin:1em 0;
+}
+
+/* Buttons. */
+td.journal_actions-con{
+ width:1%;
+ white-space:nowrap;
+}
+.journal_actions button{
+ width: 18px;
+ height: 16px;
+ text-indent: -4000em;
+ overflow: hidden;
+ padding: 0;
+}
+/* Tables */
+.journal_entry table,
+table.tracking_numbers,
+table.order_editor_add_items_tabs,
+/*.order_edit_view table,*/
+table.form_data_sections{
+  width: 100%;
+}
+/* Order Detail. */
+.order_info .help-point.disabled{
+ display:none;
+}
+.order_info td.label-con{
+ padding:5px;
+}
+.payment_info span.payment_options{
+ float:left;
+ padding:4px;
+}
+/* payment details */
+.addresses td.label-con,
+.order_items td.column_heading-con,
+.order_edit_view td.column_heading-con {
+  border-bottom:  1px dotted #aaa;
+  font-weight: bold;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+td.address-con,
+.order_items td,
+td.orderitem-con,
+td.order_subtotal-con {
+  padding: 10px 0;
+}
+td.address-con {
+  padding-right: 10px;
+}
+td.orderitem_price-con,
+td.order_subtotal_price-con,
+td.order_total_price-con,
+td.payment_price-con {
+  text-align: right;
+}
+
+div.billing_address,
+div.shipping_address {
+  clear: both;
+  float: none;
+}
+select.billing_address_existing_select {
+  width: 80%;
+}
+.order_edit_view table.phone_number_form {
+  width: 40%;
+}
+.orderitem a[data-features~="submit"] {
+  font: normal 11px Arial;
+  text-decoration: none;
+  padding: 2px 6px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -khtml-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #aaa;
+  color: #666;
+  background: #EEE url(/_resources/all/docroot/cms/icons/tab-gray-grad-bg-ia.gif) repeat-x scroll center top;
+}
+.orderitem a[data-features~="submit"]:hover {
+  color: #000;
+  border: 1px solid #333;
+}
+.orderitem a[data-features~="submit"]:active {
+  border: 1px inset;
+}
+span.exchange_price_difference {
+  display: block;
+  margin-bottom: .5em;
+}
+
+/* order detail collapsibles */
+.order_edit_view .miwt-collapsable[data-anchor="south"] .trigger {
+  display: block;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #aaa;
+  padding:.25em .25em .25em 1em;
+  font-size: 1.1em;
+  background: url(/theme/Menu/menu_inactive.gif) repeat-x center top;
+}
+.order_edit_view .miwt-collapsable[data-anchor="south"] button.trigger {
+  border: none;
+  background: url(/theme/Menu/arrow_down_brown.png) no-repeat 95% center;
+  color: #330000;
+  font-family: "Arial Narrow", "Trebuchet MS", arial, sans-serif;
+  text-align: left;
+  width: 100%;
+}
+.order_edit_view div.miwt-collapsable[data-disposition~="inline"] {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* order details -----------------------------*/
+.order_return_cancel td.orderitem-con,
+.order_return_cancel td.label-con {
+  width: 12em;
+  padding: 5px 0;
+}
+.order_return_cancel span.instructions,
+.order_edit_view span.exchange_return_instructions,
+div.shipping_option_form {
+  display: block;
+  margin: 1.5em 0 1em;
+}
+.order_return_cancel table.items {
+  margin-bottom: 1em;
+}
+.order_return_cancel div.journal,
+table.exchange_payment {
+  margin: 1em 0;
+}
+/* order detail tables */
+.order_edit_view table.items,
+.order_edit_view table.credit_card_info,
+table.phone_number_nanp {
+  width: auto;
+}
+.order_edit_view table.items td,
+.order_edit_view table.credit_card_info td {
+  padding: 8px;
+}
+table.order_editor_add_items_tabs {
+  clear: both;
+}
+/* journal entry - notes ------*/
+table.journal_entry {
+  width: 100%;
+  margin: 0 0 1em;
+}
+.journal_entry table td.buttons-con {
+  width: 9%;
+}
+.journal_entry table td.entry_time-con {
+  width: 27%;
+}
+.journal_entry table td.message-con {
+  width: 7%;
+  font-weight: bold;
+}
+
+/* edit / exchange ------------------*/
+.order_edit_view table.procedure_navigation,
+div.regcode {
+  margin: 1em 0;
+  width: auto;
+}
+.order_editor_add_items_tabs div.donation_entry {
+  display: block;
+  margin-bottom: 1em;
+}
+.order_edit_view span.update_order {
+  display: block;
+  float: right;
+}
+span.exchange_return_instructions,
+.mark_shipments span.instructions,
+span.module_title {
+  border-bottom: 1px dotted #aaa;
+  padding-bottom: 1em;
+  display: block;
+  margin-bottom: 1em;
+}
+.order_edit_view table.return_items, 
+.order_edit_view table.replace_items {
+ border: 1px solid #bebebe;
+ margin:1em 0 .5em;
+}
+.order_edit_view .exchange_result_instr{
+ font-size:1.25em;
+}
+.registration_plugin div.options{
+ margin:.75em 0;
+}
+.registration_plugin .options label.plugin_option{
+ font-weight:bold;
+}
+.payment_form td.payment_option-con{
+  width:1%;
+  white-space:nowrap;
+}
+/* shipping mgt tables */
+table.shipments td.shipments_title-con,
+table.tracking_numbers td.label-con {
+  text-align: center;
+  border-right: 1px solid #b9b196;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+  font-family: "Arial Narrow", "Trebuchet MS", arial, sans-serif;
+  color: #4E4026;
+}
+table.tracking_numbers {
+  border: 1px solid #b9b196;
+  border-width: 1px 1px 0;
+}
+table.shipments td.shipments_title-con {
+  -moz-border-radius: 8px 8px 0 0;
+  -webkit-border-radius: 8px 8px 0 0;
+  border-radius: 8px 8px 0 0;
+  border: 1px solid #b9b196;
+}
+table.shipments td,
+table.tracking_numbers td {
+  border-bottom: 1px solid #aaa;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  padding: 3px 2px;
+  font-size: 12px;
+  background: #fff;
+}
+
+/* shipping group ----*/
+.desktop .header label,
+.desktop .header span.value {
+  display: block;
+  float: left;
+  margin: 0 1em 1em 0;
+}
+.desktop .header label {
+  width: 12em;
+}
+.desktop .header div {
+  clear: both;
+  float: none;
+}
+table.shipments {
+  clear: both;
+  float: none;
+  margin-bottom: 1em;
+}
+.desktop div.header {
+  width: 100%;
+  float: none;
+  clear: both;
+  margin: 0 0 1em 0;
+  overflow: hidden;
+}
+.desktop .header .buttons span,
+.desktop .header .buttons div,
+.desktop .header .buttons .packingslip select,
+.desktop .header .buttons .packingslip span,
+.desktop .order_controls span,
+.desktop .order_controls a,
+.desktop .order_controls label {
+  display: block;
+  float: left;
+  margin-right: .5em;
+  clear: none;
+}
+.mark_shipments div.buttons {
+  width: 100%;
+  overflow: hidden;
+  margin: 1em 0;
+  text-align: right;
+}
+.shipments table.group_content td {
+  vertical-align: top;
+}
+.group_content td.pending_items-con {
+  padding-right: 10px;
+}
+.shipment_editor table.name_form,
+.shipment_editor td.items-con,
+.shipment_editor td.properties-con,
+.shipment_editor td.shipping_address-con {
+  padding: 5px 10px;
+}
+.shipment_editor td.items-con,
+.shipment_editor td.shipping_address-con {
+  border-right: 1px dotted #aaa;
+}
+.shipment_editor td.properties-con div {
+  margin-bottom: .5em;
+}
+.shipment_editor td.shipping_address-con td.required-con {
+  width: 8em;
+}
+.shipment_editor td.shipping_address-con .address_form td {
+  padding: 3px 0;
+}
+.shipment_editor table.name_form .given_name-con input,
+.shipment_editor table.name_form .family_name-con input {
+  width: 8em;
+}
+.shipment_editor table.name_form .middle-con input {
+  width: 3em;
+  margin-right: .5em;
+}
+table.order_detail td{
+  padding: 5px;
+}
+/* order exchange/edit */
+div.exchange_new {
+  padding-top: 1em;
+  border-top: 1px dotted #aaa;
+
+}

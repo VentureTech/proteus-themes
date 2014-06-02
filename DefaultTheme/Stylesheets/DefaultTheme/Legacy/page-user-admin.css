@@ -1,0 +1,61 @@
+div.principaldetail div.login label,
+div.principaldetail div.password label,
+div.principaldetail div.password_verify label,
+div.principaldetail div.ldap_zone label,
+div.principaldetail div.ldap_userdn label{
+  display: block;
+  font-weight: bold;
+}
+
+div.principaldetail div.login,
+div.principaldetail div.password,
+div.principaldetail div.password_verify,
+div.principaldetail div.ldap_zone,
+div.principaldetail div.ldap_userdn {
+  float: none;
+}
+
+div.principaldetail div.roles label,
+div.principaldetail div.groups label {
+  font-weight: bold;
+}
+
+table.loginhistory_table td {
+  padding: 5px;
+}
+
+.principaldetail div.parent select {
+  margin-top: 0.5em;
+}
+
+div.principaldetail div.pname,
+div.principaldetail div.timeout {
+  margin-bottom: 1.5em;
+}
+
+div.principaldetail div.client {
+  margin-bottom: 2em;
+}
+
+div.search td.description,
+div.roles td.description {
+padding-right: 20%;
+}
+
+/* business processess tab */
+.summary div,
+.main_form div,
+.resource_editor div,
+.operationalreport_wizard div.formats {
+  margin-bottom: 1em;
+}
+.main_form .name label,
+.main_form .description label {
+  display: block;
+}
+table.operationalreport_wizard td {
+  padding: 5px 0;
+}
+.report_name input {
+  width: 80%;
+}

@@ -1,0 +1,8 @@
+/* voting results UI -------------*/
+
+.voting_results_management_component label.search_parameter_label {
+  display: inline;
+}
+.voting_results_management_component td.type-voting_candidate {
+  width: 85px;
+}

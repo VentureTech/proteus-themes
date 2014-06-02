@@ -1,0 +1,32 @@
+/* FIXME - this file hasn't been reviewed. */
+.pickup_order_procedure div.hibernate_search{
+ padding:0;
+ border:0;
+}
+/* Set the border of the top level container */
+div.pickup_order_procedure_step {
+ padding: 1em;
+ background: white;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+}
+div.pickup_order_procedure_step span.shipping_address_button-con {
+ padding-top: 0.5em;
+ float: right;
+}
+table.pickup_order_procedure_step_item_selection {
+ border-collapse: separate;
+ border-spacing: 1em 0em;
+}
+	
+/* Pickup Orders */
+
+
+/* Added 2007-02-06 - bmcvey@vipasolutions.com */
+table.credit_card_detail {
+ margin: 2em 0; 
+}
+span.search_parameter_label-con {
+ display: block;
+}

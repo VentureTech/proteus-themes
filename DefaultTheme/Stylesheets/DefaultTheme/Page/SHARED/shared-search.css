@@ -1,0 +1,89 @@
+/* Entity Actions. */
+div.search-bar,
+div.search_bar{
+ clear:both;
+}
+.search .entity-actions,
+.search .entity_actions{
+ float: right;
+}
+.entity-actions button:hover,
+.entity_actions button:hover {
+ opacity:1;
+}
+.entity-actions button.add,
+.entity_actions button.add {
+ height:25px;
+ opacity:.7;
+ padding:0 0 0 28px;
+}
+.entity-actions button.add,
+.entity_actions button.add {
+  background-image: url(/theme/Actions/24/add.png);
+}
+.search .search-actions,
+.search .search_actions{
+ display:inline-block;
+}
+.search span.result-limit,
+.search span.result_limit,
+.search span.constraint{
+ display: inline-block;
+ margin: 0 .5em .5em 0;
+}
+.search .constraint label{
+ padding-right:.25em;
+}
+.search table.pager,
+.search table.search-results,
+.search table.search_results{
+ width: 100%;
+ clear:both;
+}
+.search > table.search-results,
+.search > table.search_results {
+ margin: 5px 0;
+}
+.search-results th.control,
+.search-results th.action-column,
+.search-results td.action-column,
+
+.search_results th.control,
+.search_results th.action-column,
+.search_results td.action-column{
+ white-space:nowrap;
+ width:1%;
+}
+.search_results td.last-column.action-column{
+ text-align:right;
+}
+.search .result-actions,
+.search .result_actions{
+ float:right;
+ margin-right:1em;
+ margin-top:5px;
+}
+.search .constraint.combo select{
+ max-width:22em;
+}
+/*no overflow to clear */
+div.search{
+ zoom:1; /*ie*/
+}
+div.search:after{
+ content:".";
+ display:block;
+ height:0;
+ clear:both;
+ visibility: hidden;
+ line-height:0;
+}
+
+/* Old Search - Remove me please. */
+.hibernate_search .search_bar .shared_query_mgt span.actions,
+.scheduled_reports span.refresh{
+  float: right;
+}
+.lt-ie8 .search_bar .actions button{
+ vertical-align: middle;
+}

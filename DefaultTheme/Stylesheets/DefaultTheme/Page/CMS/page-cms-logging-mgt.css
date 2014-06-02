@@ -1,0 +1,33 @@
+.constraint label {
+  display: block;
+}
+.record_view span.heading {
+  color: 444;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-style: oblique;
+}
+.record div.field {
+  text-align: left;
+  margin-top: .2em;
+  line-height: 1.1;
+}
+.record .field label {
+  font-weight: bold;
+  display: inline-block;
+  width: 5em;
+}
+.error .field.stack span.value,
+.error .field.message span.value {
+  text-indent: 4.1em;
+  max-height: 20em;
+  overflow: auto;
+  display: block;
+  margin-top: -1em;
+}
+.record .field.stack span.value{
+  margin-top: 0;
+}
+.record_detail .export textarea {
+  width: 100%;
+}

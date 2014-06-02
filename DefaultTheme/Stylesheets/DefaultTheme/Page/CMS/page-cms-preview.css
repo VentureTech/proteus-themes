@@ -1,0 +1,22 @@
+#preview_controls {
+  padding-left: 1em;
+  border-bottom: 2px dotted #ccc;
+  margin-bottom: 1px;
+  padding-bottom: 1px;
+}
+#preview_form {
+  display: inline;
+  padding-left: 2em;
+}
+
+#preview_controls label {
+  padding: 0 2px;
+  font-weight: bold;
+}
+#preview_controls label:after {
+  content: ":";
+}
+#preview_controls span.url {
+  font-weight: bold;
+  color: #444;
+}

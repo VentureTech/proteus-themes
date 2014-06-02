@@ -1,0 +1,76 @@
+/* Tabs. tab_north=>MIWT, tab-items=>CMS/MIWT  */
+div.tab-container {
+ zoom:1;/*ie fix margin. */
+ width:100%;/*ie6*/
+}
+div.tab-content,
+div.tab_content {
+ border: 1px #b9b196 solid;
+ background: #fff;
+ -moz-border-radius: 0 0 4px 4px;
+ border-radius: 0 0 4px 4px;
+ padding: 8px;
+ clear: both;
+ -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ box-shadow: 0 1px 4px rgba(0,0,0,.2);
+ zoom:1;/*ie fix double padding. */
+}
+ul.tab-items {
+ float: left;
+ clear: right;
+ list-style: none;
+}
+ul.tab-items li {
+  float: left;
+}
+ul.tab-items,
+ul.tab_north {
+  padding: 0;
+  margin: 5px 5px -1px 0;
+  font-size: 13px;
+}
+ul.tab-items li,
+ul.tab_north li {
+ background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+ border: 1px #b9b196 solid;
+ border-bottom: none;
+ line-height: 1.9em;
+ font-weight: normal;
+ margin: 0px 2px;
+ color:  #300;
+ cursor: pointer;
+ padding: 0;
+ -webkit-border-radius: 4px 4px 0 0;
+ -moz-border-radius: 4px 4px 0 0;
+ border-radius: 4px 4px 0 0;
+}
+ul.tab-items li a,
+ul.tab_north li a {
+  text-decoration: none;
+  color: #330000;  
+  display: block;
+  padding: 0 5px;
+  font-family:Tahoma,Helvetica,Arial,sans-serif;
+}
+ul.tab_north li {
+  float: left;
+  display: inline;
+  list-style: none;
+}
+ul.tab-items li:hover,
+ul.tab_north a:hover {
+  color: black;
+  text-decoration: none;
+}
+ul.tab-items li.tab-selected,
+ul.tab_north li.tab_north_selected {
+  margin-bottom: -1px;
+  color: #300;
+  border-bottom: 1px #fff solid;
+  background: white url(/_resources/all/docroot/cms/icons/tab-gray-grad-bg-a.gif) repeat-x left top;
+}
+ul.tab-items li.tab-selected a,
+ul.tab_north li.tab_north_selected a {
+  color:#330000;
+} 

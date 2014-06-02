@@ -1,0 +1,145 @@
+#action_status {
+  display: block;
+  width: 50%;
+  margin-left: 2em;
+}
+div.media_manager_container {
+  margin: 0 10px;
+  width: 95%;
+}
+div.media_manager_title {
+  display: none; /* temporary waiting for bug rollout */
+}
+#imagebrowser_form { 
+  padding: 1em;
+  background: white;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 1px solid #B9B196;
+}
+div.file_entity {
+ width: 100px;
+ height: 120px;
+ float: left;
+ border: 1px gray solid;
+ margin: 0px 5px 5px 5px;
+ padding: 0px;
+ text-align: center;
+ -moz-border-radius-topleft: 4px;
+ -moz-border-radius-topright: 4px;
+ -webkit-border-radius-topleft: 4px;
+ -webkit-border-radius-topright: 4px;
+}
+div.file_entity.file_selected {
+ border: 1px red solid !important;
+}
+div.fe_image {
+ line-height: 76px;
+ height: 78px; /* Border takes space. */
+ overflow: hidden;
+ display: inline;
+}
+div.fe_image img {
+ vertical-align: middle;
+ border: 0;
+ max-height: 78px;
+}
+div.cms-tooltip img {
+ display: block;
+}
+div.cms-tooltip {
+  background-color: #fff;
+  border: 1px black solid;
+  padding: 0px;
+}
+div.fe_info {
+ height: 40px;
+ border-top: 1px gray solid;
+ margin: 0px;
+ padding: 0px;
+ font-size: 8pt;
+ font-family: Arial, Verdana;
+ background-color: white;
+ bottom: 0px;
+ overflow: hidden;
+}
+div.fe_meta {
+ margin: 0px;
+ padding: 0px;
+ font-size: 7pt;
+ text-align: left;
+ float: left;
+}
+div.fe_meta span {
+ display: block;
+}
+
+div.fe_name {
+ clear: both;
+ cursor: default;
+ overflow: hidden;
+ margin: 0px;
+ padding: 0px;
+ font-weight: bold;
+}
+div.media_manager_media {
+ float: left;
+ clear: both;
+ padding: 10px;
+ width: 100%;
+ height: 500px;
+ overflow: auto;
+}
+div.media_manager_control2,
+div.media_manager_control1 {
+ font-family: Arial, Verdana;
+ font-size: 13px;
+ margin-bottom: .5em;
+}
+div.media_manager_control2,
+div.media_manager_control1 {
+  float: left;
+}
+.media_manager_control2 span.label {
+  display: none;
+}
+
+div.fe_actions {
+ margin: 0px;
+ padding: 0px 1px 0px 0px;
+ float: right;
+ text-align: right;
+}
+div.fe_actions a {
+  float: left;
+  padding-left: 1px;
+  font-size: 6pt;
+}
+div.fe_actions button.delete {
+ background:transparent url(/_resources/all/docroot/cms/icons/x16/delete2_off.gif) no-repeat center top;
+ text-indent: 17px;
+ overflow: hidden;
+ width: 16px;
+ height: 16px;
+ margin: 0px;
+ padding: 0px;
+ top: 0px;
+ bottom: 0px;
+ border: 0;
+}
+div.fe_actions button.delete:hover {
+ background:transparent url(/_resources/all/docroot/cms/icons/x16/delete2_on.gif) no-repeat center top;
+}
+input#media_browser_selected_file {
+ border: 0px;
+ border-bottom: 1px #EA6400 solid;
+ margin: 0px;
+ padding: 0px;
+}
+.media_manager_status {
+ background-color: #FFFFC0;
+ padding: 4px;
+ color: red;
+ border: 1px gray solid;
+}
+

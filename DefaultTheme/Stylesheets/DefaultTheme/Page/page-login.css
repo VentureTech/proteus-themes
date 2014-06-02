@@ -1,0 +1,248 @@
+#column2 {
+  margin: 1em auto 0;
+  width: 900px;
+  float: none;
+}
+
+#bookmark {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+}
+
+#bookmark a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#bookmark a:hover {
+  text-decoration: underline;
+}
+
+#tl_wrapper{
+  display: inline-block;
+  *display:inline;
+  zoom:1;
+  vertical-align: top;
+  width: 220px;
+  margin: 70px 0 0 0 ;
+  padding: 20px;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #B9B196;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px 8px 8px 8px;
+}
+
+#tl_wrapper .textbean{
+text-align: right;
+}
+
+#tl_wrapper .loginbean{
+margin-top: 10px;
+}
+
+.loginbean h2 {
+  color: #4E4026;
+  font-size: 1.4em;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 0 0.75em;
+  padding: 0 0 0.75em;
+  border-bottom: 1px dotted #AAAAAA;
+}
+
+.loginbean p.title {
+  display: none;
+}
+
+.loginbean form {
+  position: relative;
+}
+
+.loginbean .username-con {
+  margin: 0 0 1em;
+}
+
+.loginbean .actions-con {
+  margin: 1.5em 0 0;
+}
+
+.loginbean label {
+  margin: 0 0 0.25em;
+}
+
+.loginbean .username-con label,
+.loginbean .password-con label {
+  display: block;
+}
+
+.loginbean .value input {
+  border: 1px solid #aaa;
+  padding: 3px;
+  width: 200px;
+}
+
+.loginbean .value input:focus {
+  background-color: #ffffc0;
+}
+
+.loginbean .remember_me {
+  margin: 1em 0;
+}
+
+.loginbean .retrieve_password_link {
+  margin: 3em 0 0;
+}
+
+.loginbean .retrieve_password_link p {
+  margin: 0.5em 0;
+}
+
+.loginbean .retrieve_password_link a {
+  text-decoration: none;
+}
+
+.loginbean .retrieve_password_link a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+.loginbean .capson {
+  display: none;
+  color: red;
+  background: 0 0 transparent url("/_resources/all/docroot/cms/icons/x16/message_warning.png") no-repeat;
+  padding-left: 20px;
+  height: 16px;
+  line-height: 16px;
+  margin: 1em 0;
+}
+
+#terms{
+  width: 530px;
+  margin: 70px 30px 0 20px;
+  padding: 20px;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #B9B196;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px 8px 8px 8px;
+  display: inline-block;
+  *display:inline;
+  zoom:1;
+}
+
+#terms p{
+  margin: 15px 0;
+}
+
+#column2 #terms ol{
+  padding-left: 40px;
+}
+
+#column2 #terms ol li{
+  margin: 5px 0;
+}
+
+#featured {
+  display: inline-block;
+  *display:inline;
+  zoom:1;
+  vertical-align: top;
+  margin-left: 20px;
+  width: 609px;
+  background: #fff;    
+  height: 458px;  
+  position: relative;
+}
+
+#featured .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: 0 0 transparent url(/_resources/dyn/files/640916z66d557d2/_fn/login_box_50.png) no-repeat;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+}
+
+#featured .window {
+  position: relative;
+  overflow: hidden;
+  width: 609px;
+  height: 458px;  
+}
+
+#featured .items {
+  position: absolute;
+  width: 30000em;
+}
+
+#featured .item {
+  float: left;
+}
+
+#featured .navi {
+  position: absolute;
+  z-index: 15;
+  left: 145px;
+  bottom: 30px;
+  width: 355px;
+  text-align: center;
+}
+
+#featured .navi a {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  *display:inline;
+  zoom:1;
+  background: -20px 0 transparent url(/_resources/dyn/files/640954zecb7f3fa/_fn/slider_indicator.png) no-repeat;
+  cursor: pointer;
+}
+
+#featured .navi a.active {
+  background-position: 0 0;
+}
+
+#login_news {
+  background: #fff;
+  padding: 30px 30px 30px;
+  border-radius: 8px;    
+  border: 1px solid #B9B196;
+  position: relative;
+  margin-right: 60px;
+}
+
+#login_news .ac_item {
+  display: inline-block;
+  *display:inline;
+  zoom:1;
+  width: 370px;
+  vertical-align: top;
+}
+
+#login_news li.first {
+  padding-right: 30px;
+}
+
+#login_news .article_heading {
+  margin: 0 0 1em;
+  font-weight: bold;
+  line-height: 1.25em;
+  font-size: 1.25em;  
+}
+
+#login_news .article_content {
+  line-height: 1.25em;
+}
+
+#login_news .article_content p {
+  margin: 1em 0;
+}
+
+
+#copyright {
+  margin: 2em 0;
+  text-align: center;
+}

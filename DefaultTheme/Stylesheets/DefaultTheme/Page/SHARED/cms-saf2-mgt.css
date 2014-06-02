@@ -1,0 +1,214 @@
+/* DnD */
+tr .dnd-target-active td{
+ font-weight: normal;
+}
+table.dep_editor,
+table.attach-ui,
+table.bar{
+ width:100%;
+ box-sizing: border-box;
+}
+.saf_mgt td{
+ vertical-align: middle;
+}
+.bar table.actions td,
+.bar td.actions-con {
+  text-align: right;
+}
+.bar .label td{
+ padding-right: 5px;
+}
+.saf_pageview td.sen_icon-con,
+.saf_pageview span.sen{
+ padding-left: 2px;
+ font-weight: bold;
+}
+.se_box div.se_box{
+ margin-left: 15px;
+}
+.se_box table.bar{
+ padding-bottom: 4px;
+}
+div.se_box{
+ margin-bottom: .5em;
+}
+div.bbl{
+ margin: .2em 0;
+}
+.sen_ndes th.type-principal{
+ width: 11em;
+ max-width: 13em;
+}
+.sen_ndes th.type-date{
+ width: 10em;
+ max-width: 10em;
+}
+.sen_ndes th.type-stylesheet_descriptor,
+.sen_ndes th.type-media_descriptor,
+.sen_ndes th.bytes{
+ width: 4em;
+ max-width: 5em;
+}
+.bar td.label-con{
+ vertical-align: bottom;
+}
+/** Rename UI. */
+.saf_mgt .rename-con{
+ text-align: center;
+}
+table.rename,
+.rename table.actions {
+ margin: .25em auto;
+}
+.rename .actions td {
+ padding: 1px 2px;
+}
+/** Attach / Dep UI. */
+.dep_editor td.ok-con,
+.attach-ui td.attach_nde-con{
+ text-align: right;
+ padding-right: 4px;
+ width:50%;
+}
+/** CSS Data. */
+.css_selector_data td.sen_icon-con{
+ width: 20px;
+}
+table.page{
+ margin-bottom: 1em;
+}
+.css_selector_data td.css_id-con{
+ width: 14em;
+}
+.css_selector_data input{
+ width: 95%;
+}
+.css_selector_data td.label-con{
+ width: 12em;
+}
+.css_selector_data .page_template td,
+.css_selector_data .page td{
+ padding: 3px 0;
+}
+td.name_label-con,
+td.id_label-con,
+td.class_label-con,
+td.builtin_label-con,
+td.actions_label-con{
+ border: 1px solid #aaa;
+ border-width: 1px 0;
+ padding: 5px 3px;
+ background: url(/theme/Tabs/brown_bg.png) repeat-x top left;
+}
+td.name_label-con{
+ border-left: 1px solid #aaa;
+ -moz-border-radius: 8px 0 0 0;
+ border-radius: 8px 0 0 0;
+ padding-left: 5px;
+ width: 12em;
+}
+td.actions_label-con{
+ border-right: 1px solid #aaa;
+ -moz-border-radius: 0 8px 0 0;
+ border-radius: 0 8px 0 0;
+ padding-right: 5px;
+}
+td.id_label-con{
+ width: 14em;
+}
+td.class_label-con{
+ width: 20em;
+}
+td.builtin_label-con{
+ width: 14em;
+}
+.components td.name-con,
+.components td.css_id-con,
+.components td.css_class-con,
+.components td.css_builtin_class-con,
+.components td.actions-con{
+ border-bottom: 1px solid #CCC;
+ padding: 3px 2px;
+ font-size: 12px;
+}
+.components td.even-con{
+ background-color: #eee;
+}
+.components td.odd-con{
+ background-color: #fff; 
+}
+.components td.name-con{
+ border-left: 1px solid #B9B196;
+ padding-left: 5px;
+}
+.components td.actions-con{
+ border-right: 1px solid #B9B196;
+ white-space:nowrap;
+}
+.components td.component_icon-con{
+ padding-right: 5px;
+}
+/* saf buttons --------------------------------*/
+.bar button{
+ padding: 0 0 0 26px;
+ margin-left:5px;
+ height: 26px;
+ border: none;
+ background-repeat: no-repeat;
+ background-color: transparent;
+ background-position: left center;
+ font-size:1em;
+}
+.nde_actions button.dependency_button{
+ background: url(/_resources/all/docroot/cms/icons/x16/dependency.gif) no-repeat center;
+}
+.bar button.attach_file_button {
+  background-image: url(/theme/Actions/24/attach.png);
+}
+.bar button.collapse,
+.bar button.expand {
+ padding:0;
+ width:16px;
+ overflow: hidden;
+ text-indent: -4000em;
+ vertical-align:middle;/*opera*/
+}
+.saf_pageview td.action-column button{
+ overflow: hidden;
+ width: 16px;
+ height: 16px;
+ text-indent: -4000em;
+ border:0;
+ background-color: transparent;
+ padding:0;
+ background-position: left top;
+}
+/* dependency ---------------*/
+.has_dependency .nde_actions button.dependency_button {
+  background-image: url(/_resources/all/docroot/cms/icons/x16/dependency_on.gif);
+}
+/* component level buttons ------------*/
+div.bbl{
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+ border: 1px solid #aaa;
+ margin: 1em 0;
+}
+.bbl div.se_box{
+ margin-top: 1em;
+}
+
+.bbl button.bbl_button{
+  width: 100%;
+  overflow: hidden;
+  color: #4E4026;
+  font-weight: bold;
+  border: none;
+  text-align: left;
+  background: transparent url(/theme/Menu/arrow_down_brown.png) no-repeat 99% center;
+  box-sizing: border-box;
+}
+.bbl button.bbl_button:hover,
+.bbl button.bbl_button:active{
+    background-color:#ffa;
+}

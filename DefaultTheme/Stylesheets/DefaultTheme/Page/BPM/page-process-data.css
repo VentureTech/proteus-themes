@@ -1,0 +1,10 @@
+div.prop{
+ margin: .75em 0;
+}
+div.admin_notes,
+div.admin_note_add{
+  margin-bottom: 1em;
+}
+.bpi_details table {
+  width: 100%;
+}

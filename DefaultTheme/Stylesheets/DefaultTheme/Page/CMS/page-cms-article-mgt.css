@@ -1,0 +1,277 @@
+/* tables*/
+table.article_table_pager table.miwt-table th,
+table.article_container_table_pager table.miwt-table th {
+  border-top: 1px solid #b9b196;
+  border-bottom: 1px solid #b9b196;
+  border-left: none;
+  border-right: none;
+  background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+  color: #330000;
+}
+table.miwt-table th a {
+ text-decoration:none;
+}
+table.article_table_pager table.miwt-table th.first-column,
+table.article_container_table_pager table.miwt-table th.first-column {
+  border-left: 1px solid #b9b196;
+  -moz-border-radius: 8px 0 0 0;
+  border-radius: 8px 0 0 0;
+  padding-left: 5px;
+}
+table.article_table_pager table.miwt-table th.last-column,
+table.article_container_table_pager table.miwt-table th.last-column {
+  border-right: 1px solid #b9b196;
+  -moz-border-radius: 0 8px 0 0;
+  border-radius: 0 8px 0 0;
+  padding-right: 5px;
+}
+table.article_table_pager table.miwt-table td {
+  border-bottom: 1px solid #aaa;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  padding: 3px 2px;
+}
+table.article_table_pager table.miwt-table td.first-column {
+  border-left: 1px solid #b9b196;
+}
+table.article_table_pager table.miwt-table td.last-column {
+  border-right: 1px solid #b9b196;
+}
+table.article_table_pager table.miwt-table .post_time td {
+  border: none;
+}
+
+table.article_mgt_tabs {
+  width: 100%;
+}
+.search_fields span.label,
+table.category_new_field td,
+table.at_actions td,
+.article_mgt_tabs table.actions td {
+  padding: 0 2px;
+}
+.articlemanagementbean td {
+  vertical-align: middle;
+}
+div.add {
+  height: 1.35em;
+  margin-top: 1px;
+}
+/* reset button state for now - entire ui needs to be updated */
+button.add{
+  /* reset for now */
+ -moz-border-radius:8px;
+ border-radius:8px;
+ background: url("/_resources/all/docroot/cms/icons/tab-gray-grad-bg-ia.gif") repeat-x scroll center top #EEE;
+ border:1px solid #AAA;
+ color:#666;
+ padding:1px 6px;
+ opacity:1;
+}
+button.add:hover{
+ border:1px solid #333;
+ color:#000;
+}
+/* end reset*/
+
+div.search_fields {
+  clear: both;
+  float: left;
+  margin: .5em 0 0 0;
+}
+.search_fields div {
+  float: left;
+}
+.articlemanagementbean table.miwt-table tr.new_row td {
+  background: #EEE;
+  border: none;
+}
+
+div.articlemanagementbean {
+  width: 98%;
+  margin: 0 auto;
+}
+span span.cms_backend_article_articlesearch_searchlabel_creator,
+span span.metadataselector_label_metadata,
+span span.cms_backend_article_articlesearch_col_heading {
+  font-size: .8em;
+  font-weight: bold;
+  margin: .25em .25em 0 0;
+}
+span span.metadataselector_label_metadata,
+span span.cms_backend_article_articlesearch_col_heading {
+ margin-left: 1em;
+}
+.search_fields input,
+.search_fields select {
+  width: 16em;
+}
+
+/* Publish Article */
+.action_form {
+  font-size:.8em;
+  font-weight: bold;
+}
+.action_form div {
+  display: inline;
+  margin: .5em 0;
+  padding: .5em 0;
+}
+.action_form div.ok_button {
+  margin-left: 1em;
+}
+.articlemanagementbean table.miwt-table {
+  margin: .5em 0;
+}
+.articlemanagementbean table.miwt-table td.type-string {
+  text-align: left;
+}
+.articlemanagementbean table.miwt-table td.type-date {
+  text-align: right;
+}
+div.articlemanagementbean button.search_button {
+  float: none;
+}
+.articlemanagementbean table.actions {
+  clear: left;
+}
+.articlemanagementbean td.article_metadata_selector {
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
+}
+.al_mgt .al_actions {
+  width: 15em; 
+  white-space: nowrap;
+}
+
+/* Buttons. */
+td.actions {
+  width: 50px;
+}
+a.action_edit, 
+a.action_remove, 
+a.action_showpages {
+  border: none;
+  cursor: pointer;
+  cursor: hand;
+  float: left;
+  height: 16px;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  text-indent: -1000em;
+  width: 16px;
+}
+a.action_edit {
+  background:transparent url(/_resources/all/docroot/cms/icons/x16/edit.png) no-repeat center top;
+}
+a.action_edit:hover {
+  background:transparent url(/_resources/all/docroot/cms/icons/x16/edit.png) no-repeat center bottom;
+}
+a.action_remove {
+  background:transparent url(/_resources/all/docroot/cms/icons/x16/delete2_off.gif) no-repeat center top;
+}
+a.action_remove:hover {
+  background:transparent url(/_resources/all/docroot/cms/icons/x16/delete2_on.gif) no-repeat center top;
+}
+a.action_showpages {
+  background:transparent url(/_resources/all/docroot/cms/icons/x16/pages.png) no-repeat center top;
+}
+a.action_showpages:hover {
+  background:transparent url(/_resources/all/docroot/cms/icons/x16/pages.png) no-repeat center bottom;
+}
+
+/* tables */
+table.al_mgt,
+.al_mgt table.miwt-table,
+.articlemanagementbean table.miwt-table,
+table.article_pdf_template_search,
+.article_pdf_template_search table.miwt-table {
+  width: 100%;
+}
+table.miwt-table td.article_table,
+table.miwt-table td.articlecontainer_table {
+  border-style: none;
+  border-width: 0px;
+}
+table.miwt-table td.article_table .no_data td,
+table.miwt-table table.articlecontainer_table td {
+  border-bottom: 1px solid #B9B196;
+}
+table.search_fields td {
+  padding: 5px;
+}
+table.search_fields td.label-con {
+  text-align: right;
+}
+table.current_article_labels td,
+table.current_article_labels td.first-column {
+  border: none;
+}
+table.current_article_labels {
+  border: 1px solid #aaa;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: .5em;
+}
+.article_mgt_tabs table.actions {
+  margin: .5em 0;
+}
+/* article editor -------------*/
+.article_editor div.posttime,
+.article_editor div.withdrawtime {
+  float: left;
+  margin: 0 .5em 1em 0;
+}
+.article_editor div.article_heading {
+  clear: both;
+  float: none;
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 1px dotted #aaa;
+  border-top: 1px dotted #aaa;
+}
+
+.article_editor div.posttime label,
+.article_editor div.withdrawtime label,
+.article_editor div.article_heading label,
+.article_editor div.article_metadata_selector label {
+  font-family: "Arial Narrow","Trebuchet MS",arial,sans-serif;
+  color: #555;
+}
+.article_editor div.article_metadata_selector label.existing_label_title {
+  margin-top: 1em;
+  font-style: italic;
+}
+.article_editor input.heading {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+/* optional properties */
+.optional_properties div,
+.article_editor div.article_metadata_selector,
+div.web_feed_description,
+div.web_feed_title {
+  margin-bottom: 1em
+}
+div.web_feed_description {
+  margin-top: 1em;
+}
+/* article containers editor --*/
+.editor .editor_tabs td.articlecontainerbuilder_label_heading-con,
+.editor .editor_tabs td.articlecontainerbuilder_label_style-con,
+.editor .editor_tabs td.articlecontainerbuilder_label_viewarticlelink-con,
+.editor .editor_tabs td.articlecontainerbuilder_label_viewarticlelinktarget-con,
+.editor .editor_tabs td.articlecontainerbuilder_label_viewarticlelinklabel-con,
+.editor .editor_tabs td.articlecontainerbuilder_label_articlelimit-con,
+.editor .editor_tabs td.ac_editor_restrict_to_recent-con {
+  width: 310px;
+  padding: .5em;
+}
+.editor .editor_tabs td.articlecontainerbuilder_label_articleorder-con,
+.article_pdf_template_editor table.article_template_editor_create_card td {
+  padding: .5em;
+}
+

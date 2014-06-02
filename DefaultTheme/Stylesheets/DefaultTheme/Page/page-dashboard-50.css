@@ -1,0 +1,262 @@
+.dashboard div.frame.loading {
+  background-image: url(/_resources/dyn/files/639532z95bc9bb7/_fn/ajax-loader.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  overflow: hidden;
+}
+
+#reports {
+  width: 430px; /* there is padding-left:20px on ".dashboard .frame"  so I added 20px to the #reports width (russ).*/
+}
+
+#news {
+  width: auto;
+  margin-right: 430px;
+}
+
+#dbcontent {
+  margin: 0.75em 30px 0 0;
+  padding: 20px;
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 1px solid #B9B196;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px 8px 8px 8px;
+  position: relative;
+}
+
+#dbcontent h2 {
+  font-size: 32px;
+  margin: 0 0 0.5em;    
+  font: 24px Helvetica,Tahoma,sans-serif normal;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+}
+
+#dbcontent div.collapsible-shown {
+  border: none;
+}
+
+#dbcontent .dashboard .actions a {
+  color: #555;
+  padding: 0px 5px 0px 20px;
+  background: 0 0 transparent url("/_resources/all/docroot/cms/icons/x16/pencil_icon.png") no-repeat;
+}
+
+#featured_tip {
+  background: #fffac1;
+  padding: 20px 20px 20px 60px;
+  position: relative;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  border: 2px solid #f8e680;
+  margin-right: 20px;
+}
+
+#featured_tip h3 {
+  margin: 0 0 1em;
+}
+
+#featured_tip p {
+  line-height: 1.25em;
+}
+
+#featured_tip img {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+#community h3 {
+  background: 0 0 transparent url(/_resources/dyn/files/641474z6ee5654e/_fn/dashboard-icons.png) no-repeat;
+  padding: 18px 0 18px 70px;
+}
+
+#community .loading {
+  min-height: 200px;
+  background: center center transparent url(/_resources/dyn/files/639532z95bc9bb7/_fn/ajax-loader.gif) no-repeat;
+}
+
+#discussion_list {
+  padding-left: 20px;
+  margin: 1em 0 0;
+}
+
+#discussion_list h4 {
+  line-height: 16px;
+}
+
+#discussion_list li {
+  padding: 3px 0;
+  margin: 5px 0 5px 15px;
+  list-style: disc;
+}
+
+#discussion_list li .link-con {
+  position: relative;
+}
+
+#discussion_list li a {
+  padding-right: 10px;
+}
+
+#discussion_list li .popup {
+  position: absolute;
+  background: #fff;
+  z-index: 10;
+  top: -10px;
+  left: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 200px;
+  display: block;
+  line-height: 1.25em;
+  box-shadow: 2px 4px 5px rgba(0,0,0,0.3);
+}
+
+#discussion_list li .popup .arrow {
+  width: 10px;
+  height: 18px;
+  background: 0 0 transparent url(/_resources/dyn/files/640771za47548fd/_fn/message_icon.png) no-repeat;
+  position: absolute;
+  top: 7px;
+  right: 100%;
+}
+
+#training_videos {
+  margin: 2em 0 0;
+}
+
+#training_videos h3 {
+  margin: 0 0 1em;
+  background: 0 -64px transparent url(/_resources/dyn/files/641474z6ee5654e/_fn/dashboard-icons.png) no-repeat;
+  padding: 20px 0 20px 70px;
+  height: 20px;
+}
+
+#training_videos .videos {
+  padding-left: 20px;
+}
+
+#training_videos .video {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin: 10px 5px;
+  width: 145px;
+}
+
+.lt-ie8 #training_videos .video {
+  display: inline;
+  zoom: 1;
+}
+
+#training_videos .thumbnail {
+  margin: 0 0 10px;
+}
+
+#training_videos .thumbnail img {
+  width: 145px;
+  height: 90px;
+}
+
+#training_videos .thumbnail a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 145px;
+  height: 90px;
+  text-indent: -4000em;
+  background: center center rgba(0,0,0,0.25) url(/_resources/dyn/files/614955zdc32db4b/_fn/play-button.png) no-repeat;
+  display:block;
+  -webkit-transition: background-color .2s ease-in;
+  -moz-transition: background-color .2s ease-in;
+  transition: background-color .2s ease-in;
+}
+
+#training_videos .thumbnail a:hover {
+  background-color: rgba(0,0,0,0.35);
+}
+
+#training_videos .title {
+  margin: 0 0 5px;
+}
+
+#training_videos .title a {
+  text-decoration: none;
+}
+
+
+#contact_support {
+  text-align: right;
+  position: absolute;
+  left: 100%;
+  top: 20px;
+}
+
+#contact_support a {
+  /* old styles
+  text-decoration: none;
+  display: inline-block;
+  background: 0 -256px transparent url(/_resources/dyn/files/641474z6ee5654e/_fn/dashboard-icons.png) no-repeat;
+  height: 17px;
+  padding: 10px 0 10px 40px;
+  */
+  
+  background: 5px 10px #fff url(/_resources/dyn/files/645322z70dcb5ec/_fn/contact_support.png) no-repeat;
+  width: 30px;
+  height: 134px;
+  display: block;
+  border: 1px solid #B9B196;
+  border-radius: 0 8px 8px 0;
+  padding: 10px 5px;
+}
+
+#contact_support a span {
+  display: none;
+}
+
+.dashboard {
+  margin: 0 0 2em;
+}
+.dashboard iframe{
+ width:100%;
+}
+.dashboard div.title {
+  position: relative;
+}
+
+.dashboard span.title {
+  display: block;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  padding: 20px 0 20px 70px;
+  height: 20px;
+  background: 0 0 transparent url(/_resources/dyn/files/641474z6ee5654e/_fn/dashboard-icons.png) no-repeat;
+  margin: 0 0 1em;
+}
+
+.dashboard .title_top .actions {
+  position: absolute;
+  right: 0;
+  top: 20px;
+}
+
+.dashboard .title_top .actions a {
+  text-decoration: none;
+}
+
+.dashboard .frame {
+  padding-left: 20px;
+}
+
+.recentcomponent span.title {
+  background-position: 0 -128px;
+}
+
+.recentpage span.title {
+  background-position: 0 -192px;
+}

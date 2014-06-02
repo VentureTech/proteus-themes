@@ -1,0 +1,26 @@
+/* old report UI ------------------*/
+
+table.report_access,
+.report_view-con table {
+  width: 100%;
+}
+td.report_navigation-con {
+  padding-bottom: .5em;
+}
+/* old report search schedule */
+.report_access .schedule_form span {
+  display: inline-block;
+  margin: 0 .5em .5em 0;
+}
+
+.report_access .schedule_form div {
+  width: 100%;
+  overflow: hidden;
+  clear: both;
+  float: none;
+  margin-bottom: .75em;
+}
+.report_access span.no_reports_scheduled_message {
+  display: block;
+  margin: 1em 0;
+}

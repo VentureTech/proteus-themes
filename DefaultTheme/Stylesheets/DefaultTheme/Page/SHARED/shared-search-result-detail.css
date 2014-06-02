@@ -1,0 +1,41 @@
+.miwt-collapsable[data-disposition~="float"]  {
+ -moz-border-radius:8px;
+ border-radius:8px;
+ background-color:#EEE;
+ border:1px solid #AAA;
+ display:block;
+ left:25%;
+ margin-top:0.5em;
+ padding:0.5em;
+ width:56%;
+ z-index:100;
+}
+.miwt-collapsable-content button.close_button{
+ float:right;
+ padding: .5em .5em .5em 29px;
+ background: url(/theme/Actions/24/cancel.png) no-repeat;
+ border:0;
+}
+.miwt-collapsable-content .title{
+ color:#555;
+ display:block;
+ font-size:1.2em;
+ font-weight:bold;
+ border-bottom:1px dotted #AAA;
+ margin-bottom:1em;
+ padding:0.75em 0;
+}
+table.credit_card_history_item,
+table.credit_card_detail{
+ width:100%;
+}
+table.detail_view {
+ padding: 1em;
+ background: #fff;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+ clear: both;
+ margin: 1em 0;
+ width: 99%;
+}

@@ -1,0 +1,142 @@
+/* Find better homes for these rules. */
+label{margin-right:3px;}
+/* site selector ------------*/
+#ss-site-selector-con {
+ position: absolute;
+ z-index: 100;
+ background-color:#FFF;
+ color: #000;
+ top: 1.5em;
+ left: 0px;
+ padding: .5em 1em;
+ border: 1px solid #4E4026;
+ -moz-border-radius: 4px;
+ border-radius: 4px;
+}
+#ss-site-selector-con hr {
+ border-style: dotted;
+ border-width: 1px 0px 0px;
+}
+#ss-site-selector-con div.heading{
+ font-weight: normal;
+ font-size: 1.1em;
+}
+#ss-site-selector-con div.selector_sites{
+ min-width: 26em;
+}
+div.site-info{
+ line-height:18px;
+}
+form#ss_search_form {
+ font-size: 13px;
+}
+
+/* calendar popup */
+div.calendar {
+ z-index: 100;
+}
+span.heading{display:inline-block;}
+.heading{
+ font-weight:bold;
+ line-height:2;
+ margin-bottom:.5em;
+}
+/* MIWT Windows */
+div.miwt-ajax-progress {
+ font-style: italic; 
+ font-weight: bold;
+ font-family: "Trebuchet MS",arial,sans-serif; 
+}
+td.windowbuttons{
+ width:1%;
+ white-space:nowrap;
+}
+.windowbuttons button {
+ background: url(/_resources/all/docroot/cms/icons/x16/close_plus_hover.png) no-repeat top right;
+ height: 17px;
+ padding-right: 18px;
+ border: none;
+}
+.windowbuttons button:hover {
+ background-position: right -16px;
+ border: none;
+}
+.miwt .window {
+ border: 1px solid #aaa;
+ padding: 2px;
+ -moz-border-radius: 8px 8px 0 0;
+ border-radius: 8px 8px 0 0;
+ background: white url(/theme/Menu/menu_inactive.gif) repeat-x scroll left top;
+}
+.activewindowtitle {
+ color: #4E360C;
+ font-family: Tahoma, "Trebuchet MS", arial, sans-serif;
+ line-height: 1.5;
+}
+.dialog div.windowcontent {
+ top: 2em;
+ right: 0px;
+ left: 0px;
+ bottom: 0px;
+ padding: .5em;
+ min-height: 3em; /* For bugid#38597 - ~2em + 0.5em + 0.5em = ~3em */
+}
+.dialog table.OptionDialogButtons{margin:.75em auto;}
+table.OptionDialogButtons td {padding-right:.2em;}
+/*psuedo window*/
+.miwt-collapsable[data-disposition~="float"] .miwt-collapsable-content{
+ -moz-border-radius:8px;
+ border-radius:8px;
+ background-color:#EEE;
+ border:1px solid #AAA;
+ padding:0.5em;
+ z-index:1;
+}
+.column-visibility .column-visibility-selector.miwt-collapsable-content {
+    top: 1.25rem;
+    border: 1px solid black;
+    background: #fff;
+    color: black;
+}
+/* columns ------------------------------*/
+#column1 {
+ width: 12em;
+ padding: .75em;
+}
+#column2 {
+ width: 78%;
+}
+body.screen_hi #column2 {
+ width: 82%;
+}
+body.screen_ultrahi #column2 {
+ width: 85%;
+}
+#e_column_0 .minimized_parent + #column2 {
+ width: 92%; /* Covers approx. 800x600 + */
+}
+body.screen_hi #e_column_0 .minimized_parent + #column2, 
+body.screen_ultrahi #e_column_0 .minimized_parent + #column2{
+ width: 94%;
+}
+
+/* MISC */
+/*
+.workspace{
+ padding: 1em;
+ background: white;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #B9B196;
+}
+*/
+.page-background {
+ background: #777;
+ opacity: 0.65;
+ filter:alpha(opacity=65);
+}
+/* Collapsible Content Displayed Inline */
+.miwt-collapsable-content span.close_button{
+ float: right;
+}
+

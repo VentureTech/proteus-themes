@@ -1,0 +1,103 @@
+/* main UI heading ---------------------------*/
+div.ui_heading {
+margin-bottom:.25em;
+background:#f5f5f5 url(/theme/Page/headings.png) no-repeat;
+padding: 0 0 0 60px;
+}
+.ui_heading h2 {
+font:bold 16px Helvetica,Tahoma,sans-serif normal;
+text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+text-transform:uppercase;
+letter-spacing:.25rem;
+color:#4e4026;
+overflow:hidden;
+background:url(/theme/Page/heading_bg.gif) repeat-x center;
+padding: 1em 0;
+}
+.ui_heading span.hbg{
+ background:#f5f5f5;
+ padding-right: .5em;
+}
+/* support portal */
+#support_heading{background-position:left -6291px;}
+/* cms */
+#page_heading{background-position:left -272px;}
+#site_heading{background-position:left -353px;}
+#template_heading{background-position:left -845px;}
+#layout_heading{background-position:left -606px;}
+#article_heading{background-position:left -762px;}
+#media_heading{background-position:left -522px;}
+#file_heading{background-position:left 1px;}
+#album_heading{background-position:left -202px;}
+#dashboard_heading{background-position:left -130px;}
+#component_heading{background-position:left -60px;}
+/* ecomm */
+#store_heading{background-position:left -1841px;}
+#shopper_heading{background-position:left -918px;}
+#paypool_heading{background-position:left -991px;}
+/* registration */
+#erm_heading{background-position:left -3503px;}
+#registration_heading{background-position:left -682px;}
+#activity_heading{background-position:left -3417px;}
+#activitysession_heading{background-position:left -3337px;}
+#regforms_heading{background-position:left -3590px;}
+#eventconfig_heading{background-position:left -3049px;}
+/* member */
+#membertype_heading{background-position:left -4698px;}
+#membersignup_heading{background-position:left -4603px;}
+#memberadmin_heading{background-position:left -5530px;}
+/* application */
+#form_heading{background-position:left -3780px;}
+#calendarconfig_heading{background-position:left bottom;}
+#project_heading{background-position:left -3868px;}
+#key_heading{background-position:left -3952px;}
+#database_heading{background-position:left -5775px;}
+#database_mgt_heading{background-position:left -5693px;}
+#emailtemplate_heading{background-position: left -760px;}
+/* user */
+#user_groups_heading,
+#roles_heading,
+#clients_heading{background-position:left -4880px;}
+#userpreferences_heading{background-position:left -5067px;}
+#userpermissions_heading{background-position:left -5352px;}
+#users_heading{background-position:left -4793px;}
+/* system */
+#texteditor_heading{background-position:left -2266px;}
+#helppoint_heading{background-position:left -2427px;}
+#systeminfo_heading{background-position:left -2965px;}
+#script_heading{background-position:left -2582px;}
+#log_heading{background-position:left -2509px;}
+#systemcache_heading{background-position:left -2349px;}
+#logging_heading{background-position:left -6030px;}
+/* events */
+#eventscalendar_heading{background-position:left -3256px;}
+#events_heading{background-position:left -3180px;}
+/* orders */
+#orders_heading{background-position:left -1061px;}
+#shipping_heading{background-position:left -1214px;}
+#pickup_heading{background-position:left -1436px;}
+#orderentry_heading{background-position:left -1291px;}
+#orderwizard_heading{background-position:left -1363px;}
+/*store */
+#catalog_heading{background-position:left -1923px;}
+#product_heading{background-position:left -1754px;}
+#donation_heading{background-position:left -1675px;}
+#discount_heading{background-position:left -1515px;}
+#inventory_heading{background-position:left -1590px;}
+/* social */
+#votingresults_heading{background-position:left -4410px;}
+#votingcampaigns_heading{background-position:left -4508px;}
+#rating_heading{background-position:left -6289px;}
+#moderation_heading{background-position:left -6109px;}
+#comment_heading{background-position:left -6388px;}
+/* reports */
+#report_heading{background-position:left -2811px;}
+#newreport_heading{background-position:left -2738px;}
+#oldreport_heading{background-position:left -2660px;}
+#incremental_report_heading{background-position:left -2888px;}
+#my_reports_heading{background-position:left -5944px;}
+#old_reports_heading{background-position:left -5860px;}
+/* form and process --*/
+#formdata_heading{background-position:left -4306px;}
+#processdata_heading{background-position:left -4126px;}
+#processtask_heading{background-position:left -4217px;}

@@ -1,0 +1,209 @@
+/** Form Elements. */
+select:focus,
+input[type=text]:focus,
+textarea:focus{
+ background-color: #FFFFC0;
+}
+input[type=button],
+input[type=submit],
+input[type=reset],
+button{
+ font: normal 13px Arial;
+ padding: 1px 6px;
+ -moz-border-radius: 8px;
+ border-radius: 8px;
+ border: 1px solid #aaa;
+ color: #666;
+ background: #EEE url(/_resources/all/docroot/cms/icons/tab-gray-grad-bg-ia.gif) repeat-x scroll center top;
+}
+button{
+ overflow: visible; /* ie* padding fix */
+}
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=reset]:hover,
+button:hover{
+ color: #000;
+ border: 1px solid #333;
+}
+input[type=button]:active,
+input[type=submit]:active,
+input[type=reset]:active,
+button:active{
+  border: 1px inset;
+}
+input.button.disabled,
+input[type~=button][disabled],
+input[type~=submit][disabled],
+input[type~=reset][disabled],
+button[disabled],
+button.disabled{
+ display: none;
+ cursor: default;
+}
+ 
+
+/** Buttons W/ IMG Replacement. */
+button.edit,
+button.add,
+button.remove,
+button.delete,
+button.copy,
+button.collapse,
+button.collapsed,
+button.expand,
+button.expanded,
+button.details,
+button.view,
+button.rename,
+button.config,
+button.action-top,
+button.action-bottom,
+button.action-up,
+button.action-down{
+ min-height: 16px;
+ border: none;
+ -moz-border-radius: 0;
+ border-radius: 0;
+ background-color: transparent;
+ background-repeat: no-repeat;
+ background-position: 2px center;
+ padding: 1px 6px 1px 20px;
+}
+span.btn-image{
+    vertical-align: text-bottom;
+}
+/* Action Column. */
+.action-column button.edit,
+.action-column button.add,
+.action-column button.remove,
+.action-column button.delete,
+.action-column button.copy,
+.action-column button.collapse,
+.action-column button.collapsed,
+.action-column button.expand,
+.action-column button.expanded,
+.action-column button.details,
+.action-column button.view,
+.action-column button.rename,
+.action-column button.config,
+.action-column button.action-top,
+.action-column button.action-bottom,
+.action-column button.action-up,
+.action-column button.action-down
+ {
+ width: 18px;
+ height: 16px;
+ text-indent: -4000em;
+ overflow: hidden;
+ padding: 0;
+}
+button.edit{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/pencil_icon.png);
+}
+button.collapse,
+button.expanded{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/collapse.png);
+}
+button.expand,
+button.collapsed{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/expand.png);
+}
+button.delete,
+button.remove{
+ background-image: url(/_resources/all/docroot/cms/filesystem/icons/delete.gif);
+}
+button.copy{
+ background-image: url(/theme/Actions/16/copy.png);
+}
+button.add{
+ background-image: url(/theme/Actions/16/add.png);
+}
+button.details,
+button.view{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/pages.png);
+ background-position: 2px top;
+}
+button.rename{
+ background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/rename.gif);
+}
+button.config{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/tool_config.png);
+}
+button.action-top{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_top2.png);
+}
+button.action-up{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_up2.png);
+}
+button.action-down{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_down2.png);
+}
+button.action-bottom{
+ background-image: url(/_resources/all/docroot/cms/icons/x16/arrow_bottom2.png);
+}
+.miwt-calendar button.open{
+ background: transparent url(/_resources/all/docroot/cms/icons/x24/calendar_open.png) no-repeat scroll center top;
+ border:0;
+ height:24px;
+ margin:0;
+ overflow:hidden;
+ padding:0;
+ text-indent:-1000em;
+ width:24px;
+}
+.miwt-calendar button.open:hover{
+ background: transparent url(/_resources/all/docroot/cms/icons/x24/calendar_open.png) no-repeat scroll center bottom;
+ border:0;
+}
+.miwt-calendar button.clear{
+ display: none;
+}
+.actions span.btn-image,
+.actions a[data-features~="submit"],
+.actions .btn{
+    margin-left:3px;
+}
+/* menu buttons */
+div.menu_component ul.menu_items {
+ background-color: #fff;
+ -moz-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+ padding: 10px 0;
+ top: 100%;
+ border: 1px solid #ccc;
+ border: 1px solid rgba(0,0,0,0.2);
+}
+div.menu_component .parent_menu ul{
+ padding-top:0;
+}
+div.menu_component ul ul li.menu, 
+div.menu_component ul li.parent_menu {
+ padding: 0;
+}
+div.menu_component li.menu a.menu_item {
+ padding: 8px 20px;
+ padding: 8px 1.25rem;
+ display: block;
+ width: auto;
+}
+div.menu_component ul li.parent_menu > a.menu_item {
+ padding: 8px 32px 8px 20px;
+ padding: 8px 2rem 8px 1.25rem;
+ background-position: 98% center;
+}
+div.menu_component ul ul li.menu a.menu_item {
+ padding: 8px 32px 8px 20px;
+ padding: 8px 2rem 8px 1.25rem;
+}
+div.menu_component li.parent_menu:hover > a.menu_item,
+div.menu_component li.menu a.menu_item:hover {
+ background-color: #eee;
+}
+div.menu_component li.menu ul.menu_items {
+ top: -1px;
+}
+div.menu_component ul ul li.menu a.menu_item img {
+ padding-right: 0.5em;
+}

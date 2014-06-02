@@ -1,0 +1,94 @@
+.pager .pager-top{
+ display:none;
+} 
+fieldset:after { /* clearfix */
+ content: "";
+ display: table;
+ clear: both;
+}
+.email_template_editor .actions.top{
+ margin-bottom: -24px;
+}
+.email_template_editor .actions span.send_test_email{
+ margin-right: 15px;
+}
+.email_testing .test_actions,
+.email_template_editor fieldset,
+.email_template_editor div.addresses{
+ border:none;
+ padding: 0 1em;
+ margin: .5em 0 .25em 0;
+}
+.email_template_editor .addresses fieldset{
+ padding:0;
+ margin:0;
+}
+.email_testing label,
+.email_template_editor label{
+ display:block;
+}
+.email_template_editor .prop input[type=text]{
+ width:90%;
+ width:calc(100% - 10px);
+}
+.email_template_editor .prop,
+.email_template_editor .prop label,
+.email_template_editor .prop input,
+.email_template_editor fieldset{
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box; 
+ box-sizing: border-box;
+}
+.variables_collapsible-con{
+ margin: .5em 0 .75em;
+}
+select.expression_type{
+ display:none; /* FreeMarker Only For Now */
+}
+.prop.body textarea{
+ width:100%;
+}
+div.attachments{
+ margin-top:.75em;
+}
+table.attachments thead{
+ display:none;
+}
+.email_template_editor .prop.name,
+.email_template_editor .prop.programmatic_name,
+.email_template_editor fieldset.recipients,
+.email_template_editor fieldset.originators{
+ display:inline-block;
+ width:50%; 
+}
+.email_template_editor .prop.name,
+.email_template_editor .prop.programmatic_name,
+.email_template_editor fieldset.recipients,
+.email_template_editor fieldset.originators{
+ vertical-align: top;
+}
+.email_template_editor .message .subject {
+margin-bottom: 2em;
+}
+.email_template_editor .message .plaintext {
+margin: 3em 0;
+}
+.email_template_editor .variables_collapsible {
+padding-top: 1em;
+}
+.email_template_editor .variables_collapsible table.variables {
+margin-top: 1em;
+}
+.email_testing .test_actions {
+padding-left: 0;
+}
+@media only screen 
+and (max-width : 1024px)  {
+  .email_template_editor .prop.name,
+  .email_template_editor .prop.programmatic_name,
+  .email_template_editor fieldset.recipients,
+  .email_template_editor fieldset.originators{
+   display:block;
+   width:100%;
+  }
+}

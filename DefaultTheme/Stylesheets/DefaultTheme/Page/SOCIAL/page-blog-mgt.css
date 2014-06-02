@@ -1,0 +1,62 @@
+.blog_nav .mi {
+  float: left;
+  background: #bfaf89 url(/theme/Tabs/brown_bg.gif) repeat-x left top;
+  border: 1px #b9b196 solid;
+  border-bottom: none;
+  line-height: 1.9em;
+  font-weight: normal;
+  margin: 0px 2px;
+  color:  #300;
+  cursor: pointer;
+  padding: 0;
+  -moz-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+
+.blog_nav .mi:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.blog_nav .mi-active {
+  margin-bottom: -1px;
+  color: #300;
+  border-bottom: 1px #fff solid;
+  background: white url(/_resources/all/docroot/cms/icons/tab-gray-grad-bg-a.gif) repeat-x left top;
+}
+
+.blog_nav .mi a {
+  text-decoration: none;
+  color: #330000;  
+  display: block;
+  padding: 0 5px;
+  font-family:Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.blog_nav .mi-active a {
+  color:#330000;
+}
+
+.blog_posts,
+.blog_categories,
+.blog_authors {
+  border: 1px #b9b196 solid;
+  background: #fff;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+  padding: 8px;
+  clear: both;
+  -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  box-shadow: 0 1px 4px rgba(0,0,0,.2);
+  zoom:1; /*ie fix double padding. */
+}
+
+.pager_search_results {
+  margin: 1em 0;
+  width: 100%;
+}
+
+.search_results {
+  width: 100%;
+}

@@ -1,0 +1,248 @@
+/* main navigation */
+#e_column_0 nav.minimized_parent,
+.minimized ul.menu{
+ width: 36px;
+}
+.minimized .mi div.menuitemlabel{
+ height: 34px;
+}
+.minimized .menuitemlabel span.mil{
+  overflow: hidden;
+  text-indent: -1000px;
+  padding: 0;
+  height: 30px;
+}
+#configuration_menu.minimized .mi div.menuitemlabel span.mil {
+  background-image: none;
+}
+.minimized li.minimizer_top .menuitemlabel span.mil,
+.minimized li.minimizer_bottom .menuitemlabel span.mil {
+  height: 15px;
+}
+.main_menu ul.menubeanv li.mi,
+.main_menu ul.menubeanv-persistent li.mi {
+/* Fix z-index issue in IE<=7 - main_menu doesn't need positioned in this case. */
+  position: static;
+}
+/* Normal Style. */
+.main_menu ul.menu {
+  width: 100%;
+  overflow: hidden;
+  padding:2px 0 0;
+  margin: 0;
+}
+.main_menu li.mi {
+  display: block;
+  background: #f5f5f5;
+  border: 1px solid #b9b196; 
+  color: #4e360c;
+  margin-bottom: 5px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.main_menu li.mi-parent {
+  padding-bottom: 3px;
+}
+.main_menu span.mil {
+  display: block;
+  padding:6px 6px 9px 34px;
+}
+.main_menu .mi a.menuitemlabel {
+  display: block;
+  width: 100%; /* IE6 */
+  text-decoration: none;
+  color: #333;
+}
+.main_menu .mi ul.menu {
+  background: white; 
+}
+.main_menu li.mi-active,
+.main_menu li.over {
+  color: #fff;
+  border: 1px solid #300;
+  background: #046380;
+}
+.main_menu .mi-active.dashboard a.menuitemlabel,
+.main_menu .dashboard a.menuitemlabel:active {
+  color: #fff;
+}
+.main_menu li div.menuitemlabel span.mil {
+  background: url(/theme/Menu/arrow_right.png) no-repeat 93% center;
+}
+.main_menu li.over div.menuitemlabel span.mil {
+  /*background: url(/theme/Menu/arrow_down_active.gif) no-repeat 93% center;
+  background: url(/_resources/dyn/files/847839z62431b3f/_fn/menu_arrow2.png) no-repeat 93% center;*/
+  background: url(/theme/Branding/menu_arrow2.png) no-repeat 93% center;
+}
+
+.main_menu .configuration a.menuitemlabel:active,
+.main_menu .dashboard a.menuitemlabel:active {
+  color: #fff;
+}
+
+/* menu config and data access switcher -----------*/
+.main_menu li.configuration {
+  background: transparent;
+  border: none;
+}
+/* icons -------------------------------*/
+.main_menu div.menuitemlabel,
+.main_menu .mi span.mil,
+.main_menu .over .mi-inactive a span.mil {
+  background-image: url(/theme/Menu/navigation_inactive.png);
+  background-repeat: no-repeat;
+}
+.main_menu .dashboard span.mil{
+  background-position: 2px -1481px;
+}
+.main_menu .mi-active a span.mil,
+.main_menu .over a span.mil,
+.main_menu .over .mi-active a span.mil,
+.main_menu .over div.menuitemlabel {
+  background-image: url(/theme/Menu/navigation_active.png);
+}
+/* minimizer icon ----*/
+.main_menu li.minimizer_top,
+.main_menu li.minimizer_bottom {
+  cursor: pointer;
+  cursor: hand;
+  border: 1px solid #B9B196;
+  background: url(/theme/Tabs/brown_bg.gif) repeat-x top left;
+}
+.main_menu li.minimizer_top {
+  -moz-border-radius: 4px 4px 0 0;
+  -webkit-border-radius: 4px 4px 0 0;
+  border-radius: 4px 4px 0 0;
+}
+.main_menu li.minimizer_bottom {
+  -moz-border-radius: 0 0 4px 4px;
+  -webkit-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
+}
+.main_menu .minimizer_top div.menuitemlabel,
+.main_menu .minimizer_bottom div.menuitemlabel {
+  height: 15px;
+  background: url(/theme/Menu/expand_collapse_icon.png) no-repeat 92% 4px;
+}
+.main_menu .minimizer_top div.menuitemlabel span.mil,
+.main_menu .minimizer_bottom div.menuitemlabel span.mil {
+  padding: 0;
+  background-image: none;
+}
+/* support ------*/
+ul.menu .support_portal div.menuitemlabel { background-position: 2px -3390px; }
+ul.menu .support_portal .support .mil { background-position: 2px -3436px; }
+/* cms ------*/
+ul.menu .cms div.menuitemlabel {background-position: 2px -1697px;}
+ul.menu .site .mil{background-position: 2px -1611px;}
+ul.menu .page .mil{background-position: 2px -1567px;}
+ul.menu .template .mil{background-position: 2px -1300px;}
+ul.menu .layout .mil{background-position: 2px -1393px;}
+ul.menu .article .mil{background-position: 2px -1347px;}
+ul.menu .media .mil{background-position: 2px -1742px;}
+ul.menu .album .mil{background-position: 2px -1654px;}
+ul.menu .file_system .mil{background-position: 2px -1439px;}
+ul.menu .component .mil{background-position: 2px -1523px;}
+/* ecomm -----------*/
+ul.menu .ecomm div.menuitemlabel {background-position: 2px -1786px;}
+ul.menu .store .mil{background-position: 2px -1211px;}
+ul.menu .shopper .mil{background-position: 2px -1162px;}
+ul.menu .paypool .mil{background-position: 2px -1067px;}
+/* registration -----------*/
+ul.menu .event div.menuitemlabel{background-position: 2px -2710px;}
+ul.menu .erm .mil{background-position: 2px -2488px;}
+ul.menu .activity div.menuitemlabel,
+ul.menu .activity .mil{background-position: 2px -2535px;}
+ul.menu .activity_session .mil{background-position: 2px -2848px;}
+ul.menu .reg_forms .mil{background-position: 2px -2440px;}
+ul.menu .event_config .mil{background-position: 2px -2631px;}
+ul.menu .events .mil{background-position: 2px -2670px;}
+ul.menu .events_calendar .mil{background-position: 2px -2583px;}
+ul.menu .registration div.menuitemlabel,
+ul.menu .registration .mil{
+ background-position: 2px -1254px;
+}
+/* member ----------------*/
+ul.menu .member div.menuitemlabel{background-position: 2px 2px;}
+ul.menu .member_type .mil{background-position: 2px -37px;}
+ul.menu .member_signup .mil{background-position: 2px -72px;}
+ul.menu .member_admin .mil{background-position: 2px -504px;}
+/* application -----------*/
+ul.menu .application div.menuitemlabel{background-position: 2px -2754px;}
+ul.menu .form .mil{background-position: 2px -2802px;}
+ul.menu .calendar_config .mil{background-position: 2px -2940px;}
+ul.menu .project .mil{background-position: 2px -1829px;}
+ul.menu .key .mil{background-position: 2px -1872px;}
+ul.menu .database_mgt .mil{background-position: 2px -3244px;}
+ul.menu .database_data .mil{background-position: 2px -3156px;}
+/* social -------------------*/
+ul.menu .voting .mil{background-position: 2px -112px;}
+ul.menu .voting_results .mil{background-position: 2px -153px;}
+ul.menu .social div.menuitemlabel{background-position: 2px -3343px;}
+ul.menu .moderation .mil{background-position: 2px -3292px;}
+ul.menu .comment_mgt .mil{background-position: 2px -3429px;}
+ul.menu .rating_mgt .mil{background-position: 2px -3385px;}
+/* user ------------------*/
+ul.menu .user div.menuitemlabel{background-position: 2px -238px;}
+ul.menu .user_admin div.menuitemlabel{background-position: 2px -1481px;}
+ul.menu .users .mil{background-position: 2px -284px;}
+ul.menu .user_preferences .mil{background-position: 2px -375px;}
+/* system -------------*/
+ul.menu .permissions .mil{background-position: 2px -461px;}
+ul.menu .system div.menuitemlabel{background-position: 2px -3032px;}
+ul.menu .text_editor .mil{background-position: 2px -2990px;}
+ul.menu .system_info .mil{background-position: 2px -2890px;}
+ul.menu .system_cache .mil{background-position: 2px -2257px;}
+ul.menu .help_points .mil{background-position: 2px -2170px;}
+ul.menu .log .mil{background-position: 2px -2213px;}
+ul.menu .scripts .mil{background-position: 2px -2347px;}
+ul.menu .loggin_mgt .mil{background-position: 2px -3072px; }
+/* orders ------------------*/
+ul.menu .order div.menuitemlabel {background-position: 2px -1018px;}
+ul.menu .orders .mil{background-position: 2px -1114px;}
+ul.menu .shipping .mil{background-position: 2px -971px;}
+ul.menu .pickup .mil{background-position: 2px -592px;}
+ul.menu .order_entry .mil{background-position: 2px -1481px;}
+ul.menu .order_wizard .mil{background-position: 2px -546px;}
+/* product -----------------*/
+ul.menu .product .mil {background-position: 2px -783px;}
+ul.menu .catalog .mil{background-position: 2px -832px;}
+ul.menu .donation .mil{background-position: 2px -734px;}
+ul.menu .inventory .mil{background-position: 2px -687px;}
+ul.menu .discounts .mil{background-position: 2px -638px;}
+/* report ------------------*/
+ul.menu .report div.menuitemlabel,
+ul.menu .report .mil {
+ background-position: 2px -1913px;
+}
+ul.menu .new_report .mil{background-position: 2px -1958px;}
+ul.menu .old_report .mil{background-position: 2px -2127px;}
+ul.menu .incremental_reports .mil{background-position: 2px -2391px;}
+ul.menu .my_reports .mil{background-position: 2px -3115px;}
+ul.menu .old_report_mgt .mil{background-position: 2px -3203px;}
+/* form and process -----*/
+ul.menu .forms div.menuitemlabel {background-position: 2px -2085px;}
+ul.menu .form_data .mil{background-position: 2px -2003px;}
+ul.menu .process_data .mil{background-position: 2px -2044px;}
+ul.menu .process_task .mil{background-position: 2px -2300px;}
+
+/*sublevel */
+.main_menu .mi .mi{
+ background-color: #fff;
+ border: none;
+ -moz-border-radius: 0;
+ border-radius: 0;
+ margin: 0;
+ background-image: none;
+}
+.main_menu .mi li.mi-active,
+.main_menu .mi li a.menuitemlabel:hover {
+ background-image: none;
+ background-color: #f2f0d5;
+ color: #333;
+ border: none;
+}
+.main_menu li.mi-active .mi a.menuitemlabel,
+.main_menu li.over .mi a.menuitemlabel {
+  color: #333;
+}

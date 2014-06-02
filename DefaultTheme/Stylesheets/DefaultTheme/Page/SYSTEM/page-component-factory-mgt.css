@@ -1,0 +1,10 @@
+.prop label,
+.constraint label{
+ display:block;
+}
+.constraint .sites{
+ max-width:24em;
+}
+div.prop{
+ margin: .75em 0;
+}

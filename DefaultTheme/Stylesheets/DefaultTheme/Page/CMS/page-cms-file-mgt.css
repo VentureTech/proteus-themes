@@ -1,0 +1,408 @@
+/*start - fix flicker due to dnd cn applied after render - miwt issue. */
+.file_tree > tbody > tr > td.first{
+  padding:0 2px 3px 15px;
+}
+.file_table td.first-column{
+ padding:0 10px 3px 15px;
+}
+/*end*/
+.file_editor{text-align: center;}
+.file_info_heading button.button_back,
+.file_editor_controls button,
+.file_tree_action_toolbar button{
+ opacity: 0.7;
+}
+.file_editor_controls{
+ margin:.5em;
+}
+.file_tree_action_toolbar button:hover{
+ opacity: 1;
+}
+.file_management_component .label{
+ font-weight: bold;
+}
+/** TreeFileView. */
+div.file_table_title{
+ font: normal 13px Arial;
+ margin-bottom: 1em;
+}
+span.directory_name{
+ font-weight: bold;
+ font-size: 1.2em;
+}
+a.fse_folder, a.fse_file{
+ padding-left:2px;
+ text-decoration: none;
+ color: #00F;
+}
+a.fse_file:hover, 
+a.fse_folder:hover{
+ color: #00B;
+}
+td.file_tree_container-con{
+ overflow: auto;
+ min-height: 500px;
+ vertical-align: top;
+ padding: 0 1.5em 1em 0;/*need extra for webkit*/
+ max-width: 25%;
+}
+.file_tree tr.odd > td {
+  background-color: transparent;
+}
+.file_tree .fse_selected_folder {
+  background: #FFC;
+}
+/* Table defaults. */
+table.wizard,
+table.pager,
+table.miwt-table{
+  text-align: left;
+  width: 100%;
+  clear: both;
+}
+td.file_table_container-con{
+ vertical-align:top;
+ width:100%;
+}
+.file_tree tbody td{
+ padding: 0 1px;
+}
+.file_tree tr.even td{
+ background-color: transparent;
+}
+table.file_tree td.last-column{
+ border: none;
+}
+.file_table td.control{
+ width: 1%;
+ white-space:nowrap;
+}
+.file_table td{ 
+ font-size: 0.93em;
+}
+td.type-date {
+  width: 10em;
+}
+td.fse_icon-con {
+  width: 16px;
+}
+td.quick-actions {
+ white-space:nowrap;
+ width:1%;
+ cursor:pointer;
+}
+/*reset dnd*/
+table.file_tree td.file_tree_name_col{
+ padding:0;
+ white-space:nowrap;
+ text-align:left;
+}
+.file_tree .dnd-target td.first,
+.file_tree .dnd-source td.first{
+ padding-right:2px;
+}
+.fse_icon_name td.fse_icon-con,
+.fse_icon_name td.fse_folder-con{
+ cursor:pointer;
+}
+/** Create Folder Action. */
+div.file_tree_action_toolbar{
+ float: left;
+ text-align: left;
+ margin-bottom: .5em;
+}
+div.file_tree_extra_toolbar{
+ padding: 0.15em 0.5em;
+ float: left;
+}
+.file_tree_extra_toolbar_disabled {
+  display: none;
+}
+/** FileInfoImpl. */
+table.file_info_navigation{
+ margin-top:-3em;
+ margin-left:auto;
+ margin-right:auto;
+ position:relative;
+ z-index:1;
+}
+.lt-ie8 table.file_info_navigation{
+ float:none;margin:0;
+}
+div.file_info_heading{
+ width: 100%;
+ overflow: hidden;
+ position: relative;
+}
+.file_info_heading .button_back{
+ right: 0;
+ position: absolute;
+}
+.title{
+ font-size: 1.2em;
+ font-weight: bold;
+ font-style: italic;
+ color: #555;
+ text-align: center;
+}
+span.title{display:block;}
+.change_storage_title,
+.file_info_title, 
+.file_upload_title, 
+.file_rename_title, 
+.file_conflict_title,
+.file_editor_title{
+ margin-bottom: 1em;
+ padding: .5em 0;
+}
+.file_information_view div.fse_table{
+ width: 50%;
+ float: left;
+ clear: left;
+}
+.file_information_view div.fse_preview{
+ width: 50%;
+ float: left;
+ clear: right;
+}
+div.version_table,
+div.fsmd_table{
+  padding-top: 1em;
+  clear: both;
+}
+td.file_info_label-con{
+ max-width: 50%;
+ width: 25%;
+ min-width: 8em;
+ white-space: nowrap;
+ font-weight: bold;
+ padding-right: 2px;
+ text-align: right;
+}
+.file_info_value {
+  padding-left: 2px;
+  text-align: left;
+}
+td.button_next-con,
+td.button_previous-con{
+  padding:0 .5em;
+}
+/* Preview within FileInfoImpl. */
+label.fse_details_title {
+ padding: 0 0 .3em 0;
+ width:100%;
+ display:block;
+}
+div.file_preview_text{
+ height: 24em;
+}
+textarea.file_preview_text{
+ height: 98%;
+ width: 99%;
+}
+div.file_preview_flash{
+ display: block;
+}
+.fse_preview div.thumbnail{
+ margin-top: .5em;
+ text-align: center;
+}
+/* File Conflicts / Rename. */
+table.conflict_resolution_entry,
+.conflict_resolution_component {
+  width: 100%;
+}
+table.file_rename_container,
+table.file_conflict_container  {
+  margin: 0px auto;
+}
+.file_rename_entry td,
+.conflict_resolution_entry td {
+ padding:3px;
+ border-top:1px dotted #ccc;
+}
+table.file_rename_entry,
+table.conflict_resolution_entry{
+ border:1px dotted #ccc;
+ border-width: 0 1px 1px 1px;
+ margin:.2em;
+}
+td.cr_title_existingfse-con,
+td.cr_title_newfse-con{
+ min-width:5.5em;
+}
+td.rc_existing_name-con,
+td.cr_existing_name-con,
+td.cr_new_name-con{
+ min-width: 10em;
+}
+td.cr_existing_size-con,
+td.cr_new_size-con{
+ min-width:4em;
+}
+td.cr_existing_date-con,
+td.cr_new_date-con{
+ min-width:10em;
+}
+td.cr_resolution_container-con{
+ vertical-align:middle;
+ border-left:1px dotted #ccc;
+}
+td.button_container-con{
+ text-align:center;
+ padding: 10px 0;
+}
+
+span.code_completion_help{
+ display: block;
+ font-style: italic;
+ text-align: center;
+}
+table.report_wizard{
+ margin:0 auto;
+}
+.file_management_component span.heading {
+  font-style: italic;
+  font-weight: bold;
+  color: #555;
+  font-size: 1.2em;
+}
+
+/* file uploader -------------------*/
+div.file_upload_container{
+ text-align: left;
+ min-width: 34em;
+ max-width: 45em;
+ margin:0 auto;
+}
+div.file_upload_data,
+div.sen_upload_info,
+div.upload_options,
+div.upload_actions{
+ margin:.75em 0;
+ line-height:2;
+}
+.sen_attachment_info{font-weight:bold;}
+.file_upload_data label{
+ display: inline-block;
+}
+.option_preserve_dir{
+ text-indent:4em;
+}
+.upload_options{
+ text-indent:2em;
+}
+.upload_actions{
+ text-align:center;
+}
+/** Content Type Editor */
+.input_bar,
+.editable_list,
+.content_type_selector,
+.content_type_editor{
+ display:inline-block;
+}
+.content_type_editor div.content_type_selector.enabled{
+ float: left
+}
+.content_type_selector.enabled .editable_list{
+ width: 250px;
+ position: relative;
+}
+.content_type_selector .editable_list .input_bar input{
+ height: 16px;
+ width: 220px;
+ border: 1px solid #aaa;
+ font-size:13px;
+}
+.content_type_selector .editable_list .element input{
+ display:none;
+}
+.content_type_selector .select_existing{
+ position: absolute;
+ top: 20px;
+ left:  0;
+ width: 100%;
+ background-color:#fff;
+}
+.content_type_selector .richlist{
+ max-height: 200px;
+ overflow: auto;
+ border: 1px inset #aaa;
+ background-color: #FFFFC0;
+}
+.content_type_selector .richlist .element{
+ padding: 5px;
+}
+.content_type_selector .richlist .checked,
+.content_type_selector .richlist .element:hover{
+ background-color: #69C;
+ cursor: pointer;
+}
+
+.protections_explanation p.explanation{
+  font-size:1.1em;
+  line-height:1.25;
+}
+.protections_explanation table.miwt-table{
+  margin: 1em auto;
+}
+.persistence_actions,
+.protection_actions{
+  margin:1em auto;
+}
+
+#file-upload-drop-zone {
+    border: 2px dashed #bbb;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    font: 20pt bold;
+    color: #bbb;
+    margin: .25em 0;
+}
+#file-upload-list {
+    display: block;
+}
+#file-upload-list  .ext-img img{
+    vertical-align: text-bottom;
+}
+#file-upload-list .file{
+    position: relative;
+}
+#file-upload-list  .btn.remove {
+    position: absolute;
+    right: 0;
+    background-color: rgb(245,245,245);
+}
+
+/** Quick File Actions */
+.quick-actions button.btn {
+  width: 16px;
+  height: 16px;
+  text-indent: -4000em;
+  border: none;
+  background-color: transparent;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+/*noinspection CssUnknownTarget*/
+.quick-actions button.download-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/download.gif); }
+/*noinspection CssUnknownTarget*/
+.quick-actions button.delete-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/delete.gif); }
+/*noinspection CssUnknownTarget*/
+.quick-actions button.rename-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/rename.gif); }
+/*noinspection CssUnknownTarget*/
+.quick-actions button.info-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/info.png); }
+/*noinspection CssUnknownTarget*/
+.quick-actions button.change-permissions-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/change_permissions_inactive.png); }
+/*noinspection CssUnknownTarget*/
+.protected .quick-actions button.change-permissions-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/change_permissions.png); }
+/*noinspection CssUnknownTarget*/
+.children_unprotected .quick-actions button.change-permissions-action { background-image: url(/_resources/dyn/docroot/cms/filesystem/icons/change_permissions_children_unprotected.png); }

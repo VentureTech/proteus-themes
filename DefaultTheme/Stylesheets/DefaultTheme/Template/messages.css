@@ -1,0 +1,26 @@
+div.message-container {
+ background: #FFC;
+ border: 1px #CCC solid;
+ text-align: left;
+ width: 98%;
+ margin: 0 auto 8px; 
+ -moz-border-radius: 6px;
+ border-radius: 6px;
+}
+.message-container.empty{
+ display: none;
+}
+.message-container .message{
+ padding: 10px 23px;
+ min-height: 16px;
+ height: auto;
+}
+.message.info{
+ background: url(/_resources/all/docroot/cms/icons/x16/message_info.png) no-repeat 4px 10px;
+}
+.message.important{
+ background: url(/_resources/all/docroot/cms/icons/x16/message_warning.png) no-repeat 4px 10px;
+}
+.message.error{
+ background: url(/_resources/all/docroot/cms/icons/x16/message_error.png) no-repeat 4px 10px;
+}

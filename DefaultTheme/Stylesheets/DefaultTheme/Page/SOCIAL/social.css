@@ -1,0 +1,33 @@
+/* social section (moderation, rating and comment mgt)*/
+table.pager,
+table.miwt-table{
+ width: 100%;
+}
+div.control_bar,
+.comment_definition div.prop,
+.published_statuses .richlist div.element,
+.rating_definition div.prop {
+  display: inline-block;
+  margin-right: .5em;
+}
+.comment_definition div.prop,
+.rating_definition div.prop,
+.rating_definition div.options,
+.rating_definition div.subratings {
+  margin-bottom: .5em;
+}
+.comment_definition .prop label,
+.rating_definition .prop label{
+  display: block;
+  padding-bottom: .25em;
+}
+div.site_assignment,
+.rating_definition div.options,
+.rating_definition div.subratings {
+  width: 100%;
+}
+div.site_assignment,
+.options div.control_bar,
+.subratings div.control_bar {
+  margin:.75em 0 .25em;
+}

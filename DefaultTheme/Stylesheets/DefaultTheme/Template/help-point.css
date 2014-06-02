@@ -1,0 +1,89 @@
+/* Help Point */
+#composite_heading div.help-point-component{
+ background-color:#F5F5F5;
+ margin-top:-4em;
+ padding:0 4px;
+}
+.search .help-point,
+div.help-point-component,
+span.tab_help {
+  float: right;
+}
+.page_help,
+.tab_help,
+.field_help { 
+  height: 16px;
+  width: 16px;  
+  display: inline-block;
+  margin-left: 0.5em; 
+}
+.page_help a.help-point,
+.tab_help a.help-point,
+.field_help a.help-point{
+ display: inline-block;
+ width: 100%;
+ height: 100%;
+ text-indent: -4000em;
+}
+.lt-ie8 a.help-point{
+ text-indent:0;
+}
+.page_help,
+.tab_help,
+.field_help {
+  background: url(/theme/Actions/16/help.png) no-repeat center top;
+}
+.disabled.help-point,
+.disabled-con .help-point {
+   background: none;
+   color: red; 
+   height: 15px; /* to prevent the float left DIVs from getting caught by this */
+   text-indent: 0;
+}
+.disabled-con {
+  float: left;
+}
+
+/* To make the help point on the right of the label */ 
+span.sheet_title_message-con,
+span.property_name-con {
+    float: left;
+}
+
+/* Move some disabled help points to the right. This rule, not the next, should be removed after 
+the page level and tab level help points are enabled. */
+
+/* .actionbar div.disabled.help-point, */
+
+.site_table_title_container div.disabled.help-point,
+.form_mgt-con div.disabled.help-point,
+.form_mgt_data-con div.disabled.help-point,
+.searchrow div.disabled.help-point,
+.tab-container div.disabled.help-point,
+/* CMS pages */
+.site_page div.disabled.help-point,
+.nde_editor div.disabled.help-point,
+#info_bar div.disabled.help-point,
+#tabcontainer_site div.disabled.help-point,
+.cms_article_mgt div.disabled.help-point,
+.file_table_container div.disabled.help-point,
+/* Ecom pages */
+.navigation_root .product_mgt-con div.disabled.help-point,
+.order_entry div.disabled.help-point,
+.ecommerce_order_management-con div.disabled.help-point,
+.ecommerce_orderpickup-con div.disabled.help-point,
+.pending_order_procedure div.disabled.help-point,
+.pending_order_procedure .disabled-con div.help-point,
+.ecommerce_shippinggroupview-con  div.disabled.help-point,
+.ecommerce_ordershipmentview-con div.disabled.help-point,
+.ecommerce_orderdesktopview-con div.help-point,
+.ecommerce_orderdetail-con div.help-point {
+   float: right; 
+}
+
+/* To make the order entry form field level help point stay on the right of the label */
+.order_entry .label span.section_label-con,
+.order_entry .label div.disabled.help-point {
+   float: left;
+}
+

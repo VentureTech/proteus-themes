@@ -1,0 +1,17 @@
+.property_viewer div.column,
+.property_editor div.column {
+  float:left;
+  margin-right:1em;
+}
+.property_viewer label,
+.property_editor label{
+  font-weight:bold;
+}
+.property_viewer .prop,
+.property_editor .prop{
+  line-height:2em;
+}
+div.tab-container {
+  clear:both;
+}
+​
