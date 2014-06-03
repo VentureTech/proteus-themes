@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/DefaultProteusBackend/DefaultProteusBackend.iml" filepath="$PROJECT_DIR$/DefaultProteusBackend/DefaultProteusBackend.iml" />
       <module fileurl="file://$PROJECT_DIR$/proteus-themes.iml" filepath="$PROJECT_DIR$/proteus-themes.iml" />
     </modules>
   </component>
