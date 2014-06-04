@@ -1,0 +1,52 @@
+<component name="libraryTable">
+  <library name="MIWT" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/dnd.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/ajax.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/window.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/timer.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/permiating.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/calendar.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/util.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/searchable_combobox.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/field.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/menu.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/epilogue.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/list.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/form.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/button.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/collapsablecontainer.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/selectall.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/cardcontainer.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/media.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/setup.js" />
+        <item url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/table.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/dnd.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/permiating.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/util.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/field.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/epilogue.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/ajax.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/window.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/timer.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/calendar.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/searchable_combobox.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/menu.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/list.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/form.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/button.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/collapsablecontainer.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/selectall.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/cardcontainer.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/media.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/setup.js" />
+      <root url="file://$PROJECT_DIR$/../private-proteusframework/ui/src/main/resources/web/docroot/lib/miwt/miwt-lib.js/table.js" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
