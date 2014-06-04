@@ -1,0 +1,960 @@
+{
+  "name": "Default Proteus Backend Theme",
+  "description": "A theme for the Proteus backend.",
+  "version": 1.0,
+  "theme-directory": "DefaultTheme", /* Directory where files exist in: Design, Javascript, and Stylesheets */
+  "theme-uri": "theme", /* Used To Resolve Resources In Design Folder. FileServer path mapped to "Design/${theme-directory}". */
+  "branding-configuration": {
+    "css": ["Template/branding.css"]
+  },
+  "site-configuration": {
+    "css": ["Site/fonts-colors.css"]
+  },
+  "template-configuration": [
+    {
+      "id": [
+        "new_login_template","new-login-template", "login-template"
+      ],
+      "description": "Login Section",
+      "css": [
+        "Template/messages.css"
+      ]
+    },
+    {
+      "id": [
+        "configuration_template","configuration-template"
+      ],
+      "description": "Configuration Section",
+      "css": [
+        "Template/menu.css",
+        "Template/headings-pages.css",
+        "Template/tables-trees.css",
+        "Template/backend.css",
+        "Template/help-point.css",
+        "Template/dnd.css",
+        "Template/localization-input-selector.css",
+        "Template/LocalizedObjectKeyFieldComponent.css",
+        "Template/form-elements-buttons.css",
+        "Template/tabbed-containers.css",
+        "Template/messages.css"
+      ],
+      "javascript": [
+        "cookie-check.js"
+      ]
+    }
+  ],
+  "page-configuration": [
+    {
+      "path": [
+        "main/login"
+      ],
+      "css": [
+        "Page/page-backend-login.css"
+      ]
+    },
+    {
+      "path": [
+        "main/password_reset"
+      ],
+      "css": [
+        "Page/page-backend-login.css"
+      ]
+    },
+    {
+      "path": [
+        "main/preferences"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "main/preferences"
+      ],
+      "css": [
+        "Page/page-preferencesui.css"
+      ]
+    },
+    {
+      "path": [
+        "main/dashboard"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-download-icons.css"
+      ]
+    },
+    {
+      "path": [
+        "main/dashboard"
+      ],
+      "css": [
+        "Page/page-dashboard-50.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/template"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/template"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/template"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/template"
+      ],
+      "css": [
+        "Page/SHARED/cms-clicktoedit.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/template"
+      ],
+      "css": [
+        "Page/SHARED/shared-component-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/template"
+      ],
+      "css": [
+        "Page/CMS/page-cms-template-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/help_points"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/help_points"
+      ],
+      "css": [
+        "Page/SYSTEM/page-help-point-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/file_system"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/file_system"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/file_system"
+      ],
+      "css": [
+        "Page/CMS/page-cms-file-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/log4j"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "process/user/form_data"
+      ],
+      "css": [
+        "Page/SHARED/shared-form-data.css"
+      ]
+    },
+    {
+      "path": [
+        "process/user/form_data"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "process/user/form_data"
+      ],
+      "css": [
+        "Page/FORM/page-vsform-formdata-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "data/user/my_reports"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/layout"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/layout"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/layout"
+      ],
+      "css": [
+        "Page/CMS/page-cms-layout-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/site_users"
+      ],
+      "css": [
+        "Page/SHARED/shared-componentfactory-desktop.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/site_users"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/site_users"
+      ],
+      "css": [
+        "Legacy/shared-user-admin.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/site_users"
+      ],
+      "css": [
+        "Legacy/page-user-admin.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/custom-db-data"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/custom-db-data"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/custom-db-data"
+      ],
+      "css": [
+        "Page/APPLICATION/cms-table-row-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/custom-db-data"
+      ],
+      "css": [
+        "Page/APPLICATION/page-custom-db.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/SHARED/cms-clicktoedit.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/CMS/page-cms-file-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/library"
+      ],
+      "css": [
+        "Page/SYSTEM/page-lib-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/user_groups"
+      ],
+      "css": [
+        "Page/SHARED/shared-componentfactory-desktop.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/user_groups"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/permissions"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/site"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/site"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/site"
+      ],
+      "css": [
+        "Page/SHARED/shared-component-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/site"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/site"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/site"
+      ],
+      "css": [
+        "Page/CMS/page-cms-site-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/cms-saf2-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/cms-clicktoedit.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/cms-foldereditor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/CMS/page-cms-file-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/CMS/page-cms-template-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/SHARED/shared-component-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/CMS/page-cms-page-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/component"
+      ],
+      "css": [
+        "Page/CMS/page-cms-component-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/article"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/article"
+      ],
+      "css": [
+        "Page/SHARED/shared-component-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/article"
+      ],
+      "css": [
+        "Page/CMS/page-cms-article-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/email_template"
+      ],
+      "css": [
+        "Page/SHARED/workspace.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/email_template"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/email_template"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/email_template"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/email_template"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/email_template"
+      ],
+      "css": [
+        "Page/APPLICATION/page-email-template-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/role"
+      ],
+      "css": [
+        "Page/SHARED/shared-componentfactory-desktop.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/role"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/report_mgt"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/report_mgt"
+      ],
+      "css": [
+        "Page/CMS/page-cms-file-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/report_mgt"
+      ],
+      "css": [
+        "Page/REPORTS/page-cms-report-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/cms-saf2-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/cms-pageelement-selector.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/cms-clicktoedit.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/cms-foldereditor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/CMS/page-cms-file-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/CMS/page-cms-template-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/SHARED/shared-component-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "content/user/page"
+      ],
+      "css": [
+        "Page/CMS/page-cms-page-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Page/SHARED/shared-componentfactory-desktop.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Page/BPM/page-process-data.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Page/BPM/page-process-task.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Page/SYSTEM/page-lib-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Legacy/shared-user-admin.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Legacy/page-user-admin.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/clients"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/backend_users"
+      ],
+      "css": [
+        "Page/SHARED/shared-componentfactory-desktop.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/backend_users"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/backend_users"
+      ],
+      "css": [
+        "Legacy/shared-user-admin.css"
+      ]
+    },
+    {
+      "path": [
+        "system/admin/backend_users"
+      ],
+      "css": [
+        "Legacy/page-user-admin.css"
+      ]
+    },
+    {
+      "path": [
+        "system/config/cache"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/data_provider"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "data/config/label"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "data/config/label"
+      ],
+      "css": [
+        "Page/SHARED/shared-big-buttons.css"
+      ]
+    },
+    {
+      "path": [
+        "data/config/label"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "data/config/label"
+      ],
+      "css": [
+        "Page/APPLICATION/page-label-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/SHARED/shared-form-data.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/SHARED/shared-file-chooser.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/FORM/page-vsform-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/FORM/page-vsform-mgt.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/SHARED/shared-property-editor.css"
+      ]
+    },
+    {
+      "path": [
+        "process/admin/form"
+      ],
+      "css": [
+        "Page/FORM/form-rules.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/custom-db-config"
+      ],
+      "css": [
+        "Page/SHARED/shared-search.css"
+      ]
+    },
+    {
+      "path": [
+        "data/admin/custom-db-config"
+      ],
+      "css": [
+        "Page/APPLICATION/page-custom-db.css"
+      ]
+    }
+  ]
+}
