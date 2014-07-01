@@ -88,6 +88,7 @@ div.properties_and_views:after{
 .form_tabs ul.tab-items{width:100%;}
 .tab-items li.form_settings,
 .tab-items li.advanced,
+.tab-items li.emails,
 .tab-items li.site_assignment,
 .tab-items li.generators,
 .tab-items li.security,
