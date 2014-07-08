@@ -31,26 +31,26 @@ a.video:hover{
 }
 a.export_pdf,
 a[href$="pdf"] {
- background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/pdf.png) no-repeat left center;
+ background: url(/theme/File/24/pdf.png) no-repeat left center;
 }
 a[href$="swf"],
 a.video {
- background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/video.png) no-repeat left center;
+ background: url(/theme/File/24/video.png) no-repeat left center;
 }
 a[href$="doc"],
 a[href$="docx"],
 a.export_rtf,
 a.export_word{
- background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/word.gif) no-repeat left center;
+ background: url(/theme/File/24/word.gif) no-repeat left center;
 }
 a[href$="xls"],
 a[href$="xlsx"],
 a.export_xls{
- background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/excel.gif) no-repeat left center;
+ background: url(/theme/File/24/excel.gif) no-repeat left center;
 }
 a[href$="csv"],
 a.export_csv{
- background: url(/_resources/dyn/files/_SiteRoot/SITE1/VS4/File/24/csv.gif) no-repeat left center;
+ background: url(/theme/File/24/csv.gif) no-repeat left center;
 }
 
 
