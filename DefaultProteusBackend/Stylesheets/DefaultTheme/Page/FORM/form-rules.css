@@ -115,7 +115,7 @@ div.consequence .editor, div.consequence .list_editor {
   border-radius: 0 0 0 0;
   min-height: 16px;
   padding: 1px 6px 1px 20px;
-  background-image: url("/_resources/all/files/_SiteRoot/SITE1/VS4/Actions/16/add.png");
+  background-image: url("/theme/Actions/16/add.png");
 }
 
 .form_rule_wrapper .edit .condition {
