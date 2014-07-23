@@ -127,8 +127,8 @@ div.property_sheet{
  border: 1px solid #CCC;
  background-color: #EEE;
 }
-.property-editor .prop p.instructions,
-.property_editor .prop p.instructions{
+.property-editor .prop .instructions,
+.property_editor .prop .instructions{
  margin-top:0;
 }
 ​
