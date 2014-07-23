@@ -38,10 +38,12 @@ section > hgroup h3{font-size:1.15em;}
   padding: 0;
 }
 .property_viewer > .actions,
+.property-editor > .actions,
 .property_editor > .actions {
   margin: 10px 0;
 }
 .property_viewer > .actions.top,
+.property-editor > .actions.top,
 .property_editor > .actions.top {
   text-align:right;
 }
@@ -61,6 +63,7 @@ div.property_sheet{
  padding:.25em;
 }
 .property_viewer div.prop,
+.property-editor div.prop,
 .property_editor div.prop,
 .property_sheet div.prop{
  margin: .75em 0;
@@ -79,6 +82,7 @@ div.property_sheet{
 }
 
 .property_viewer label,
+.property-editor label,
 .property_editor label,
 .property_sheet label{
  display: inline-block;
@@ -86,12 +90,14 @@ div.property_sheet{
  margin-right:10px;
 }
 .property_viewer label.tal,
+.property-editor label.tal,
 .property_editor label.tal,
 .property_sheet label.tal{
  display:block;
  margin:.25em 0;
 }
 .property_viewer label.tbl,
+.property-editor label.tbl,
 .property_editor label.tbl,
 .property_sheet label.tbl{
  padding-right:.25em;
@@ -101,11 +107,12 @@ div.property_sheet{
 .property_sheet .help-point.disabled{
  display:none;
 }
+.property-editor .user_entry_required > label,
 .property_editor .user_entry_required > label{
   padding-left: 7px;
   background: transparent url(/_resources/all/docroot/cms/icons/x16/icon_required.png) no-repeat scroll left top;
 }
-
+.property-viewer .prop span.ta,
 .property_viewer .prop span.ta {
  display:inline-block;
  padding:2px;
@@ -114,6 +121,7 @@ div.property_sheet{
  border: 1px solid #CCC;
  background-color: #EEE;
 }
+.property-editor .prop p.instructions,
 .property_editor .prop p.instructions{
  margin-top:0;
 }
