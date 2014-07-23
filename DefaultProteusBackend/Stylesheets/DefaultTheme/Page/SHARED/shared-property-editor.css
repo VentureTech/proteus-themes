@@ -38,11 +38,13 @@ section > hgroup h3{font-size:1.15em;}
   padding: 0;
 }
 .property_viewer > .actions,
+.property-viewer > .actions,
 .property-editor > .actions,
 .property_editor > .actions {
   margin: 10px 0;
 }
 .property_viewer > .actions.top,
+.property-viewer > .actions.top,
 .property-editor > .actions.top,
 .property_editor > .actions.top {
   text-align:right;
@@ -63,6 +65,7 @@ div.property_sheet{
  padding:.25em;
 }
 .property_viewer div.prop,
+.property-viewer div.prop,
 .property-editor div.prop,
 .property_editor div.prop,
 .property_sheet div.prop{
@@ -82,6 +85,7 @@ div.property_sheet{
 }
 
 .property_viewer label,
+.property-viewer label,
 .property-editor label,
 .property_editor label,
 .property_sheet label{
@@ -90,6 +94,7 @@ div.property_sheet{
  margin-right:10px;
 }
 .property_viewer label.tal,
+.property-viewer label.tal,
 .property-editor label.tal,
 .property_editor label.tal,
 .property_sheet label.tal{
@@ -97,6 +102,7 @@ div.property_sheet{
  margin:.25em 0;
 }
 .property_viewer label.tbl,
+.property-viewer label.tbl,
 .property-editor label.tbl,
 .property_editor label.tbl,
 .property_sheet label.tbl{
@@ -125,4 +131,4 @@ div.property_sheet{
 .property_editor .prop p.instructions{
  margin-top:0;
 }
-
+​
