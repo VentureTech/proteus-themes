@@ -95,4 +95,72 @@
   width: 170px;
   margin-top: 3px;
 }
-​
+
+
+/* row expression styling */
+.row_expression_column {
+  line-height: 1.3;   
+}
+
+.row_expression_column h1,
+.row_expression_column h2,
+.row_expression_column h3,
+.row_expression_column h4,
+.row_expression_column h5 {
+  font-style: normal;
+  color: #000;
+  font-weight: bold;
+}
+
+
+.row_expression_column h1 {
+  font-size: 2em;  
+  margin-top: .67em;
+  margin-bottom: .67em; 
+}
+
+.row_expression_column h2 {
+  font-size: 1.5em;   
+  margin-top: .83em;
+  margin-bottom: .83em;
+}
+
+.row_expression_column h3 {
+  font-size: 1.15em;  
+  margin-top: 1em;
+  margin-bottom: 1em; 
+}
+
+.row_expression_column h4 {
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+.row_expression_column p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.row_expression_column ul,
+.row_expression_column ol {
+  list-style: initial;
+  padding-left: 40px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.row_expression_column sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+.row_expression_column sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+.row_expression_column em {
+  font-style: italic;
+  font-weight: normal;
+}
