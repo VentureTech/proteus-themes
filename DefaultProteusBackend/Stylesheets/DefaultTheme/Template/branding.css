@@ -31,15 +31,15 @@ a.branding-logo {
 .branding .username{
     color: #fff;
 }
-#site_locale, #preferences_link, .site-selector, #logout {
+#site-locale, #preferences-link, .site-selector, #logout {
     position: absolute;
 }
-#site_locale{
+#site-locale{
     color: black;
     left: 2em;
     top: 39px;
 }
-#site_locale + .site-selector {
+#site-locale + .site-selector {
     top: 16px;
 }
 .site-selector{
@@ -50,7 +50,7 @@ a.branding-logo {
     right: 2em;
     top: 38px;
 }
-#preferences_link {
+#preferences-link {
     right: 2em;
     top: 16px;
 }
