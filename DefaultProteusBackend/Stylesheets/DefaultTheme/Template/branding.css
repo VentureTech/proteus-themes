@@ -1,14 +1,13 @@
 /* ProteusFramework Default Branding. */
 /* Not Attached To Pages, Sites, etc. Used in the branding configuration UI. */
-#branding_logo {
+#branding-logo {
     position: relative;
     height: 74px;
     width: 100%;
     background: url("/theme/Branding/header-bar.png") repeat-x scroll left bottom #046380;
     margin-bottom: 20px;
-    color:#fff;
 }
-h1.branding_logo {
+h1.branding-logo {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -16,21 +15,23 @@ h1.branding_logo {
     margin-top: -20px;
     font-weight:bold;
 }
-h1.branding_logo,
-a.branding_logo {
+h1.branding-logo,
+a.branding-logo {
+    color:#fff;
     width: 155px;
     height: 31px;
     display: block;
 }
 
 /* site selector, preferences, logout ----------*/
-div.delegates,
-a.pref,
-#ss_selector_link,
-a.logout_url{
+.branding .localizationinputselector .current-selection,
+.branding a.pref,
+.branding .site-selector .current-site,
+.branding a.logout-url,
+.branding .username{
     color: #fff;
 }
-#site_locale, #preferences_link, #site_list, #logout {
+#site_locale, #preferences_link, .site-selector, #logout {
     position: absolute;
 }
 #site_locale{
@@ -38,10 +39,10 @@ a.logout_url{
     left: 2em;
     top: 39px;
 }
-#site_locale + #site_list {
+#site_locale + .site-selector {
     top: 16px;
 }
-#site_list{
+.site-selector{
     left: 2em;
     top: 26px;
 }
@@ -52,21 +53,6 @@ a.logout_url{
 #preferences_link {
     right: 2em;
     top: 16px;
-}
-/* Site List */
-#site_list a.hostname {
-    padding-right: 12px;
-    background: url(/theme/Branding/siteselector_arrow.png) no-repeat right center;
-}
-/* Replace New Window IMG */
-#site_list a.home-page{
-    width: 14px;
-    height: 1em;
-    display: inline-block;
-    background: url(/theme/Branding/newwindow.gif) no-repeat right bottom;
-}
-#site_list img.new_window {
-    display: none;
 }
 
 a.pref {
