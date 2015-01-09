@@ -136,6 +136,7 @@ body.screen_ultrahi #e_column_0 .minimized_parent + #column2{
 .site-selector .selector-sites-con {
     display: none;
     position: relative;
+    z-index: 999;
     left: 0;
     top: 0;
     width: 350px;
